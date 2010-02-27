@@ -1,0 +1,278 @@
+6b72f20fb937439669f67cfe7baf403dd890702e<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/colorpicker.css" />
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/colorpicker.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Administrator!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" >
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" >
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Settings 
+					<a href="http://haiti.ushahidi.com/admin/settings/site" class="active">Site</a>
+					<a href="http://haiti.ushahidi.com/admin/settings">Map</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sms">SMS</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sharing">Sharing</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/email">Email</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/themes">Themes</a>
+				</h2>
+				<form action="http://haiti.ushahidi.com/admin/settings/site" method="post">
+				<div class="report-form">
+									
+					<div class="head">
+						<h3>Site Settings</h3>
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					</div>
+					<!-- column -->		
+					<div class="sms_holder">
+						<div class="row">
+							<h4><a href="#" class="tooltip" title="This is the name of the site that appears at the top of the main site.">Site Name</a></h4>
+							<input type="text" id="site_name" name="site_name" value="Haiti"  class="text long2" />						</div>
+						<div class="row">
+							<h4><a href="#" class="tooltip" title="In a few words, explain what this site is about.">Site Tagline</a></h4>
+							<input type="text" id="site_tagline" name="site_tagline" value="The 2010 Earthquake in Haiti"  class="text long2" />						</div>
+						<div class="row">
+							<h4><a href="#" class="tooltip" title="This is the email address that will receive email reports and messages from the contact form.">Site Email Address</a> 
+							<br /><span>In order to receive reports by email, please <a href="http://haiti.ushahidi.com/admin/settings/email">
+							configure your email account settings</a>.</span></h4>
+							<input type="text" id="site_email" name="site_email" value="haiti@ushahidi.com"  class="text long2" />						</div>
+						<div class="row">
+							<h4><a href="#" class="tooltip" title="This is the email address that will be used to send email alerts.">Alert Email Address</a></h4>
+							<input type="text" id="alerts_email" name="alerts_email" value=""  class="text long2" />						</div>
+						<div class="row">
+							<h4><a href="#" class="tooltip" title="Sets the language that will be used in the site.">Site Language</a> (Locale)</h4>
+							<span class="sel-holder">
+								<select id="site_language" name="site_language" >
+<option value="fr_FR">français (FR)</option>
+<option value="es_UY">español, castellano (UY)</option>
+<option value="en_US" selected="selected">English (US)</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Display Contact Page?</h4>
+							<select id="site_contact_page" name="site_contact_page" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>						</div>
+						<div class="row">
+							<h4>Display How To Help Page?</h4>
+							<select id="site_help_page" name="site_help_page" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>						</div>
+						<div class="row">
+							<h4>Items Per Page - Front End</h4>
+							<span class="sel-holder">
+								<select id="items_per_page" name="items_per_page" >
+<option value="10">10 Items</option>
+<option value="20" selected="selected">20 Items</option>
+<option value="30">30 Items</option>
+<option value="50">50 Items</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Items Per Page - Admin</h4>
+							<span class="sel-holder">
+								<select id="items_per_page_admin" name="items_per_page_admin" >
+<option value="10">10 Items</option>
+<option value="20" selected="selected">20 Items</option>
+<option value="30">30 Items</option>
+<option value="50">50 Items</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Allow Users To Submit Reports?</h4>
+							<span class="sel-holder">
+								<select id="allow_reports" name="allow_reports" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Allow Users to Submit Comments to Reports?</h4>
+							<span class="sel-holder">
+								<select id="allow_comments" name="allow_comments" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Include RSS News Feed on Website?</h4>
+							<span class="sel-holder">
+								<select id="allow_feed" name="allow_feed" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Share Site Statistics in API?</h4>
+							<span class="sel-holder">
+								<select id="allow_stat_sharing" name="allow_stat_sharing" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Cluster Reports on Map?</h4>
+							<span class="sel-holder">
+								<select id="allow_clustering" name="allow_clustering" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>							</span>
+						</div>
+						<div class="row">
+							<h4>Default Color For All Categories?</h4>
+							<input type="text" id="default_map_all" name="default_map_all" value="CC0000"  class="text" />							<script type="text/javascript" charset="utf-8">
+								$(document).ready(function() {
+									$('#default_map_all').ColorPicker({
+										onSubmit: function(hsb, hex, rgb) {
+											$('#default_map_all').val(hex);
+										},
+										onChange: function(hsb, hex, rgb) {
+											$('#default_map_all').val(hex);
+										},
+										onBeforeShow: function () {
+											$(this).ColorPickerSetColor(this.value);
+										}
+									})
+									.bind('keyup', function(){
+										$(this).ColorPickerSetColor(this.value);
+									});
+								});
+							</script>
+						</div>						
+						<div class="row">
+							<h4>Google Analytics</h4>
+							Web Property ID - Format: UA-XXXXX-XX &nbsp;&nbsp;
+							<input type="text" id="google_analytics" name="google_analytics" value=""  class="text" />						</div>
+						<div class="row">
+							<h4>Twitter Credentials</h4>
+							<div class="row">
+								Hashtags - Separate with commas
+								<input type="text" id="twitter_hashtags" name="twitter_hashtags" value="#haiti"  class="text" />							</div>
+							<div class="row" style="padding-top:5px;">
+								Username
+								<input type="text" id="twitter_username" name="twitter_username" value=""  class="text" />							</div>
+							<div class="row" style="padding-top:5px;">
+								Password
+								<input type="password" id="twitter_password" name="twitter_password" value=""  class="text" />							</div>
+						</div>
+						<div class="row">
+							<h4>Laconica Credentials</h4>
+
+							<div class="row">
+								Username
+								<input type="text" id="laconica_username" name="laconica_username" value=""  class="text" />							</div>
+								<div class="row" style="padding-top:5px;">
+								Password
+								<input type="password" id="laconica_password" name="laconica_password" value=""  class="text" />							</div>
+								<div class="row" style="padding-top:5px;">
+								Laconica Site
+								<input type="text" id="laconica_site" name="laconica_site" value="" class="text long2" />							</div>
+						</div>
+						<div class="row">
+							<h4>Akismet Key</h4>
+							Prevent comment spam using <a href="http://akismet.com/" target="_blank">Akismet</a> from Automattic. <BR />You can get a free API key by registering for a <a href="http://en.wordpress.com/api-keys/" target="_blank">WordPress.com user account</a>.
+							<input type="text" id="api_akismet" name="api_akismet" value=""  class="text" />						</div>
+					</div>
+		
+					<div class="simple_border"></div>
+		
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+				</div>
+				</form>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>

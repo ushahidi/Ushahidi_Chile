@@ -1,0 +1,837 @@
+aaee123d4a10b26769ed365a6ca73b54673aa01a
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Haiti</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/iehacks.css" />
+<![endif]--><!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie7hacks.css" />
+<![endif]--><!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6hacks.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenLayers.js"></script>
+<script type="text/javascript">OpenLayers.ImgPath = 'http://haiti.ushahidi.com/media/img/openlayers/';</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q" type="text/javascript"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<link rel="alternate" type="application/rss+xml" href="http://haiti.ushahidi.com/feed/" title="RSS2" /><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/themes/haiti/style.css" />
+
+	<!--[if IE 6]>
+	<script type="text/javascript" src="js/ie6pngfix.js"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img, ul, ol, li, div, p, a');</script>
+	<![endif]-->
+	<script type="text/javascript">
+		var addthis_config = {
+		   ui_click: true
+		}	
+				
+		// jQuery Textbox Hints Plugin
+		// Will move to separate file later or attach to forms plugin
+		jQuery.fn.hint = function (blurClass) {
+		  if (!blurClass) { 
+		    blurClass = 'texthint';
+		  }
+
+		  return this.each(function () {
+		    // get jQuery version of 'this'
+		    var $input = jQuery(this),
+
+		    // capture the rest of the variable to allow for reuse
+		      title = $input.attr('title'),
+		      $form = jQuery(this.form),
+		      $win = jQuery(window);
+
+		    function remove() {
+		      if ($input.val() === title && $input.hasClass(blurClass)) {
+		        $input.val('').removeClass(blurClass);
+		      }
+		    }
+
+		    // only apply logic if the element has the attribute
+		    if (title) { 
+		      // on blur, set value to title attr if text is blank
+		      $input.blur(function () {
+		        if (this.value === '') {
+		          $input.val(title).addClass(blurClass);
+		        }
+		      }).focus(remove).blur(); // now change all inputs to title
+
+		      // clear the pre-defined text when form is submitted
+		      $form.submit(remove);
+		      $win.unload(remove); // handles Firefox's autocomplete
+			  $(".btn_find").click(remove);
+		    }
+		  });
+		};
+
+		$().ready(function() {
+			// validate signup form on keyup and submit
+			$("#reportForm").validate({
+				rules: {
+					incident_title: {
+						required: true,
+						minlength: 3
+					},
+					incident_description: {
+						required: true,
+						minlength: 3
+					},
+					incident_date: {
+						required: true,
+						date: true
+					},
+					incident_hour: {
+						required: true,
+						range: [1,12]
+					},
+					incident_minute: {
+						required: true,
+						range: [0,60]
+					},
+					incident_ampm: {
+						required: true
+					},
+					"incident_category[]": {
+						required: true,
+						minlength: 1
+					},
+					latitude: {
+						required: true,
+						range: [-90,90]
+					},
+					longitude: {
+						required: true,
+						range: [-180,180]
+					},
+					location_name: {
+						required: true
+					},
+					"incident_news[]": {
+						url: true
+					},
+					"incident_video[]": {
+						url: true
+					}
+				},
+				messages: {
+					incident_title: {
+						required: "Please enter a Title",
+						minlength: "Your Title must consist of at least 3 characters"
+					},
+					incident_description: {
+						required: "Please enter a Description",
+						minlength: "Your Description must be at least 3 characters long"
+					},
+					incident_date: {
+						required: "Please enter a Date",
+						date: "Please enter a valid Date"
+					},
+					incident_hour: {
+						required: "Please enter an Hour",
+						range: "Please enter a valid Hour"
+					},
+					incident_minute: {
+						required: "Please enter a Minute",
+						range: "Please enter a valid Minute"
+					},
+					incident_ampm: {
+						required: "Please enter either AM or PM"
+					},
+					"incident_category[]": {
+						required: "Please select at least one Category",
+						minlength: "Please select at least one Category"
+					},
+					latitude: {
+						required: "Please select a valid point on the map",
+						range: "Please select a valid point on the map"
+					},
+					longitude: {
+						required: "Please select a valid point on the map",
+						range: "Please select a valid point on the map"
+					},
+					location_name: {
+						required: "Please enter a Location Name"
+					},
+					"incident_news[]": {
+						url: "Please enter a valid News link"
+					},
+					"incident_news[]": {
+						url: "Please enter a valid Video link"
+					}	
+				},
+				groups: {
+					incident_date_time: "incident_date incident_hour",
+					latitude_longitude: "latitude longitude"
+				},
+				errorPlacement: function(error, element) {
+					if (element.attr("name") == "incident_date" || element.attr("name") == "incident_hour" || element.attr("name") == "incident_minute" )
+					{
+						error.append("#incident_date_time");
+					}else if (element.attr("name") == "latitude" || element.attr("name") == "longitude"){
+						error.insertAfter("#find_text");
+					}else if (element.attr("name") == "incident_category[]"){
+						error.insertAfter("#categories");
+					}else{
+						error.insertAfter(element);
+					}
+				}
+			});
+		});
+		
+		function addFormField(div, field, hidden_id, field_type) {
+			var id = document.getElementById(hidden_id).value;
+			$("#" + div).append("<div class=\"report_row\" id=\"" + field + "_" + id + "\"><input type=\"" + field_type + "\" name=\"" + field + "[]\" class=\"" + field_type + " long2\" /><a href=\"#\" class=\"add\" onClick=\"addFormField('" + div + "','" + field + "','" + hidden_id + "','" + field_type + "'); return false;\">add</a><a href=\"#\" class=\"rem\"  onClick='removeFormField(\"#" + field + "_" + id + "\"); return false;'>remove</a></div>");
+
+			$("#" + field + "_" + id).effect("highlight", {}, 800);
+
+			id = (id - 1) + 2;
+			document.getElementById(hidden_id).value = id;
+		}
+
+		function removeFormField(id) {
+			var answer = confirm("Are You Sure You Want To Delete This Item?");
+		    if (answer){
+				$(id).remove();
+		    }
+			else{
+				return false;
+		    }
+		}
+		
+		
+		$(document).ready(function() {
+			var map;
+			var thisLayer;
+			var proj_4326 = new OpenLayers.Projection('EPSG:4326');
+			var proj_900913 = new OpenLayers.Projection('EPSG:900913');
+			
+			// Now initialise the map
+			var options = {
+			units: "m"
+			, numZoomLevels: 16
+			, controls:[],
+			projection: proj_900913,
+			'displayProjection': proj_4326
+			};
+			map = new OpenLayers.Map('divMap', options);
+			var default_map = 1;
+			if (default_map == 2)
+			{
+				map_layer = new OpenLayers.Layer.VirtualEarth("virtualearth", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 3)
+			{
+				map_layer = new OpenLayers.Layer.Yahoo("yahoo", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 4)
+			{
+				map_layer = new OpenLayers.Layer.OSM.Mapnik("openstreetmap", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else
+			{
+				map_layer = new OpenLayers.Layer.Google("google", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			
+			map.addLayer(map_layer);
+			
+			map.addControl(new OpenLayers.Control.Navigation());
+			map.addControl(new OpenLayers.Control.PanZoomBar());
+			map.addControl(new OpenLayers.Control.MousePosition());
+			
+			// Create the markers layer
+			var markers = new OpenLayers.Layer.Markers("Markers");
+			map.addLayer(markers);
+			
+			// create a lat/lon object
+			var myPoint = new OpenLayers.LonLat(-72.334671020508, 18.564900198966);
+			myPoint.transform(proj_4326, map.getProjectionObject());
+			
+			// create a marker positioned at a lon/lat
+			var marker = new OpenLayers.Marker(myPoint);
+			markers.addMarker(marker);
+			
+			// display the map centered on a latitude and longitude (Google zoom levels)
+			map.setCenter(myPoint, 9);
+			
+			// Detect Map Clicks
+			map.events.register("click", map, function(e){
+				var lonlat = map.getLonLatFromViewPortPx(e.xy);
+				var lonlat2 = map.getLonLatFromViewPortPx(e.xy);
+			    m = new OpenLayers.Marker(lonlat);
+				markers.clearMarkers();
+		    	markers.addMarker(m);
+				
+				lonlat2.transform(proj_900913,proj_4326);	
+				// Update form values (jQuery)
+				$("#latitude").attr("value", lonlat2.lat);
+				$("#longitude").attr("value", lonlat2.lon);
+			});
+			
+			// Detect Dropdown Select
+			$("#select_city").change(function() {
+				var lonlat = $(this).val().split(",");
+				if ( lonlat[0] && lonlat[1] )
+				{
+					l = new OpenLayers.LonLat(lonlat[0], lonlat[1]);
+					l.transform(proj_4326, map.getProjectionObject());
+					m = new OpenLayers.Marker(l);
+					markers.clearMarkers();
+			    	markers.addMarker(m);
+					map.setCenter(l, 9);
+					
+					// Update form values (jQuery)
+					$("#location_name").attr("value", $('#select_city :selected').text());
+										
+					$("#latitude").attr("value", lonlat[1]);
+					$("#longitude").attr("value", lonlat[0]);
+				}
+			});
+			
+			/* 
+			Google GeoCoder
+			TODO - Add Yahoo and Bing Geocoding Services
+			 */
+			$('.btn_find').live('click', function () {
+				address = $("#location_find").val();
+				if ( typeof GBrowserIsCompatible == 'undefined' ) {
+					alert('GeoCoding is only currently supported by Google Maps.\n\nPlease pinpoint the location on the map\nusing your mouse.');
+				} else {
+					var geocoder = new GClientGeocoder();
+					if (geocoder) {
+						$('#find_loading').html('<img src="http://haiti.ushahidi.com/media/img/loading_g.gif">');
+						geocoder.getLatLng(
+							address,
+							function(point) {
+								if (!point) {
+									alert(address + " not found!\n\n***************************\nFind a city or town close by and zoom in\nto find your precise location");
+									$('#find_loading').html('');
+								} else {
+									var lonlat = new OpenLayers.LonLat(point.lng(), point.lat());
+									lonlat.transform(proj_4326,proj_900913);
+								
+									m = new OpenLayers.Marker(lonlat);
+									markers.clearMarkers();
+							    	markers.addMarker(m);
+									map.setCenter(lonlat, 9);
+								
+									// Update form values (jQuery)
+									$("#latitude").attr("value", point.lat());
+									$("#longitude").attr("value", point.lng());
+									$("#location_name").attr("value", $("#location_find").val());
+									$('#find_loading').html('');
+								}
+							}
+						);
+					}
+				}
+				return false;
+			});
+			
+			// Textbox Hints
+			$("#location_find").hint();
+			
+			// Toggle Date Editor
+			$('a#date_toggle').click(function() {
+		    	$('#datetime_edit').show(400);
+				$('#datetime_default').hide();
+		    	return false;
+			});
+		});
+
+	</script>
+</head>
+
+<body id="page">
+	<!-- wrapper -->
+	<div class="rapidxwpr floatholder">
+
+		<!-- header -->
+		<div id="header">
+	
+			<!-- searchbox -->
+			<div id="searchbox">
+				<a class="share addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4aee423643f8276e">Share</a>
+
+				<!-- languages -->
+				<div class="language-box">
+					<form>
+						<select id="l" name="l"  onChange="this.form.submit()" >
+<option value="fr_FR">français (FR)</option>
+<option value="es_UY">español, castellano (UY)</option>
+<option value="en_US" selected="selected">English (US)</option>
+</select>					</form>
+				</div>
+				<!-- / languages -->
+			
+				<!-- searchform -->
+				<div class="search-form">
+					<form method="get" id="search" action="http://haiti.ushahidi.com/search/">
+						<ul>
+							<li><input type="text" name="k" value="" class="text" /></li>
+							<li><input type="submit" name="b" class="searchbtn" value="search" /></li>
+						</ul>
+					</form>
+				</div>
+				<!-- / searchform -->
+		
+			</div>
+			<!-- / searchbox -->
+		
+			<!-- logo -->
+			<div id="logo">
+				<h1>Haiti</h1>
+				<span>The 2010 Earthquake in Haiti</span>
+			</div>
+			<!-- / logo -->
+		
+			<!-- submit incident -->
+			<div class="submit-incident clearingfix">
+				<a href="http://haiti.ushahidi.com/reports/submit">Submit an Incident</a>
+			</div>
+			<!-- / submit incident -->
+		</div>
+		<!-- / header -->
+
+		<!-- main body -->
+		<div id="middle">
+			<div class="background layoutleft">
+		
+				<!-- mainmenu -->
+				<div id="mainmenu" class="clearingfix">
+					<ul>
+						<li><a href="http://haiti.ushahidi.com/main" >Home</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports" >Reports</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports/submit" class="active">Submit an Incident</a></li>
+						<li><a href="http://haiti.ushahidi.com/alerts" >Get Alerts</a></li>
+													<li><a href="http://haiti.ushahidi.com/contact" >Contact Us</a></li>
+														<li><a href="http://haiti.ushahidi.com/help" >How to Help</a></li>
+							<li><a href="http://haiti.ushahidi.com/page/index/1" >About Us</a></li>					</ul>
+
+				</div>
+				<!-- / mainmenu -->
+				<div id="content">
+					<div class="content-bg">
+						<!-- start report form block -->
+						<form action="http://haiti.ushahidi.com/reports/submit" method="post" id="reportForm" name="reportForm" class="gen_forms" enctype="multipart/form-data">
+						<input type="hidden" name="latitude" id="latitude" value="">
+						<input type="hidden" name="longitude" id="longitude" value="">
+						<div class="big-block">
+							<h1>Submit a New Report</h1>
+														<div class="report_left">
+								<div class="report_row">
+									<h4>Report Title</h4>
+									<input type="text" id="incident_title" name="incident_title" value=""  class="text long" />								</div>
+								<div class="report_row">
+									<h4>Description</h4>
+									<textarea id="incident_description" name="incident_description"  rows="10" class="textarea long" ></textarea>								</div>
+								<div class="report_row" id="datetime_default">
+									<h4><a href="#" id="date_toggle" class="show-more">Modify Date</a>Date & Time: 
+										Today at <span id='current_time'>12:00 pm</span></h4>
+								</div>
+								<div class="report_row hide" id="datetime_edit">
+									<div class="date-box">
+										<h4>Date</h4>
+										<input type="text" id="incident_date" name="incident_date" value="01/12/2010"  class="text short" />								
+										<script type="text/javascript">
+											$().ready(function() {
+												$("#incident_date").datepicker({ 
+													showOn: "both", 
+													buttonImage: "http://haiti.ushahidi.com/media/img/icon-calendar.gif", 
+													buttonImageOnly: true 
+												});
+											});
+										</script>
+									</div>
+									<div class="time">
+										<h4>Time</h4>
+										<select id="incident_hour" name="incident_hour" >
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12" selected="selected">12</option>
+</select><span class="dots">:</span><select id="incident_minute" name="incident_minute" >
+<option value="00" selected="selected">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select><span class="dots">:</span><select id="incident_ampm" name="incident_ampm" >
+<option value="pm" selected="selected">pm</option>
+<option value="am">am</option>
+</select>									</div>
+									<div style="clear:both; display:block;" id="incident_date_time"></div>
+								</div>
+										<script type="text/javascript">
+var now = new Date();
+var h=now.getHours();
+var m=now.getMinutes();
+var ampm="am";
+if (h>=12) ampm="pm"; 
+if (h>12) h-=12;
+var hs=(h<10)?("0"+h):h;
+var ms=(m<10)?("0"+m):m;
+$("#current_time").text(hs+":"+ms+" "+ampm);
+$("#incident_hour option[value='"+hs+"']").attr("selected","true");
+$("#incident_minute option[value='"+ms+"']").attr("selected","true");
+$("#incident_ampm option[value='"+ampm+"']").attr("selected","true");
+
+										</script>
+
+								<div class="report_row">
+									<h4>Categories</h4>
+									<div class="report_category" id="categories">
+										<ul>
+<li><label><input type="checkbox" name="incident_category[]" value="1"  class="check-box" />Non-passable road</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="2"  class="check-box" />WATER SHORTAGE</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="4"  class="check-box" />Gathering Place</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="7"  class="check-box" />RESPONSE EFFORTS</label></li></ul>
+<ul>
+<li><label><input type="checkbox" name="incident_category[]" value="8"  class="check-box" />LOOTING</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="10"  class="check-box" />Hospital</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="11"  class="check-box" />Power Available</label></li>
+<li><label><input type="checkbox" name="incident_category[]" value="12"  class="check-box" />Building Damage</label></li></ul>
+									</div>
+								</div>
+								<div class="report_optional">
+									<h3>Optional Information</h3>
+									<div class="report_row">
+											 <h4>First Name</h4>
+											 <input type="text" id="person_first" name="person_first" value=""  class="text long" />									</div>
+									<div class="report_row">
+										<h4>Last Name</h4>
+										<input type="text" id="person_last" name="person_last" value=""  class="text long" />									</div>
+									<div class="report_row">
+										<h4>Email</h4>
+										<input type="text" id="person_email" name="person_email" value=""  class="text long" />									</div>
+								</div>
+							</div>
+							<div class="report_right">
+																<div class="report_row">
+									<h4>Find a location near you</h4>
+									<select id="select_city" name="select_city"  class="select" >
+<option value="" selected="selected">Select a City</option>
+<option value="-74.3,18.6333333">Abricots</option>
+<option value="-72.8641667,18.8316667">Anse à Galets</option>
+<option value="-71.75,18.05">Anse-à-Pitres</option>
+<option value="-72.5125,18.7694444">Arcahaie</option>
+<option value="-72.6333333,19.2333333">Bac d\'Aquin</option>
+<option value="-73.2094444,19.6627778">Baie de Henne</option>
+<option value="-74.2833333,18.3">Bon Pas</option>
+<option value="-72.3508333,18.4427778">Bonga</option>
+<option value="-73.1961111,19.9036111">Bord-de-Mer de Jean-Rabel</option>
+<option value="-72.0666667,19.3">Boroc</option>
+<option value="-72.8333333,18.7666667">Boucan Légume</option>
+<option value="-72.4175,18.7358333">Cabaret</option>
+<option value="-72.2041667,19.7577778">Cap-Haïtien</option>
+<option value="-73.1,18.3833333">Carrefour Moussignac</option>
+<option value="-73.65,18.3">Cavaillon</option>
+<option value="-71.7833333,19.1666667">Cerca la Source</option>
+<option value="-74.1666667,18.2666667">Chardonnière</option>
+<option value="-74.0333333,18.2">Coteaux</option>
+<option value="-71.7833333,18.9">Dame-Jeanne Cassée</option>
+<option value="-72.7666667,19.5511111">Darang</option>
+<option value="-72.3027778,18.5447222">Delmas 73</option>
+<option value="-72.3888889,18.9916667">Désarmes</option>
+<option value="-72.5,19.2833333">Dessalines</option>
+<option value="-72.1288889,18.6075">Dimulseau</option>
+<option value="-71.7333333,19.5166667">D\'Osmont</option>
+<option value="-72.9483333,18.8627778">Étroits</option>
+<option value="-72.7341667,18.4219444">Fauché</option>
+<option value="-73.1333333,18.2833333">Fond des Blancs</option>
+<option value="-71.9766667,18.5058333">Fond Parisien</option>
+<option value="-71.9833333,18.5166667">Fond Parisien</option>
+<option value="-71.8569444,18.3913889">Fond Verrettes</option>
+<option value="-71.8397222,19.6677778">Fort Liberté</option>
+<option value="-72.7166667,19.1">Freycinau</option>
+<option value="-72.6833333,19.45">Gonaïves</option>
+<option value="-72.7705556,18.4288889">Grand Goâve</option>
+<option value="-72.1833333,19.5833333">Grande Rivière du Nord</option>
+<option value="-72.7833333,19.25">Grande Saline</option>
+<option value="-72.5166667,18.55">Gressier</option>
+<option value="-72.6833333,19.6666667">Gros Morne</option>
+<option value="-72.0166667,19.15">Hinche</option>
+<option value="-72.5347222,18.2341667">Jacmel</option>
+<option value="-73.1916667,19.8533333">Jean-Rabel</option>
+<option value="-74.1166667,18.65">Jérémie</option>
+<option value="-71.9166667,18.85">Juampas</option>
+<option value="-72.2869444,18.4505556">Kenscoff</option>
+<option value="-71.8333333,18.9666667">La Yaye</option>
+<option value="-71.9363889,18.8294444">Lascahobas</option>
+<option value="-72.5333333,19.85">Le Borgne</option>
+<option value="-72.6338889,18.5108333">Léogâne</option>
+<option value="-74.2166667,18.3">Les Anglais</option>
+<option value="-73.75,18.2">Les Cayes</option>
+<option value="-74.45,18.4">Les Irois</option>
+<option value="-72.4,19.7">Limbé</option>
+<option value="-72.1252778,19.6697222">Limonade</option>
+<option value="-73.4166667,18.3833333">L\'Asile</option>
+<option value="-72.1333333,19.1666667">Maïssade</option>
+<option value="-72.3166667,18.2338889">Marigot</option>
+<option value="-72.35,19.5166667">Marmelade</option>
+<option value="-72.2166667,19.6166667">Milot</option>
+<option value="-73.0875778198242,18.4423215326867">Miragoâne</option>
+<option value="-72.1052778,18.8333333">Mirebalais</option>
+<option value="-73.3833333,19.8">Môle Saint-Nicolas</option>
+<option value="-71.7833333,19.4">Mont Organisé</option>
+<option value="-74.25,18.5666667">Moron</option>
+<option value="-71.7333333,19.55">Ouanaminthe</option>
+<option value="-71.9166667,19.5166667">Perches</option>
+<option value="-72.2852778,18.5125">Pétionville</option>
+<option value="-72.8669444,18.4313889">Petit Goâve</option>
+<option value="-73.5166667,18.5333333">Petit Trou de Nippes</option>
+<option value="-73.1544444,19.6297222">Petite Anse</option>
+<option value="-73.25,18.4833333">Petite Rivière de Nippes</option>
+<option value="-71.8972222,19.6741667">Phaéton</option>
+<option value="-72.1166667,19.3333333">Pignon</option>
+<option value="-72.55,19.6666667">Pilate</option>
+<option value="-72.2666667,19.6833333">Plaine du Nord</option>
+<option value="-72.4666667,19.6">Plaisance</option>
+<option value="-72.4333333,19.75">Port Margot</option>
+<option value="-74.1,18.25">Port-à-Piment</option>
+<option value="-72.335,18.5391667">Port-au-Prince</option>
+<option value="-72.1569444,19.6966667">Quartier Morin</option>
+<option value="-72.0833333,19.4166667">Ranquitte</option>
+<option value="-74.0,18.1833333">Roche-à-Bateau</option>
+<option value="-73.8166667,18.0833333">Saint-Jean du Sud</option>
+<option value="-72.7166667,19.9333333">Saint-Louis du Nord</option>
+<option value="-73.55,18.2666667">Saint-Louis du Sud</option>
+<option value="-72.7,19.1166667">Saint-Marc</option>
+<option value="-72.3333333,19.3666667">Saint-Michel de l\'Atalaye</option>
+<option value="-72.2,19.4333333">Saint-Raphaël</option>
+<option value="-72.915,19.6358333">Source Chaude</option>
+<option value="-71.9166667,18.9666667">Terre Mouscadie</option>
+<option value="-71.85,18.25">Thiote</option>
+<option value="-71.8333333,19.0833333">Thomassique</option>
+<option value="-72.0947222,18.6519444">Thomazeau</option>
+<option value="-71.9666667,19.0166667">Thomonde</option>
+<option value="-72.8333333,19.9333333">Ti Port-de-Paix</option>
+<option value="-74.4,18.3333333">Tiburon</option>
+<option value="-73.8119444,18.1666667">Torbeck</option>
+<option value="-72.0166667,19.6333333">Trou du Nord</option>
+<option value="-72.4666667,19.05">Verrettes</option>
+<option value="-72.6,19.2">Villard</option>
+</select>								</div>
+																<div class="report_row">
+									<div id="divMap" class="report_map"></div>
+									<div class="report-find-location">
+										<input type="text" id="location_find" name="location_find" value=""  title="City, State and/or Country" class="findtext" />										<div style="float:left;margin:9px 0 0 5px;"><input type="button" name="button" id="button" value="Find Location" class="btn_find" /></div>
+										<div id="find_loading" class="report-find-loading"></div>
+										<div style="clear:both;" id="find_text">* If you can't find your location, please click on the map to pinpoint the correct location.</div>
+									</div>
+								</div>
+								
+								<div class="report_row">
+									<h4>Refine Location name<br /><span class="example">Examples: Johannesburg, Corner City Market, 5th Street & 4th Avenue</span></h4>
+									<input type="text" id="location_name" name="location_name" value=""  class="text long" />								</div>
+			
+								<!-- News Fields -->
+								<div id="divNews" class="report_row">
+									<h4>News source link</h4>
+									<div class="report_row"><input type="text" name="incident_news[]" value=""  class="text long2" /><a href="#" class="add" onClick="addFormField('divNews','incident_news','news_id','text'); return false;">add</a></div><input type="hidden" name="news_id" value="1" id="news_id">								</div>
+			
+			
+								<!-- Video Fields -->
+								<div id="divVideo" class="report_row">
+									<h4>Video link</h4>
+									<div class="report_row"><input type="text" name="incident_video[]" value=""  class="text long2" /><a href="#" class="add" onClick="addFormField('divVideo','incident_video','video_id','text'); return false;">add</a></div><input type="hidden" name="video_id" value="1" id="video_id">								</div>
+	
+								<!-- Photo Fields -->
+								<div id="divPhoto" class="report_row">
+									<h4>Upload Photos</h4>
+									<div class="report_row"><input type="file" name="incident_photo[]" value=""  class="file long2" /><a href="#" class="add" onClick="addFormField('divPhoto','incident_photo','photo_id','file'); return false;">add</a></div><input type="hidden" name="photo_id" value="1" id="photo_id">	
+								</div>
+													
+								<div class="report_row">
+									<input name="submit" type="submit" value="Submit" class="btn_submit" /> 
+								</div>
+							</div>
+						</div>
+						</form>
+						<!-- end report form block -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+     
+ 
+	<!-- footer -->
+	<div id="footer" class="clearingfix">
+ 
+		<div id="underfooter"></div>
+ 
+		<!-- footer content -->
+		<div class="rapidxwpr floatholder">
+ 
+			<!-- footer credits -->
+			<div class="footer-credits">
+				Powered by <a href="http://www.ushahidi.com/"><img src="http://haiti.ushahidi.com//media/img/footer-logo.png" alt="Ushahidi" align="absmiddle" /></a>
+			</div>
+			<!-- / footer credits -->
+		
+			<!-- footer menu -->
+			<div class="footermenu">
+				<ul class="clearingfix">
+					<li><a class="item1" href="http://haiti.ushahidi.com/">Home</a></li>
+					<li><a href="http://haiti.ushahidi.com/reports/submit">Report an Incident</a></li>
+					<li><a href="http://haiti.ushahidi.com/alerts">Get Alerts</a></li>
+					<li><a href="http://haiti.ushahidi.com/help">How to Help</a></li>
+					<li><a href="#">About </a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<p>Copyright © 2009 Ushahidi.com. All Rights Reserved.</p>
+			</div>
+			<!-- / footer menu -->
+ 
+			<!-- feedback form -->
+			<h2 class="feedback_title" style="clear:both">
+				<a href="javascript:showForm('table-holder')">Provide Feedback</a>
+			</h2>
+			<div id="table-holder" class="feedback_forms">
+				<h2>Provide Feedback <button style="margin-left:2em" onclick="javascript:showForm('table-holder')">Close</button></h2>
+				<form action="http://haiti.ushahidi.com/reports/submit" method="post" id="footerfeedbackMain" name="footerfeedbackMain">
+				<input type="hidden" name="person_ip" value="65.29.72.9"  />
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>
+								<textarea id="feedback_message" name="feedback_message"  class="textarea long" rows="5" cols="50"></textarea>								<br /><br />
+															</td>
+							<td>
+								<div class="or_txt">
+									Or
+								</div>
+							</td>
+							<td>
+								<div class="detailed_feedback">
+									<a href="http://feedback.ushahidi.com/fillsurvey.php?sid=5">Provide Detailed Feedback</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="report_row">
+									<strong>Security Code:</strong><br />
+									<img alt="Captcha" src="http://haiti.ushahidi.com/captcha/default" width="150" height="50" /><br />
+									<input type="text" id="feedback_captcha" name="feedback_captcha" value=""  class="text" />									<br /><br />
+																	</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+																<input type="text" id="person_email" name="person_email" value="Email address" size="40" class="text"  onclick="clearField();" />								<button id="submit" name="submit" >Send</button>								<br /><br />
+															</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+			<!-- /feedback form -->
+ 
+		</div>
+		<!-- / footer content -->
+ 
+	</div>
+	<!-- / footer -->
+ 
+	<img src="http://tracker.ushahidi.com/track.php?url=haiti.ushahidi.com%2Findex.php%2Freports%2Fsubmit&lang=en_US&version=1.0.1" />
+	<!-- Piwik -->
+		<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://tracker.ushahidi.com/piwik/" : "http://tracker.ushahidi.com/piwik/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+		
+		</script><script type="text/javascript">
+		try {
+		  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 390);
+		  piwikTracker.trackPageView();
+		  piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+		</script><noscript><p><img src="http://tracker.ushahidi.com/piwik/piwik.php?idsite=390" style="border:0" alt=""/></p></noscript>
+		
+		<!-- End Piwik Tag -->
+				
+	<!-- Task Scheduler -->
+	<img src="http://haiti.ushahidi.com/scheduler" height="1" width="1" border="0" />
+ 
+        <!-- script for share button -->
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=ushahidi"></script>
+</body>
+</html>

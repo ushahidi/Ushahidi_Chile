@@ -1,0 +1,245 @@
+d1d62bfb024e2497762e9d95d38e79468b0d77d6<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script><script type="text/javascript">jQuery.noConflict()</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/protochart/prototype.js"></script>
+<!--[if IE]><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/protochart/excanvas-compressed.js"></script>
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/protochart/ProtoChart.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		// Date Picker JS
+jQuery(document).ready(function() {
+	jQuery("#dp1").datepicker({ 
+	    showOn: "both",
+		dateFormat: "yy-mm-dd",
+	    buttonImage: "http://haiti.ushahidi.com/media/img/icon-calendar.gif", 
+	    buttonImageOnly: true 
+	});
+	
+	jQuery("#dp2").datepicker({ 
+	    showOn: "both",
+		dateFormat: "yy-mm-dd",
+	    buttonImage: "http://haiti.ushahidi.com/media/img/icon-calendar.gif", 
+	    buttonImageOnly: true 
+	});
+});
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Brian Herbert!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" class="active">
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" >
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Dashboard</h2>
+				<!-- column -->
+				<div class="column">
+					
+					<!-- box -->
+					<div class="box">
+						<h3>Reports Timeline</h3>
+						<ul class="inf" style="margin-bottom:10px;">
+							<li class="none-separator">View:<a href="http://haiti.ushahidi.com/admin/dashboard/?range=1">Today</a></li>
+							<li><a href="http://haiti.ushahidi.com/admin/dashboard/?range=31">Past Month</a></li>
+							<li><a href="http://haiti.ushahidi.com/admin/dashboard/?range=365">Past Year</a></li>
+						</ul>
+						<div class="chart-holder" style="clear:both;padding-left:5px;">
+							<script type="text/javascript" charset="utf-8">
+			Event.observe(window, 'load', function() {
+				data0 = new Array([1246338000000,1],[1263276000000,2]);
+			new Proto.Chart($('protochart_report_chart'),[{label: "Reports", color:"#CC0000", data: data0},],{
+				xaxis: {mode: "time",
+				},legend: {show: true,
+				},
+				});		
+			});
+		</script>
+		<div id="protochart_report_chart" style="width:410px;height:310px"></div>													</div>
+					</div>
+					
+					<!-- info-container -->
+					<div class="info-container">
+						<div class="i-c-head">
+							<h3>Recent Reports</h3>
+							<ul>
+								<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/reports">View All</a></li>
+								<li><a href="#" class="rss-icon">rss</a></li>
+							</ul>
+						</div>
+													<div class="post">
+								<ul class="post-info">
+									<li><a href="#" class="ok">ACTIVE:</a></li>
+									<li><a href="#" class="ok">VERIFIED:</a></li>
+									<li class="last"><a href="#" class="mail">SOURCE:</a></li>
+								</ul>
+								<h4><strong>1:53 AM</strong><a href="http://haiti.ushahidi.com/admin/reports/edit/3">test building</a></h4>
+								<p>testing</p>
+							</div>
+														<div class="post">
+								<ul class="post-info">
+									<li><a href="#" class="none">ACTIVE:</a></li>
+									<li><a href="#" class="none">VERIFIED:</a></li>
+									<li class="last"><a href="#" class="mail">SOURCE:</a></li>
+								</ul>
+								<h4><strong>1:25 AM</strong><a href="http://haiti.ushahidi.com/admin/reports/edit/2">Test report</a></h4>
+								<p>Test by Chris</p>
+							</div>
+														<div class="post">
+								<ul class="post-info">
+									<li><a href="#" class="ok">ACTIVE:</a></li>
+									<li><a href="#" class="ok">VERIFIED:</a></li>
+									<li class="last"><a href="#" class="mail">SOURCE:</a></li>
+								</ul>
+								<h4><strong>12:00 PM</strong><a href="http://haiti.ushahidi.com/admin/reports/edit/1">Hello Ushahidi!</a></h4>
+								<p>Welcome to Ushahidi. Please replace this report with a valid incident</p>
+							</div>
+													<a href="http://haiti.ushahidi.com/admin/reports" class="view-all">View All Reports</a>
+					</div>
+				</div>
+				<div class="column-1">
+					<!-- box -->
+					<div class="box">
+						<h3>Quick Stats</h3>
+						<ul class="nav-list">
+							<li>
+								<a href="http://haiti.ushahidi.com/admin/reports" class="reports">Reports</a>
+								<strong>3</strong>
+								<ul>
+									<li><a href="http://haiti.ushahidi.com/admin/reports?status=a"> Unapproved</a><strong>(1)</strong></li>
+									
+								</ul>
+							</li>
+							<li>
+								<a href="http://haiti.ushahidi.com/admin/manage" class="categories">Categories</a>
+								<strong>8</strong>
+							</li>
+							<li>
+								<a href="#" class="locations">Locations</a>
+								<strong>13</strong>
+							</li>
+							<li>
+								<a href="http://haiti.ushahidi.com/admin/manage/feeds" class="media">Incoming Media</a>
+								<strong>10</strong>
+							</li>
+							<li>
+								<a href="http://haiti.ushahidi.com/admin/messages" class="messages">Messages</a>
+								<strong>103</strong>
+								<ul>
+									<li><a href="http://haiti.ushahidi.com/admin/messages/index/1">SMS</a><strong>(0)</strong></li><li><a href="http://haiti.ushahidi.com/admin/messages/index/2">Email</a><strong>(3)</strong></li><li><a href="http://haiti.ushahidi.com/admin/messages/index/3">Twitter</a><strong>(100)</strong></li><li><a href="http://haiti.ushahidi.com/admin/messages/index/4">Laconica</a><strong>(0)</strong></li>								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- info-container -->
+					<div class="info-container">
+						<div class="i-c-head">
+							<h3>Incoming Media</h3>
+							<ul>
+								<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/manage/feeds">View All</a></li>
+								<li><a href="#" class="rss-icon">rss</a></li>
+							</ul>
+						</div>
+													<div class="post">
+								<h4><a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://latimesblogs.latimes.com/lanow/2010/01/haiti-earthquake-la-rescue-team.html&amp;usg=AFQjCNGxuMtjlSOe-IGHekWWNx5ueX0_7w" target="_blank">L.A. County fire rescue team prepares to deploy to Haiti earthquake - Los Angeles Times (blog)</a></h4>
+								<em class="date">NEWS - Jan 12 2010</em>
+								<p>L.A. County fire rescue team prepares to deploy to Haiti earthquakeLos Angeles Times (blog)A specialized rescue unit from the Los Angeles County Fire...</p>
+							</div>
+														<div class="post">
+								<h4><a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://www.sfgate.com/cgi-bin/blogs/abraham/detail??blogid=95&amp;entry_id=55152&amp;usg=AFQjCNFb2qHzfZBdWUTx919kjg87T-1ZAg" target="_blank">Help for Haiti after 7.0 Earthquake near Port-Au-Prince, donations needed - San Francisco Chronicle (blog)</a></h4>
+								<em class="date">NEWS - Jan 12 2010</em>
+								<p>Help for Haiti after 7.0 Earthquake near Port-Au-Prince, donations neededSan Francisco Chronicle (blog)Haiti Emergency Relief Fund - by Vanguard Public...</p>
+							</div>
+														<div class="post">
+								<h4><a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://www.washingtonpost.com/wp-dyn/content/gallery/2010/01/12/GA2010011203443.html?hpid=topnews&amp;usg=AFQjCNGoww196fXFRrkWqlIg9YP1mIxpgQ" target="_blank">Your Haiti earthquake photos - Washington Post</a></h4>
+								<em class="date">NEWS - Jan 12 2010</em>
+								<p>Your Haiti earthquake photosWashington PostPlease verify that your e-mail address is correct. Your e-mail will not be publicly available, but may be used...</p>
+							</div>
+													<a href="http://haiti.ushahidi.com/admin/manage/feeds" class="view-all">View All Incoming Media</a>
+					</div>
+				</div>
+			</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>

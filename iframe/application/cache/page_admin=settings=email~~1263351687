@@ -1,0 +1,174 @@
+212a7b8b92f740d4d676bab6991fa4bdf3568e9c<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/colorpicker.css" />
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/colorpicker.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Administrator!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" >
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" >
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Settings 
+					<a href="http://haiti.ushahidi.com/admin/settings/site">Site</a>
+					<a href="http://haiti.ushahidi.com/admin/settings">Map</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sms">SMS</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sharing">Sharing</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/email" class="active">Email</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/themes">Themes</a>
+				</h2>
+				<form action="http://haiti.ushahidi.com/admin/settings/email" method="post">
+				<div class="report-form">
+									
+					<div class="head">
+						<h3>Mail Server Settings</h3>
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					</div>
+					<!-- column -->		
+					<div class="sms_holder">
+						In order to receive reports by email, please input your email account settings below. 
+						Please note that emails will be received at your <a href="http://haiti.ushahidi.com/admin/settings/site">site email address</a> 
+						<strong>haiti@ushahidi.com</strong>, so your settings have to be associated with 
+						this email address.
+						<div class="row">
+							<h4>Mail Server Username</h4>
+							<input type="text" id="email_username" name="email_username" value="haiti@ushahidi.com"  class="text long2" />						</div>
+						<span>
+							Some providers require a full email address as username
+						</span>
+						<div class="row">
+							<h4>Mail Server Password</h4>
+							<input type="password" id="email_password" name="email_password" value="KewQZZjtjZ"  class="text long2" />							
+						</div>
+						<span>
+							Mail server password
+						</span>
+						<div class="row">
+							<h4>Mail Server Port</h4>
+							<input type="text" id="email_port" name="email_port" value="993"  class="text long2" />						</div>
+						<span>
+							Common Ports: 25, 110, 995 (Gmail POP3 SSL), 993 (Gmail IMAP SSL)
+						</span>
+						<div class="row">
+							<h4>Mail Server Host</h4>
+							<input type="text" id="email_host" name="email_host" value="imap.gmail.com"  class="text long2" />						</div>
+						<span>
+							Config Mail Server Examples: mail.yourwebsite.com, imap.gmail.com, pop.gmail.com
+						</span>
+						<div class="row">
+							<h4>Mail Server Type</h4>
+							<input type="text" id="email_servertype" name="email_servertype" value="imap"  class="text long2" />								 
+						</div>
+						<span>
+							Config Mail Server Type Examples: pop3, imap
+						</span>
+						<div class="row">
+							<h4>Mail Server SSL support</h4>
+								<select id="email_ssl" name="email_ssl" >
+<option value="1" selected="selected">YES</option>
+<option value="0">NO</option>
+</select>						</div>
+						<span>
+							Enable or disable SSL
+						</span>
+					</div>
+		
+					<div class="simple_border"></div>
+		
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+				</div>
+				</form>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>

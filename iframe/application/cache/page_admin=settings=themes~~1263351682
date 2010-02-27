@@ -1,0 +1,166 @@
+4bb9d262df4861932eb81527f9338a50b6dfecbd<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script>	<script type="text/javascript" charset="utf-8">
+		
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Administrator!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" >
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" >
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Settings 
+					<a href="http://haiti.ushahidi.com/admin/settings/site">Site</a>
+					<a href="http://haiti.ushahidi.com/admin/settings">Map</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sms">SMS</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sharing">Sharing</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/email">Email</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/themes" class="active">Themes</a>
+				</h2>
+				<form action="http://haiti.ushahidi.com/admin/settings/themes" method="post">
+				<div class="report-form">
+									
+					<div class="head">
+						<h3>Theme Settings</h3>
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+						<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					</div>
+					<!-- column -->
+					<div class="sms_holder">
+						<!-- Default Theme -->
+						<div class="theme_holder">
+							<div class="theme_screenshot"><img src="http://haiti.ushahidi.com/media/img/default_theme.png" width=240 height=150 border=0></div>
+							<strong>Default Ushahidi Theme</strong><BR />
+							The default Ushahidi Theme.<BR />
+							<strong><u>Version</u></strong>: 1.0<BR />
+							<strong><u>Demo</u></strong>: http://www.ushahidi.com<BR />
+							<strong><u>Contact</u></strong>: team@ushahidi.com<BR />
+							<strong><u>Location</u></strong>: 
+							<div class="theme_select">
+								<input type="radio" name="site_style" value=""  />Select Theme
+							</div>												
+						</div>
+						<!-- / Default Theme -->				
+													<div class="theme_holder">
+								<div class="theme_screenshot"></div>
+								<strong>Haiti Theme by David Kobia</strong><BR />
+								Haiti's National Colors<BR />
+								<strong><u>Version</u></strong>: 1.0<BR />
+								<strong><u>Demo</u></strong>: http://beta1-1.ushahididev.com/<BR />
+								<strong><u>Contact</u></strong>: david@ushahidi.com<BR />
+								<strong><u>Location</u></strong>: <i>/themes/haiti/</i>
+								<div class="theme_select">
+									<input type="radio" name="site_style" value="haiti" checked = "checked" />Select Theme
+								</div>												
+							</div>
+														<div class="theme_holder">
+								<div class="theme_screenshot"><img src="http://haiti.ushahidi.com/themes/terra/screenshot.png" width=240 height=150 border=0></div>
+								<strong>Terra by David Kobia</strong><BR />
+								Some dark blues and browns<BR />
+								<strong><u>Version</u></strong>: 1.0<BR />
+								<strong><u>Demo</u></strong>: http://beta1-1.ushahididev.com/<BR />
+								<strong><u>Contact</u></strong>: david@ushahidi.com<BR />
+								<strong><u>Location</u></strong>: <i>/themes/terra/</i>
+								<div class="theme_select">
+									<input type="radio" name="site_style" value="terra"  />Select Theme
+								</div>												
+							</div>
+													<div style="clear:both;"></div>
+					</div>
+		
+					<div class="simple_border"></div>
+		
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+					<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+				</div>
+				</form>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>

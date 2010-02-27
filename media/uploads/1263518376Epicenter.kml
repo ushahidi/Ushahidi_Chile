@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Epicenter.kml</name>
+	<Style id="inactive-star0">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahidi.com/media/uploads/epicenter.png</href>
+				<scale>5.0</scale>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="star00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-star0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-star00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="active-star00">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahidi.com/media/uploads/epicenter.png</href>
+				<scale>5.0</scale>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Epicenter</name>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<ScreenOverlay>
+			<name>USGS Logo</name>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/googleearth/USGSlogo.png</href>
+			</Icon>
+			<overlayXY x="1" y="0" xunits="fraction" yunits="pixels"/>
+			<screenXY x="0.82" y="30" xunits="fraction" yunits="pixels"/>
+			<rotationXY x="0" y="0" xunits="pixels" yunits="pixels"/>
+			<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+		</ScreenOverlay>
+		<Placemark>
+			<name>M 7, HAITI REGION</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[January 12, 2010 21:53:09 UTC<br />January 12, 2010 16:53:09 local time at epicenter<ul><li>Lat: 18.4514</li><li>Lon: -72.4452</li><li>Depth: 10 km (6.2 mi)</li></ul><a href="http://earthquake.usgs.gov/eqcenter/recenteqsww/Quakes/us2010rja6.php">Details from USGS web site</a><br/><br/><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz">Download M 1+ global earthquakes and plate boundaries</a>]]></description>
+			<LookAt>
+				<longitude>-72.4452</longitude>
+				<latitude>18.4514</latitude>
+				<altitude>0</altitude>
+				<range>50000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#star00</styleUrl>
+			<Point>
+				<coordinates>-72.4452,18.4514,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

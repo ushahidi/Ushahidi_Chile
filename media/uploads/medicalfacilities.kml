@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+	<Style id="medicalcenter">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://haiti.ushahididev.com/medicalcenter.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+		
+	<Style id="hospital">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://haiti.ushahididev.com/hospital.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	
+	
+	<Folder>
+		<name>Medical Centers</name>
+		
+		<Placemark>
+			<name>Toussaint Louverture International Airport</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/1</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+          		<coordinates>-72.2925,18.58</coordinates>
+        	</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical University at Tabarre</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/2</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.26885,18.5826</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Hospital Di Canape Vert</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/3</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.317135,18.533074</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Hospital Universitario De Haiti</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/4</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.340183,18.539975</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue du Docteur Dehoux</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/5</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34189,18.53549</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Ste Croix Hospital</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/6</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.559032,18.557415</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>H√¥pital G√©n√©ral</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/7</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.340167,18.539914</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Hospital Pediatrico Espoa</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/8</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.2827777778,18.54</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue Daut</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/9</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34395,18.52646</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Morne a Tuf</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/10</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34393,18.53826</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Avenue Pie XI</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/11</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34728,18.54969</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue St. Francois</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/12</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.32518,18.5667</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Cit√© Soleil</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/13</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.33533,18.56434</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Hospital Infantil das Gracas</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/14</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.302222,18.56</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue Oswald Durand</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/15</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34033,18.53781</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Avenue Pan-Am√©ricaine</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/16</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.28882,18.5173</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near R9</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/17</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.32724,18.58138</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue Magny and Rue Oswald Durand</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/18</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.33874,18.54094</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Rue Char√©ron</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/19</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34526,18.53728</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Boulevard la Saline</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/20</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.34035,18.56023</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center near Blanchard</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/21</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.31475,18.59521</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Medical Center</name>
+			<description>http://haiti.sahanafoundation.org/gis/location/22</description>
+			<styleUrl>#medicalcenter</styleUrl>
+			<Point>
+				<coordinates>-72.38498,18.52623</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	
+	<Folder>
+		<name>Hospitals</name>
+			
+		<Placemark>
+			<name>HOSPITAL UNIVERSITÁRIO DE LA PAIZ</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL UNIVERSITÁRIO DE LA PAIZ<br>TYPE = HOSPITAL<br>LAT = 18.5403<br>LONG = -72.2978<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.29777777779999,18.5402777778,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>HOSPITAL ST CHARBEL</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL ST CHARBEL<br>TYPE = HOSPITAL<br>LAT = 18.5467<br>LONG = -72.3047<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3047222222,18.5466666667,0</coordinates>
+			</Point>
+			<ID>0</ID>
+		</Placemark>
+		
+		<Placemark>
+			<name>HOSPITAL SAINT JOSEPH</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL SAINT JOSEPH<br>TYPE = HOSPITAL<br>LAT = 18.5366<br>LONG = -72.3275<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3275472222,18.53664444440001,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>HOSPITAL PEDIÁTRICO ESPOIR</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL PEDIÁTRICO ESPOIR<br>TYPE = HOSPITAL<br>LAT = 18.54<br>LONG = -72.2828<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.28277777779999,18.54,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>HOSPITAL MÉDICOS SEM FRONTEIRAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL MÉDICOS SEM FRONTEIRAS<br>TYPE = HOSPITAL<br>LAT = 18.5814<br>LONG = -72.3271<br>LOCATION = PORT-AU-PRINCE<br>STREET = DROUILLARD<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3271416667,18.5813638889,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>MÉDICOS SEM FRONTEIRA</name>
+			<description>
+				<![CDATA[ID = 0<br>NAME = MÉDICOS SEM FRONTEIRA<br>TYPE = HOSPITAL<br>LAT = 18.5781<br>LONG = -72.3365<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]>
+			</description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3365472222,18.57813888890003,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>MÉDICOS SEM FRONTEIRA</name>
+			<description><![CDATA[ID = 0<br>NAME = MÉDICOS SEM FRONTEIRA<br>TYPE = HOSPITAL<br>LAT = 18.5352<br>LONG = -72.3077<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.30775,18.53524444440001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5481<br>LONG = -72.3397<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.33972777779999,18.54809444439999,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5604<br>LONG = -72.3419<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34190555559998,18.56040833329998,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5349<br>LONG = -72.3426<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3425722222,18.53488611110002,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL MÉDICOS SEM FRONTEIRAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL MÉDICOS SEM FRONTEIRAS<br>TYPE = HOSPITAL<br>LAT = 18.574<br>LONG = -72.3283<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL - CITÉ SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3283,18.57402500000001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>Hospital Medecins Sans Frontieres</name>
+			<description><![CDATA[ID = 0<br>NAME = Hospital Medecins Sans Frontieres<br>TYPE = HOSPITAL<br>LAT = 18.5564<br>LONG = -72.3247<br>LOCATION = PORT-AU-PRINCE<br>STREET = Cruzamento da rua Delmas 18 com a Rte de Delmas<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3246666667,18.55641944440004,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL LA PROVIDENCE</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL LA PROVIDENCE<br>TYPE = HOSPITAL<br>LAT = 19.4461<br>LONG = -72.6843<br>LOCATION = GONAIVES<br>STREET = RUA C. IMBERT<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.68432777779999,19.44611944440003,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL JUSTINIEN</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL JUSTINIEN<br>TYPE = HOSPITAL<br>LAT = 19.7323<br>LONG = -72.1857<br>LOCATION = CAP-HAITIEN<br>STREET = RUA 17 Q<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.18572499999999,19.73233333330001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL IMACULEE CONCEPTION</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL IMACULEE CONCEPTION<br>TYPE = HOSPITAL<br>LAT = 18.1956<br>LONG = -73.7532<br>LOCATION = LES CAYES<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-73.75318611110001,18.19556666669998,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL FRANÇAIS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL FRANÇAIS<br>TYPE = HOSPITAL<br>LAT = 18.5387<br>LONG = -72.3444<br>LOCATION = PORT-AU-PRINCE<br>STREET = RUA DU CENTRE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34444999999998,18.53869166670002,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DE SEG TRAB E MATERNIDADE OFATMA</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE SEG TRAB E MATERNIDADE OFATMA<br>TYPE = HOSPITAL<br>LAT = 18.5668<br>LONG = -72.3251<br>LOCATION = PORT-AU-PRINCE<br>STREET = R. ST FRANÇOIS<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3250972222,18.56680000000001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DE LA COMUNINADE HAITIENE</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE LA COMUNINADE HAITIENE<br>TYPE = HOSPITAL<br>LAT = 18.5236<br>LONG = -72.2722<br>LOCATION = PORT-AU-PRINCE<br>STREET = Rua Audert - Tte de Freres<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.27222222219999,18.52361111110001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DE BIENFAISANCE DE PIGNON</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE BIENFAISANCE DE PIGNON<br>TYPE = HOSPITAL<br>LAT = 19.3377<br>LONG = -72.1185<br>LOCATION = PIGNON<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.1185,19.33772222220003,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DA CRUZ VERMELHA</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DA CRUZ VERMELHA<br>TYPE = HOSPITAL<br>LAT = 18.5735<br>LONG = -72.3287<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL - CITÉ SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.32871111109998,18.57350277780001,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL CARITAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL CARITAS<br>TYPE = HOSPITAL<br>LAT = 18.5698<br>LONG = -72.3232<br>LOCATION = PORT-AU-PRINCE<br>STREET = CITÉ SIMON<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3232277778,18.5697972222,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL ADVENTIST</name>
+			<description><![CDATA[ID = 4<br>NAME = HOSPITAL ADVENTIST<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.38529252112389,18.52632277911754,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>CENTRE DE SANTE DU PORTAIL LEOGANE</name>
+			<description><![CDATA[ID = 14<br>NAME = CENTRE DE SANTE DU PORTAIL LEOGANE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.3473197085885,18.53491721662553,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>SANATORIUM ANTITUBERCULEUX</name>
+			<description><![CDATA[ID = 15<br>NAME = SANATORIUM ANTITUBERCULEUX<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34398583358542,18.52628518536747,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DU CANAPE VERT</name>
+			<description><![CDATA[ID = 27<br>NAME = HOSPITAL DU CANAPE VERT<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.31647164605978,18.53319293537391,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL ST FRANCOIS DE SALES</name>
+			<description><![CDATA[ID = 38<br>NAME = HOSPITAL ST FRANCOIS DE SALES<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34397992733541,18.53795468537833,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL DE LÉNIVERSITE DÏETAT DÏHAITI</name>
+			<description><![CDATA[ID = 48<br>NAME = HOSPITAL DE LÉNIVERSITE DÏETAT DÏHAITI<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34023127108192,18.53928702912958,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>LABORATOIRE RADIOLOGIQUE</name>
+			<description><![CDATA[ID = 51<br>NAME = LABORATOIRE RADIOLOGIQUE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.33830336483011,18.5399239666302,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL MILITAIRE</name>
+			<description><![CDATA[ID = 54<br>NAME = HOSPITAL MILITAIRE<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.33875914608053,18.54079068538101,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>CROIX ROUGE HAITIENNE</name>
+			<description><![CDATA[ID = 80<br>NAME = CROIX ROUGE HAITIENNE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34732186483852,18.54967637288927,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>CENTRE DE SANTE DE LA CATHEDRALE</name>
+			<description><![CDATA[ID = 93<br>NAME = CENTRE DE SANTE DE LA CATHEDRALE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.339265427331,18.54847302913815,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>GRACE CHILDRENÏS HOSPITAL</name>
+			<description><![CDATA[ID = 109<br>NAME = GRACE CHILDRENÏS HOSPITAL<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.30156333354591,18.55985465414877,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>CENTRE DÏHYGIENE DE LA SALINE</name>
+			<description><![CDATA[ID = 120<br>NAME = CENTRE DÏHYGIENE DE LA SALINE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.34131783358293,18.56048481039931,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>MATERNITE ISAIE JEANTY</name>
+			<description><![CDATA[ID = 124<br>NAME = MATERNITE ISAIE JEANTY<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.33597942732796,18.56443693540301,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>HOSPITAL IDASH</name>
+			<description><![CDATA[ID = 128<br>NAME = HOSPITAL IDASH<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.32493870856769,18.56705590415544,0</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<name>CENTRE DE SANTE ELIAZER GERMAIN</name>
+			<description><![CDATA[ID = 148<br>NAME = CENTRE DE SANTE ELIAZER GERMAIN<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#hospital</styleUrl>
+			<Point>
+				<coordinates>-72.28896223978418,18.5170693416089,0</coordinates>
+			</Point>
+		</Placemark> 
+	</Folder>    
+</Document>
+</kml>

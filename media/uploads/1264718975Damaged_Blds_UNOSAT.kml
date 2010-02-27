@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Damaged_Blds_UNOSAT">
+	<name>Damaged_Blds_UNOSAT</name>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="IconStyle00">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahididev.com/media/uploads/icon-damaged-blds.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Damaged_Blds_UNOSAT</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark>
+			<name>École - Centre d´ Education</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337062,18.550877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>École</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337238,18.549197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UN - WFP Office</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.317365,18.537144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parlement Haitien</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346954,18.549088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital de Turgeau</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32386099999999,18.531983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Saint Pierre</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28789,18.510706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital du Canepe Vert</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31634,18.533606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Frances</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.340447,18.537884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Sainte Rose de Lima</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32975399999999,18.542557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Pétionville</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.285978,18.510677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Hospitalier du Sacre Coeur</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33143800000001,18.53705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Général</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.340468,18.540091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital de la Communauté Haitienne</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27264,18.524268,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Croix Rouge Haitienne</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34773199999999,18.549783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palais des Ministères</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33997599999999,18.543923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BNC</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34535700000001,18.548977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Telecom</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.343576,18.54741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Unibank</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.344336,18.549787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bâtiment Gouvernemental</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336816,18.544393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bâtiment Gouvernemental-Casernes Dessalines</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339811,18.542001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palais de Justice</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34084199999999,18.541961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ministère de la Justice (to check)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33236100000001,18.538119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Central Bank of Haiti</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.345142,18.548409,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pénitancier National</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34240800000001,18.543991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A.G.P. Postal Service building</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.347193,18.550361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Haitian Foreign Ministry Building</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.347902,18.550605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>City Hall - Hôtel de Ville</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.345607,18.55081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1er Église baptiste PAP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34135499999999,18.543228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église du Turgeau</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33028299999999,18.535039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sacré Coeur</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333173,18.535761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Saint Louis Roi de France</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324613,18.534251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Sixtine</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346785,18.549607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Congrégation des Soeurs de Notre Dame</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337621,18.551629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Notre Dame du Perpétuel Secours</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33696399999999,18.551727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Venezuelan Embassy</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.349394,18.54959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ambasade de France</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33486600000001,18.539103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Former U.S. Embassy</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34782199999999,18.548107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Universitaire</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33995400000001,18.538321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collège St Pierre</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33466799999999,18.538436,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collège St Patrick</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333271,18.539038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collège Antenor Firmin</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331802,18.537253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collège Lucien Hibbert (to check)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33094699999999,18.537937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Insitut Georges Marc</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331616,18.535353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Institut Universitaire Quisqueya. Amérique (INUQUA).</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331147,18.534486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collège Roger Anglade</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326499,18.534647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saint Louis De Gonzague</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34299,18.546773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>École Saint Jean L&apos;Evangéliste</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32607299999999,18.534001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>École Canado-Haitienne</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324945,18.532362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nouveau Collège Bird (to check)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.342248,18.544795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stade Sylvio Cator</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.342467,18.536162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Macher Salomon Area</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33982899999999,18.535884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rex Théatre</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335043,18.539904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza Hotel</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33410499999999,18.54187,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Park Hotel</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334352,18.541384,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Iron Market</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34316800000001,18.551251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>United Nations Square</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.347871,18.549239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seaport Terminal</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34845,18.554041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal Varreux</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.345725,18.572886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal Varreux</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33727399999999,18.569367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shodecosa Industrial Park</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329735,18.5666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fiticosa Industrial Facility</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332464,18.557715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Usman</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336246,18.558854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Huilerie Nationale</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33324,18.565133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chapelle de St Jean Bosco</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33814599999999,18.56011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Saint Joseph</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34306599999999,18.555624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sacre Coeur Cathédral</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33855200000001,18.549066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Archives Nationales</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336062,18.548194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TelCo</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3232,18.536238,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lycee Toussaint Louverture</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.343738,18.541889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Saint Anne</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.343875,18.540493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Église Protestante</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.344472,18.537438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jordan FPU 2</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.347115,18.541474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brazil BN</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339617,18.542912,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Staff Officers Accomodation</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334131,18.541614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Peruvian Coy</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328515,18.568749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brazilian Coy</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33058200000001,18.547107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FAO</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325487,18.530739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Area 2A 2B</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326297,18.531246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IOM</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324977,18.53146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UNICEF</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325795,18.531495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palais Présidentiel</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338752,18.543087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Argentine</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27744199999999,18.57595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hospital of Peace, Delmas 33</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.297916,18.556421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Médecins Sans Frontières</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336592,18.578129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Da Cruz Vermelha</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32869100000001,18.573558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Caritas</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323234,18.56988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Médecins Sans Frontières</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32832399999999,18.574011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital  De Seg Trab E Maternidade Ofatma</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32530199999999,18.566796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Maternelle</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335784,18.564339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Médical</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34190099999999,18.560427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Médecins Sans Frontières</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32464299999999,18.55641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Médical</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339815,18.548107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital St Charbel</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.304806,18.546926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital St Joseph</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327539,18.536632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Médical</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.342598,18.534931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Médical</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34820999999999,18.535067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Saint François De Sales</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.344398,18.537623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Français</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34448,18.538722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Laboratoire de Radiologie</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33893500000001,18.539803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sanatorium Anti-tuberculose</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.344014,18.526496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Médecins Sans Frontières</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307768,18.535256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital  Universitaire de la Paix</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29782400000001,18.540276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Médical</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.289287,18.516719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital  Pédiatrique Espoir</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.282629,18.539976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Adventista</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.384998,18.526428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital Médecins Sans Frontières</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32713099999999,18.581367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôpital  Infantile Das Gracas</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30194299999999,18.559288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINUSTAH HQ (Christopher Hotel)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31220500000001,18.539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UNDP Compound</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.313401,18.537216,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UNDP Building</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.313129,18.536725,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

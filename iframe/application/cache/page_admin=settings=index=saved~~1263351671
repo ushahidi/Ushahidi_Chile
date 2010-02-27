@@ -1,0 +1,730 @@
+492a275053340965aabb355e863115b707da60e1<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenLayers.js"></script>
+<script src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6"></script><script type="text/javascript" src="http://api.maps.yahoo.com/ajaxymap?v=3.0&appid=5CYeWbfV34E21JOW1a4.54Mf6e9jLNkD0HVzaKoQmJZi2qzmSZd5mD8X49x7"></script><script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q" type="text/javascript"></script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenStreetMap.js"></script>
+
+<script type="text/javascript">
+			OpenLayers.ImgPath = 'http://haiti.ushahidi.com/media/img/openlayers/';
+			</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script>	<script type="text/javascript" charset="utf-8">
+		/**
+ * Settings js file.
+ *
+ * Handles javascript stuff related to settings function.
+ *
+ * PHP version 5
+ * LICENSE: This source file is subject to LGPL license 
+ * that is available through the world-wide-web at the following URI:
+ * http://www.gnu.org/copyleft/lesser.html
+ * @author     Ushahidi Team <team@ushahidi.com> 
+ * @package    Ushahidi - http://source.ushahididev.com
+ * @module     API Controller
+ * @copyright  Ushahidi - http://www.ushahidi.com
+ * @license    http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License (LGPL) 
+ */
+
+		// Map JS
+		$(document).ready(
+			function()
+			{
+				var markers;
+				var marker;
+				var myPoint;
+				var lonlat;
+				var DispProj = new OpenLayers.Projection("EPSG:4326");
+				var MapProj = new OpenLayers.Projection("EPSG:900913");
+				var options = {
+				maxResolution: 156543.0339
+				, units: "m"
+				, projection: MapProj
+				, 'displayProjection': DispProj
+				, maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)
+				, controls: [	new OpenLayers.Control.Navigation(),
+													new OpenLayers.Control.MouseDefaults(),
+													new OpenLayers.Control.PanZoom(),
+													new OpenLayers.Control.ArgParser() ]
+										};
+				
+				var map = new OpenLayers.Map('map', options);
+				var gmap_layer = new OpenLayers.Layer.Google(
+									"google",
+									{'isBaseLayer': true,'sphericalMercator': true });
+				var ve_layer = new OpenLayers.Layer.VirtualEarth(
+									"virtualearth",
+									{ 'type': VEMapStyle.Road, 'sphericalMercator': true });
+				var ymap_layer = new OpenLayers.Layer.Yahoo(
+									"yahoo",
+									{ 'sphericalMercator': true });
+				var osmap_layer = new OpenLayers.Layer.OSM.Mapnik(
+									"openstreetmap",
+									{ 'sphericalMercator': true });
+				
+				map.addLayers([gmap_layer, ve_layer, ymap_layer, osmap_layer]);
+				
+				map.addControl(new OpenLayers.Control.MousePosition());
+				
+				
+				// Transform feature point coordinate to Spherical Mercator
+				preFeatureInsert = function(feature) {		
+					var point = new OpenLayers.Geometry.Point(feature.geometry.x, feature.geometry.y);
+					OpenLayers.Projection.transform(point, DispProj, MapProj);
+				};
+				
+				
+				// Create the markers layer
+				markers = new OpenLayers.Layer.Markers("Markers", {
+					preFeatureInsert:preFeatureInsert,
+					projection: DispProj
+				});
+				map.addLayer(markers);
+				
+				
+				// create myPoint, a lat/lon object
+				myPoint = new OpenLayers.LonLat(-72.334671020508, 18.564900198966).transform(DispProj, MapProj);
+				
+				
+				// create a marker using the myPoint lat/lon object
+				marker = new OpenLayers.Marker(myPoint);
+				markers.addMarker(marker);
+				
+				
+				// set map center and zoom in to default zoom level
+				map.setCenter(myPoint, 9);
+
+				// add info bubble to the marker
+				// popup = new OpenLayers.Popup.Anchored("test", myPoint,new OpenLayers.Size(200,200),"Hello!", true);
+				
+				
+				// create new marker at map click location
+				map.events.register("click", map, function(e){
+					// Update the myPoint global
+					myPoint = map.getLonLatFromViewPortPx(e.xy);
+					lonlat = map.getLonLatFromViewPortPx(e.xy);
+					markers.removeMarker(marker);
+					marker = new OpenLayers.Marker(lonlat);
+			    	markers.addMarker(marker);
+							
+					// Update form values (jQuery)
+					lonlat = lonlat.transform(MapProj,DispProj);
+					$("#default_lat").attr("value", lonlat.lat);
+					$("#default_lon").attr("value", lonlat.lon);
+				});
+				
+
+				// zoom slider detection
+				$('select#default_zoom').selectToUISlider({
+					labels: 5,
+					sliderOptions: {
+						change:function(e, ui) {
+							var new_zoom = parseInt($("#default_zoom").val());
+							$('#zoom_level').html('"' + new_zoom + '"');
+							map.setCenter(myPoint, new_zoom);
+							markers.removeMarker(marker);
+							marker = new OpenLayers.Marker(myPoint);
+					    	markers.addMarker(marker);
+						}
+					}
+				}).hide();
+				
+				
+				// detect country dropdown change, then zoom to selected country
+				$('#default_country').change(function(){
+					address = $('#default_country :selected').text();
+					var geocoder = new GClientGeocoder();
+					if (geocoder) {
+						geocoder.getLatLng(
+							address,
+							function(point) {
+								if (!point) {
+									alert(address + " not found");
+								} else {
+									myPoint = new OpenLayers.LonLat(point.lng(), point.lat()).transform(DispProj, MapProj);
+									map.setCenter(myPoint, 3);
+									markers.removeMarker(marker);
+									marker = new OpenLayers.Marker(myPoint);
+							    	markers.addMarker(marker);
+									
+									// Update form lat/lon values
+									$("#default_lat").attr("value", point.lat());
+								    $("#default_lon").attr("value", point.lng());
+								}
+						});
+					}
+				});
+				
+				
+				// Provider Select JS
+				// This could be cleaner ;)
+				var i;
+				var api_go;
+
+				i = 1;
+				if ( i == 1 ){
+					api_go = 'http://code.google.com/apis/maps/signup.html';
+					$('#api_link').attr('target', '_blank');
+					gmap_layer.setVisibility(true);
+					ve_layer.setVisibility(false);
+					ymap_layer.setVisibility(false);
+					osmap_layer.setVisibility(false);
+				}else if ( i == 2){
+					api_go = 'javascript:alert(\'Your current selection does not require an API key!\')';
+					$('#api_link').attr('target', '_top');
+					gmap_layer.setVisibility(false);
+					ve_layer.setVisibility(true);
+					ymap_layer.setVisibility(false);
+					osmap_layer.setVisibility(false);
+				}else if ( i == 3){
+					api_go = 'http://developer.yahoo.com/maps/simple/';
+					$('#api_link').attr('target', '_blank');
+					gmap_layer.setVisibility(false);
+					ve_layer.setVisibility(false);
+					ymap_layer.setVisibility(true);
+					osmap_layer.setVisibility(false);
+				}else if ( i == 4 ){
+					api_go = 'http://code.google.com/apis/maps/signup.html';
+					$('#api_link').attr('target', '_blank');
+					gmap_layer.setVisibility(false);
+					ve_layer.setVisibility(false);
+					ymap_layer.setVisibility(false);
+					osmap_layer.setVisibility(true);
+				}
+				$('#api_link').attr('href', api_go);
+
+				
+				// detect map provider dropdown change
+				$('#default_map').change(function(){					
+					i = $('#default_map option:selected').val();
+					if ( i == 1 ){
+						api_go = 'http://code.google.com/apis/maps/signup.html';
+						$('#api_link').attr('target', '_blank');
+						gmap_layer.setVisibility(true);
+						ve_layer.setVisibility(false);
+						ymap_layer.setVisibility(false);
+						osmap_layer.setVisibility(false);
+						$("#api_div_google").show();
+						$("#api_div_yahoo").hide();
+					}else if ( i == 2){
+						api_go = 'javascript:alert(\'Your current selection does not require an API key!\')';
+						$('#api_link').attr('target', '_top');
+						gmap_layer.setVisibility(false);
+						ve_layer.setVisibility(true);
+						ymap_layer.setVisibility(false);
+						osmap_layer.setVisibility(false);
+						$("#api_div_google").hide();
+						$("#api_div_yahoo").hide();
+					}else if ( i == 3){
+						api_go = 'http://developer.yahoo.com/maps/simple/';
+						$('#api_link').attr('target', '_blank');
+						gmap_layer.setVisibility(false);
+						ve_layer.setVisibility(false);
+						ymap_layer.setVisibility(true);
+						osmap_layer.setVisibility(false);
+						$("#api_div_google").hide();
+						$("#api_div_yahoo").show();
+					}else if (i == 4){
+						api_go = 'http://code.google.com/apis/maps/signup.html';
+						$('#api_link').attr('target', '_blank');
+						gmap_layer.setVisibility(false);
+						ve_layer.setVisibility(false);
+						ymap_layer.setVisibility(false);
+						osmap_layer.setVisibility(true);
+						$("#api_div_google").show();
+						$("#api_div_yahoo").hide();
+					}
+					$('#api_link').attr('href', api_go);
+				});
+				
+				
+			}
+		);
+		
+		
+		// Retrieve Cities From Geonames DB (Ajax)
+		function retrieveCities()
+		{
+			var selected = $("#default_country option[selected]");
+			country = selected.val();
+			if (!country || country =='') {
+				alert('Please select a country from the dropdown');
+			}
+			else
+			{
+				$('#cities_loading').html('<img src="http://haiti.ushahidi.com/media/img/loading_g.gif">');
+				$.getJSON("http://haiti.ushahidi.com/admin/settings/updateCities/" + country,
+					function(data){
+						if (data.status == 'success'){
+							$('#city_count').show();
+							$('#city_count').html(data.response);
+							$('#cities_loading').html('');
+						} else	{
+							alert(data.response);
+						}
+						$('#cities_loading').html('');
+				  	}, "json");
+			}
+		}
+
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Administrator!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" >
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" >
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Settings 
+					<a href="http://haiti.ushahidi.com/admin/settings/site">Site</a>
+					<a href="http://haiti.ushahidi.com/admin/settings" class="active">Map</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sms">SMS</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/sharing">Sharing</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/email">Email</a>
+					<a href="http://haiti.ushahidi.com/admin/settings/themes">Themes</a>
+				</h2>
+				<form action="http://haiti.ushahidi.com/admin/settings/index/saved" method="post">
+					<div class="report-form">
+													<!-- green-box -->
+							<div class="green-box">
+								<h3>Your Settings Have Been Saved!</h3>
+							</div>
+												<div class="head">
+							<h3>Map Settings</h3>
+							<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+							<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" />
+						</div>
+						<!-- column -->
+						<div class="l-column">
+							<div class="has_border_first">
+								<div class="row">
+									<h4>Default Location <sup><a href="#">?</a></sup></h4>
+									<p class="bold_desc">Please set a default location. This is a bit more text about setting the default location.</p>
+									<span class="my-sel-holder">
+										<select id="default_country" name="default_country" >
+<option value="3">Afghanistan</option>
+<option value="16">Aland Islands</option>
+<option value="6">Albania</option>
+<option value="62">Algeria</option>
+<option value="12">American Samoa</option>
+<option value="1">Andorra</option>
+<option value="9">Angola</option>
+<option value="5">Anguilla</option>
+<option value="10">Antarctica</option>
+<option value="4">Antigua and Barbuda</option>
+<option value="11">Argentina</option>
+<option value="7">Armenia</option>
+<option value="15">Aruba</option>
+<option value="14">Australia</option>
+<option value="13">Austria</option>
+<option value="17">Azerbaijan</option>
+<option value="32">Bahamas</option>
+<option value="24">Bahrain</option>
+<option value="20">Bangladesh</option>
+<option value="19">Barbados</option>
+<option value="36">Belarus</option>
+<option value="21">Belgium</option>
+<option value="37">Belize</option>
+<option value="26">Benin</option>
+<option value="28">Bermuda</option>
+<option value="33">Bhutan</option>
+<option value="30">Bolivia</option>
+<option value="18">Bosnia and Herzegovina</option>
+<option value="35">Botswana</option>
+<option value="34">Bouvet Island</option>
+<option value="31">Brazil</option>
+<option value="106">British Indian Ocean Territory</option>
+<option value="237">British Virgin Islands</option>
+<option value="29">Brunei</option>
+<option value="23">Bulgaria</option>
+<option value="22">Burkina Faso</option>
+<option value="25">Burundi</option>
+<option value="117">Cambodia</option>
+<option value="47">Cameroon</option>
+<option value="38">Canada</option>
+<option value="53">Cape Verde</option>
+<option value="124">Cayman Islands</option>
+<option value="41">Central African Republic</option>
+<option value="213">Chad</option>
+<option value="46">Chile</option>
+<option value="48">China</option>
+<option value="54">Christmas Island</option>
+<option value="39">Cocos Islands</option>
+<option value="49">Colombia</option>
+<option value="119">Comoros</option>
+<option value="42">Congo Brazzavile</option>
+<option value="45">Cook Islands</option>
+<option value="50">Costa Rica</option>
+<option value="98">Croatia</option>
+<option value="52">Cuba</option>
+<option value="55">Cyprus</option>
+<option value="56">Czech Republic</option>
+<option value="40">Democratic Republic of the Congo</option>
+<option value="59">Denmark</option>
+<option value="58">Djibouti</option>
+<option value="60">Dominica</option>
+<option value="61">Dominican Republic</option>
+<option value="219">East Timor</option>
+<option value="63">Ecuador</option>
+<option value="65">Egypt</option>
+<option value="209">El Salvador</option>
+<option value="88">Equatorial Guinea</option>
+<option value="67">Eritrea</option>
+<option value="64">Estonia</option>
+<option value="69">Ethiopia</option>
+<option value="72">Falkland Islands</option>
+<option value="74">Faroe Islands</option>
+<option value="71">Fiji</option>
+<option value="70">Finland</option>
+<option value="75">France</option>
+<option value="80">French Guiana</option>
+<option value="175">French Polynesia</option>
+<option value="214">French Southern Territories</option>
+<option value="76">Gabon</option>
+<option value="85">Gambia</option>
+<option value="79">Georgia</option>
+<option value="57">Germany</option>
+<option value="82">Ghana</option>
+<option value="83">Gibraltar</option>
+<option value="89">Greece</option>
+<option value="84">Greenland</option>
+<option value="78">Grenada</option>
+<option value="87">Guadeloupe</option>
+<option value="92">Guam</option>
+<option value="91">Guatemala</option>
+<option value="81">Guernsey</option>
+<option value="86">Guinea</option>
+<option value="93">Guinea-Bissau</option>
+<option value="94">Guyana</option>
+<option value="99" selected="selected">Haiti</option>
+<option value="96">Heard Island and McDonald Islands</option>
+<option value="97">Honduras</option>
+<option value="95">Hong Kong</option>
+<option value="100">Hungary</option>
+<option value="109">Iceland</option>
+<option value="105">India</option>
+<option value="101">Indonesia</option>
+<option value="108">Iran</option>
+<option value="107">Iraq</option>
+<option value="102">Ireland</option>
+<option value="104">Isle of Man</option>
+<option value="103">Israel</option>
+<option value="110">Italy</option>
+<option value="44">Ivory Coast</option>
+<option value="112">Jamaica</option>
+<option value="114">Japan</option>
+<option value="111">Jersey</option>
+<option value="113">Jordan</option>
+<option value="125">Kazakhstan</option>
+<option value="115">Kenya</option>
+<option value="118">Kiribati</option>
+<option value="123">Kuwait</option>
+<option value="116">Kyrgyzstan</option>
+<option value="126">Laos</option>
+<option value="135">Latvia</option>
+<option value="127">Lebanon</option>
+<option value="132">Lesotho</option>
+<option value="131">Liberia</option>
+<option value="136">Libya</option>
+<option value="129">Liechtenstein</option>
+<option value="133">Lithuania</option>
+<option value="134">Luxembourg</option>
+<option value="148">Macao</option>
+<option value="144">Macedonia</option>
+<option value="142">Madagascar</option>
+<option value="156">Malawi</option>
+<option value="158">Malaysia</option>
+<option value="155">Maldives</option>
+<option value="145">Mali</option>
+<option value="153">Malta</option>
+<option value="143">Marshall Islands</option>
+<option value="150">Martinique</option>
+<option value="151">Mauritania</option>
+<option value="154">Mauritius</option>
+<option value="244">Mayotte</option>
+<option value="157">Mexico</option>
+<option value="73">Micronesia</option>
+<option value="139">Moldova</option>
+<option value="138">Monaco</option>
+<option value="147">Mongolia</option>
+<option value="140">Montenegro</option>
+<option value="152">Montserrat</option>
+<option value="137">Morocco</option>
+<option value="159">Mozambique</option>
+<option value="146">Myanmar</option>
+<option value="160">Namibia</option>
+<option value="169">Nauru</option>
+<option value="168">Nepal</option>
+<option value="166">Netherlands</option>
+<option value="8">Netherlands Antilles</option>
+<option value="161">New Caledonia</option>
+<option value="171">New Zealand</option>
+<option value="165">Nicaragua</option>
+<option value="162">Niger</option>
+<option value="164">Nigeria</option>
+<option value="170">Niue</option>
+<option value="163">Norfolk Island</option>
+<option value="121">North Korea</option>
+<option value="149">Northern Mariana Islands</option>
+<option value="167">Norway</option>
+<option value="172">Oman</option>
+<option value="178">Pakistan</option>
+<option value="185">Palau</option>
+<option value="183">Palestinian Territory</option>
+<option value="173">Panama</option>
+<option value="176">Papua New Guinea</option>
+<option value="186">Paraguay</option>
+<option value="174">Peru</option>
+<option value="177">Philippines</option>
+<option value="181">Pitcairn</option>
+<option value="179">Poland</option>
+<option value="184">Portugal</option>
+<option value="182">Puerto Rico</option>
+<option value="187">Qatar</option>
+<option value="188">Reunion</option>
+<option value="189">Romania</option>
+<option value="191">Russia</option>
+<option value="192">Rwanda</option>
+<option value="27">Saint BarthÃ©lemy</option>
+<option value="199">Saint Helena</option>
+<option value="120">Saint Kitts and Nevis</option>
+<option value="128">Saint Lucia</option>
+<option value="141">Saint Martin</option>
+<option value="180">Saint Pierre and Miquelon</option>
+<option value="235">Saint Vincent and the Grenadines</option>
+<option value="242">Samoa</option>
+<option value="204">San Marino</option>
+<option value="208">Sao Tome and Principe</option>
+<option value="193">Saudi Arabia</option>
+<option value="205">Senegal</option>
+<option value="190">Serbia</option>
+<option value="51">Serbia and Montenegro</option>
+<option value="195">Seychelles</option>
+<option value="203">Sierra Leone</option>
+<option value="198">Singapore</option>
+<option value="202">Slovakia</option>
+<option value="200">Slovenia</option>
+<option value="194">Solomon Islands</option>
+<option value="206">Somalia</option>
+<option value="245">South Africa</option>
+<option value="90">South Georgia and the South Sandwic...</option>
+<option value="122">South Korea</option>
+<option value="68">Spain</option>
+<option value="130">Sri Lanka</option>
+<option value="196">Sudan</option>
+<option value="207">Suriname</option>
+<option value="201">Svalbard and Jan Mayen</option>
+<option value="211">Swaziland</option>
+<option value="197">Sweden</option>
+<option value="43">Switzerland</option>
+<option value="210">Syria</option>
+<option value="226">Taiwan</option>
+<option value="217">Tajikistan</option>
+<option value="227">Tanzania</option>
+<option value="216">Thailand</option>
+<option value="215">Togo</option>
+<option value="218">Tokelau</option>
+<option value="222">Tonga</option>
+<option value="224">Trinidad and Tobago</option>
+<option value="221">Tunisia</option>
+<option value="223">Turkey</option>
+<option value="220">Turkmenistan</option>
+<option value="212">Turks and Caicos Islands</option>
+<option value="225">Tuvalu</option>
+<option value="238">U.S. Virgin Islands</option>
+<option value="229">Uganda</option>
+<option value="228">Ukraine</option>
+<option value="2">United Arab Emirates</option>
+<option value="77">United Kingdom</option>
+<option value="231">United States</option>
+<option value="230">United States Minor Outlying Island...</option>
+<option value="232">Uruguay</option>
+<option value="233">Uzbekistan</option>
+<option value="240">Vanuatu</option>
+<option value="234">Vatican</option>
+<option value="236">Venezuela</option>
+<option value="239">Vietnam</option>
+<option value="241">Wallis and Futuna</option>
+<option value="66">Western Sahara</option>
+<option value="243">Yemen</option>
+<option value="246">Zambia</option>
+<option value="247">Zimbabwe</option>
+</select>									</span>
+									
+									<div id="retrieve_cities">
+										<a href="javascript:retrieveCities()" id="retrieve">Retrieve Cities From Geonames</a>
+										<span id="cities_loading"></span>
+										<div id="city_count"></div>
+									</div>
+									<div>
+										Does this Ushahidi Instance Span Multiple Countries?<br />
+										<input type="radio" name="multi_country" value="1"
+										> Yes
+										<input type="radio" name="multi_country" value="0"
+										 checked="checked" > No
+										
+									</div>
+								</div>
+							</div>
+							<div class="has_border">
+								<h4>Map provider <sup><a href="#">?</a></sup></h4>
+								<p class="bold_desc">Setting up your map provider is a straight- forward process. More text to go here!</p>
+								<span class="blue_span">Step 1: </span><span class="dark_span">Select a Map Provider</span><br />
+								<div class="c_push">
+									<span class="my-sel-holder">
+										<select id="default_map" name="default_map" >
+<option value="1" selected="selected">Google</option>
+<option value="2">Virtual Earth</option>
+<option value="3">Yahoo</option>
+<option value="4">Open Streetmaps</option>
+</select>									</span>
+								</div>
+	
+								<span class="blue_span">Step 2: </span><span class="dark_span">Get an API Key</span><br />
+								<div class="c_push">
+									<a href="http://code.google.com/apis/maps/signup.html" id="api_link" title="Get API Key"><img src="http://haiti.ushahidi.com/media/img/admin/btn-get-api-key.gif" border="0" alt="Get API Key"></a>
+								</div>
+								
+								<div id="api_div_google" >
+									<span class="blue_span">Step 3: </span><span class="dark_span">Enter Your Google API Key</span><br />
+									<div class="c_push">
+										<input type="text" id="api_google" name="api_google" value="ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q"  class="text" />									</div>
+								</div>
+								<div id="api_div_yahoo" style="display:none">
+									<span class="blue_span">Step 3: </span><span class="dark_span">Enter Your Yahoo API Key</span><br />
+									<div class="c_push">
+										<input type="text" id="api_yahoo" name="api_yahoo" value="5CYeWbfV34E21JOW1a4.54Mf6e9jLNkD0HVzaKoQmJZi2qzmSZd5mD8X49x7"  class="text" />									</div>
+								</div>
+							</div>
+	
+								<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-save-settings.gif" class="save-rep-btn" style="margin-left: 0px;" />
+								<input type="image" src="http://haiti.ushahidi.com/media/img/admin/btn-cancel.gif" class="cancel-btn" />
+						</div>
+						<div class="r-column">
+							<h4>Configure Map <sup><a href="#">?</a></sup></h4>
+
+							<div style="width: 279px; float: left; margin-top: 10px;">
+								<span class="bold_span">Default Zoom Level</span>
+								<div class="slider_container">
+									<select id="default_zoom" name="default_zoom" >
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9" selected="selected">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>								</div>
+							</div>
+							<div style="width: 279px; height: 90px; float: left; margin-top: 10px;">
+								<span class="bold_span">Default Map View</span>
+								<span class="my-sel-holder"><select><option>Map</option></select></span>
+								<div class="location-info">
+									<span>Lat:</span>
+									<input type="text" id="default_lat" name="default_lat" value="18.564900198966"  readonly="readonly" class="text" />									<span>Lon:</span>
+									<input type="text" id="default_lon" name="default_lon" value="-72.334671020508"  readonly="readonly" class="text" />								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<h4>Map preview <sup><a href="#">?</a></sup></h4>
+							<p class="bold_desc">Click and drag the map to set your exact location.</p>
+
+							<div id="map_holder">
+								<div id="map" class="mapstraction"></div>    
+							</div>
+							<div style="margin-top:25px" id="map_loaded"></div>
+						</div>
+					</div>
+				</form>
+			</div>			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>
