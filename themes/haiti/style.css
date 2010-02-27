@@ -9,7 +9,7 @@ Author Email: david@ushahidi.com
 
 /* header background */
 	body#page{
-		background: #585858 url(bkg_new.gif) repeat-x;
+		background:transparent url(bkg.png) repeat-y;
 		background-position:0px 35px;
 		overflow-x:hidden;
 	}
@@ -20,16 +20,17 @@ Author Email: david@ushahidi.com
 
 /* Logo Box */
 	div#logo{
-		background-color:transparent;
-		padding:5px 0 0 0;
-		height:50px;
+		background:transparent url(chile-flag.png) no-repeat;
+		padding:5px 0 0 108px;
+		margin:45px 0 0 0;
+		height:70px;
 	}
 	div#logo h1{
-		color:#fff;
-		font-size:36px;
+		color:#000;
+		font-size:32px;
 	}
 	div#logo span{
-		color:#eee; font-size:12px; position:relative;
+		color:#000; font-size:12px; position:relative;
 	}
 		span.tufts { display:block; margin:35px 0 0 0; }
 		#tufts-logo { position:absolute; left:107px; top:-7px; }
@@ -98,6 +99,10 @@ Author Email: david@ushahidi.com
 /* Latest Activity */
 	.latest-activity { margin-top:18px; }
 	.latest-activity ul li { list-style-type:none; padding:0px; margin:0 0 13px; }
+
+/* Latest Activity */
+	div.filters { height:9px; }
+	div.filters div { display:none; }
 
 /* Incident/Feed Grid */
 	#feed-grid-table {  }
