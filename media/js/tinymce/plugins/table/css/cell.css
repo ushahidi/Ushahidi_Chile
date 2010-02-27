@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+/* CSS file for cell dialog in the table plugin */
+
+.panel_wrapper div.current {
+	height: 200px;
+}
+
+.advfield {
+	width: 200px;
+}
+
+#action {
+	margin-bottom: 3px;
+}
+
+#class {
+	width: 150px;
+=======
+/* CSS file for cell dialog in the table plugin */
+
+.panel_wrapper div.current {
+	height: 200px;
+}
+
+.advfield {
+	width: 200px;
+}
+
+#action {
+	margin-bottom: 3px;
+}
+
+#class {
+	width: 150px;
+>>>>>>> 57862d793031fc273b1fb3956ce568053d360bc9
+}

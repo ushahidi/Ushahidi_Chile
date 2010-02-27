@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>hospitals.kml</name>
+	<Schema parent="Placemark" name="S_PaupHospitals_ISSSS">
+		<SimpleField type="int" name="ID"></SimpleField>
+		<SimpleField type="wstring" name="NAME"></SimpleField>
+		<SimpleField type="wstring" name="NAME_ALT"></SimpleField>
+		<SimpleField type="wstring" name="TYPE"></SimpleField>
+		<SimpleField type="wstring" name="TYPE_ALT"></SimpleField>
+	</Schema>
+	<Schema parent="Placemark" name="S_XlHaPaupHealthFacilties_DSSSDDSSSS">
+		<SimpleField type="double" name="ID"></SimpleField>
+		<SimpleField type="wstring" name="NAME"></SimpleField>
+		<SimpleField type="wstring" name="TYPE"></SimpleField>
+		<SimpleField type="wstring" name="DAMAGE_STA"></SimpleField>
+		<SimpleField type="double" name="LAT"></SimpleField>
+		<SimpleField type="double" name="LONG"></SimpleField>
+		<SimpleField type="wstring" name="LOCATION"></SimpleField>
+		<SimpleField type="wstring" name="STREET"></SimpleField>
+		<SimpleField type="wstring" name="SOURCE"></SimpleField>
+		<SimpleField type="wstring" name="NOTES"></SimpleField>
+	</Schema>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png_copy6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://haiti.ushahididev.com/hospital.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy12">
+		<IconStyle>
+			<scale>0.55</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.88</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png">
+		<IconStyle>
+			<scale>0.55</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.88</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png_copy6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0_copy7">
+		<name>Hospitals</name>
+		<open>1</open>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL UNIVERSITÁRIO DE LA PAIZ</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL UNIVERSITÁRIO DE LA PAIZ<br>TYPE = HOSPITAL<br>LAT = 18.5403<br>LONG = -72.2978<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.29777777779999,18.5402777778,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL UNIVERSITÁRIO DE LA PAIZ</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.540278</LAT>
+			<LONG>-72.29777799999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL ST CHARBEL</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL ST CHARBEL<br>TYPE = HOSPITAL<br>LAT = 18.5467<br>LONG = -72.3047<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3047222222,18.5466666667,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL ST CHARBEL</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.546667</LAT>
+			<LONG>-72.304722</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL SAINT JOSEPH</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL SAINT JOSEPH<br>TYPE = HOSPITAL<br>LAT = 18.5366<br>LONG = -72.3275<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3275472222,18.53664444440001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL SAINT JOSEPH</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.536644</LAT>
+			<LONG>-72.327547</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL PEDIÁTRICO ESPOIR</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL PEDIÁTRICO ESPOIR<br>TYPE = HOSPITAL<br>LAT = 18.54<br>LONG = -72.2828<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.28277777779999,18.54,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL PEDIÁTRICO ESPOIR</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.54</LAT>
+			<LONG>-72.28277799999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL MÉDICOS SEM FRONTEIRAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL MÉDICOS SEM FRONTEIRAS<br>TYPE = HOSPITAL<br>LAT = 18.5814<br>LONG = -72.3271<br>LOCATION = PORT-AU-PRINCE<br>STREET = DROUILLARD<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3271416667,18.5813638889,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL MÉDICOS SEM FRONTEIRAS</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.581364</LAT>
+			<LONG>-72.32714199999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>DROUILLARD</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>MÉDICOS SEM FRONTEIRA</name>
+			<description><![CDATA[ID = 0<br>NAME = MÉDICOS SEM FRONTEIRA<br>TYPE = HOSPITAL<br>LAT = 18.5781<br>LONG = -72.3365<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3365472222,18.57813888890003,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>MÉDICOS SEM FRONTEIRA</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.578139</LAT>
+			<LONG>-72.336547</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>AV SOLEIL</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>MÉDICOS SEM FRONTEIRA</name>
+			<description><![CDATA[ID = 0<br>NAME = MÉDICOS SEM FRONTEIRA<br>TYPE = HOSPITAL<br>LAT = 18.5352<br>LONG = -72.3077<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.30775,18.53524444440001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>MÉDICOS SEM FRONTEIRA</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.535244</LAT>
+			<LONG>-72.30775</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5481<br>LONG = -72.3397<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.33972777779999,18.54809444439999,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>MEDICAL CENTER</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.548094</LAT>
+			<LONG>-72.33972799999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5604<br>LONG = -72.3419<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.34190555559998,18.56040833329998,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>MEDICAL CENTER</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.560408</LAT>
+			<LONG>-72.34190599999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>MEDICAL CENTER</name>
+			<description><![CDATA[ID = 0<br>NAME = MEDICAL CENTER<br>TYPE = HOSPITAL<br>LAT = 18.5349<br>LONG = -72.3426<br>LOCATION = PORT-AU-PRINCE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3425722222,18.53488611110002,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>MEDICAL CENTER</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.534886</LAT>
+			<LONG>-72.342572</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL MÉDICOS SEM FRONTEIRAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL MÉDICOS SEM FRONTEIRAS<br>TYPE = HOSPITAL<br>LAT = 18.574<br>LONG = -72.3283<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL - CITÉ SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3283,18.57402500000001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL MÉDICOS SEM FRONTEIRAS</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.574025</LAT>
+			<LONG>-72.3283</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>AV SOLEIL - CITÉ SOLEIL</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>Hospital Medecins Sans Frontieres</name>
+			<description><![CDATA[ID = 0<br>NAME = Hospital Medecins Sans Frontieres<br>TYPE = HOSPITAL<br>LAT = 18.5564<br>LONG = -72.3247<br>LOCATION = PORT-AU-PRINCE<br>STREET = Cruzamento da rua Delmas 18 com a Rte de Delmas<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3246666667,18.55641944440004,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>Hospital Medecins Sans Frontieres</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.556419</LAT>
+			<LONG>-72.32466700000001</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>Cruzamento da rua Delmas 18 com a Rte de Delmas</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL LA PROVIDENCE</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL LA PROVIDENCE<br>TYPE = HOSPITAL<br>LAT = 19.4461<br>LONG = -72.6843<br>LOCATION = GONAIVES<br>STREET = RUA C. IMBERT<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.68432777779999,19.44611944440003,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL LA PROVIDENCE</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>19.446119</LAT>
+			<LONG>-72.68432799999999</LONG>
+			<LOCATION>GONAIVES</LOCATION>
+			<STREET>RUA C. IMBERT</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL JUSTINIEN</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL JUSTINIEN<br>TYPE = HOSPITAL<br>LAT = 19.7323<br>LONG = -72.1857<br>LOCATION = CAP-HAITIEN<br>STREET = RUA 17 Q<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.18572499999999,19.73233333330001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL JUSTINIEN</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>19.732333</LAT>
+			<LONG>-72.18572500000001</LONG>
+			<LOCATION>CAP-HAITIEN</LOCATION>
+			<STREET>RUA 17 Q</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL IMACULEE CONCEPTION</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL IMACULEE CONCEPTION<br>TYPE = HOSPITAL<br>LAT = 18.1956<br>LONG = -73.7532<br>LOCATION = LES CAYES<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-73.75318611110001,18.19556666669998,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL IMACULEE CONCEPTION</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.195567</LAT>
+			<LONG>-73.753186</LONG>
+			<LOCATION>LES CAYES</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL FRANÇAIS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL FRANÇAIS<br>TYPE = HOSPITAL<br>LAT = 18.5387<br>LONG = -72.3444<br>LOCATION = PORT-AU-PRINCE<br>STREET = RUA DU CENTRE<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.34444999999998,18.53869166670002,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL FRANÇAIS</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.538692</LAT>
+			<LONG>-72.34444999999999</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>RUA DU CENTRE</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL DE SEG TRAB E MATERNIDADE OFATMA</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE SEG TRAB E MATERNIDADE OFATMA<br>TYPE = HOSPITAL<br>LAT = 18.5668<br>LONG = -72.3251<br>LOCATION = PORT-AU-PRINCE<br>STREET = R. ST FRANÇOIS<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3250972222,18.56680000000001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL DE SEG TRAB E MATERNIDADE OFATMA</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.5668</LAT>
+			<LONG>-72.325097</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>R. ST FRANÇOIS</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL DE LA COMUNINADE HAITIENE</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE LA COMUNINADE HAITIENE<br>TYPE = HOSPITAL<br>LAT = 18.5236<br>LONG = -72.2722<br>LOCATION = PORT-AU-PRINCE<br>STREET = Rua Audert - Tte de Freres<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.27222222219999,18.52361111110001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL DE LA COMUNINADE HAITIENE</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.523611</LAT>
+			<LONG>-72.272222</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>Rua Audert - Tte de Freres</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL DE BIENFAISANCE DE PIGNON</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DE BIENFAISANCE DE PIGNON<br>TYPE = HOSPITAL<br>LAT = 19.3377<br>LONG = -72.1185<br>LOCATION = PIGNON<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.1185,19.33772222220003,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL DE BIENFAISANCE DE PIGNON</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>19.337722</LAT>
+			<LONG>-72.1185</LONG>
+			<LOCATION>PIGNON</LOCATION>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL DA CRUZ VERMELHA</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL DA CRUZ VERMELHA<br>TYPE = HOSPITAL<br>LAT = 18.5735<br>LONG = -72.3287<br>LOCATION = PORT-AU-PRINCE<br>STREET = AV SOLEIL - CITÉ SOLEIL<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.32871111109998,18.57350277780001,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL DA CRUZ VERMELHA</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.573503</LAT>
+			<LONG>-72.328711</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>AV SOLEIL - CITÉ SOLEIL</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+			<name>HOSPITAL CARITAS</name>
+			<description><![CDATA[ID = 0<br>NAME = HOSPITAL CARITAS<br>TYPE = HOSPITAL<br>LAT = 18.5698<br>LONG = -72.3232<br>LOCATION = PORT-AU-PRINCE<br>STREET = CITÉ SIMON<br>SOURCE = UN/MINUSTAH<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy00</styleUrl>
+			<Point>
+				<coordinates>-72.3232277778,18.5697972222,0</coordinates>
+			</Point>
+			<ID>0</ID>
+			<NAME>HOSPITAL CARITAS</NAME>
+			<TYPE>HOSPITAL</TYPE>
+			<LAT>18.569797</LAT>
+			<LONG>-72.323228</LONG>
+			<LOCATION>PORT-AU-PRINCE</LOCATION>
+			<STREET>CITÉ SIMON</STREET>
+			<SOURCE>UN/MINUSTAH</SOURCE>
+		</S_XlHaPaupHealthFacilties_DSSSDDSSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL ADVENTIST</name>
+			<description><![CDATA[ID = 4<br>NAME = HOSPITAL ADVENTIST<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.38529252112389,18.52632277911754,0</coordinates>
+			</Point>
+			<ID>4</ID>
+			<NAME>HOSPITAL ADVENTIST</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>CENTRE DE SANTE DU PORTAIL LEOGANE</name>
+			<description><![CDATA[ID = 14<br>NAME = CENTRE DE SANTE DU PORTAIL LEOGANE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.3473197085885,18.53491721662553,0</coordinates>
+			</Point>
+			<ID>14</ID>
+			<NAME>CENTRE DE SANTE DU PORTAIL LEOGANE</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>SANATORIUM ANTITUBERCULEUX</name>
+			<description><![CDATA[ID = 15<br>NAME = SANATORIUM ANTITUBERCULEUX<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.34398583358542,18.52628518536747,0</coordinates>
+			</Point>
+			<ID>15</ID>
+			<NAME>SANATORIUM ANTITUBERCULEUX</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL DU CANAPE VERT</name>
+			<description><![CDATA[ID = 27<br>NAME = HOSPITAL DU CANAPE VERT<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.31647164605978,18.53319293537391,0</coordinates>
+			</Point>
+			<ID>27</ID>
+			<NAME>HOSPITAL DU CANAPE VERT</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL ST FRANCOIS DE SALES</name>
+			<description><![CDATA[ID = 38<br>NAME = HOSPITAL ST FRANCOIS DE SALES<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.34397992733541,18.53795468537833,0</coordinates>
+			</Point>
+			<ID>38</ID>
+			<NAME>HOSPITAL ST FRANCOIS DE SALES</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL DE LÉNIVERSITE DÏETAT DÏHAITI</name>
+			<description><![CDATA[ID = 48<br>NAME = HOSPITAL DE LÉNIVERSITE DÏETAT DÏHAITI<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.34023127108192,18.53928702912958,0</coordinates>
+			</Point>
+			<ID>48</ID>
+			<NAME>HOSPITAL DE LÉNIVERSITE DÏETAT DÏHAITI</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>LABORATOIRE RADIOLOGIQUE</name>
+			<description><![CDATA[ID = 51<br>NAME = LABORATOIRE RADIOLOGIQUE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.33830336483011,18.5399239666302,0</coordinates>
+			</Point>
+			<ID>51</ID>
+			<NAME>LABORATOIRE RADIOLOGIQUE</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL MILITAIRE</name>
+			<description><![CDATA[ID = 54<br>NAME = HOSPITAL MILITAIRE<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.33875914608053,18.54079068538101,0</coordinates>
+			</Point>
+			<ID>54</ID>
+			<NAME>HOSPITAL MILITAIRE</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>CROIX ROUGE HAITIENNE</name>
+			<description><![CDATA[ID = 80<br>NAME = CROIX ROUGE HAITIENNE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.34732186483852,18.54967637288927,0</coordinates>
+			</Point>
+			<ID>80</ID>
+			<NAME>CROIX ROUGE HAITIENNE</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>CENTRE DE SANTE DE LA CATHEDRALE</name>
+			<description><![CDATA[ID = 93<br>NAME = CENTRE DE SANTE DE LA CATHEDRALE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.339265427331,18.54847302913815,0</coordinates>
+			</Point>
+			<ID>93</ID>
+			<NAME>CENTRE DE SANTE DE LA CATHEDRALE</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>GRACE CHILDRENÏS HOSPITAL</name>
+			<description><![CDATA[ID = 109<br>NAME = GRACE CHILDRENÏS HOSPITAL<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.30156333354591,18.55985465414877,0</coordinates>
+			</Point>
+			<ID>109</ID>
+			<NAME>GRACE CHILDRENÏS HOSPITAL</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>CENTRE DÏHYGIENE DE LA SALINE</name>
+			<description><![CDATA[ID = 120<br>NAME = CENTRE DÏHYGIENE DE LA SALINE<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.34131783358293,18.56048481039931,0</coordinates>
+			</Point>
+			<ID>120</ID>
+			<NAME>CENTRE DÏHYGIENE DE LA SALINE</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>MATERNITE ISAIE JEANTY</name>
+			<description><![CDATA[ID = 124<br>NAME = MATERNITE ISAIE JEANTY<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.33597942732796,18.56443693540301,0</coordinates>
+			</Point>
+			<ID>124</ID>
+			<NAME>MATERNITE ISAIE JEANTY</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>HOSPITAL IDASH</name>
+			<description><![CDATA[ID = 128<br>NAME = HOSPITAL IDASH<br>TYPE = HOSPITAL<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.32493870856769,18.56705590415544,0</coordinates>
+			</Point>
+			<ID>128</ID>
+			<NAME>HOSPITAL IDASH</NAME>
+			<TYPE>HOSPITAL</TYPE>
+		</S_PaupHospitals_ISSSS>
+		<S_PaupHospitals_ISSSS>
+			<name>CENTRE DE SANTE ELIAZER GERMAIN</name>
+			<description><![CDATA[ID = 148<br>NAME = CENTRE DE SANTE ELIAZER GERMAIN<br>TYPE = HEALTH SERVICES<br>]]></description>
+			<styleUrl>#default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22</styleUrl>
+			<Point>
+				<coordinates>-72.28896223978418,18.5170693416089,0</coordinates>
+			</Point>
+			<ID>148</ID>
+			<NAME>CENTRE DE SANTE ELIAZER GERMAIN</NAME>
+			<TYPE>HEALTH SERVICES</TYPE>
+		</S_PaupHospitals_ISSSS>
+	</Folder>
+</Document>
+</kml>

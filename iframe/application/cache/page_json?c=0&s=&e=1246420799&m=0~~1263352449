@@ -1,0 +1,4 @@
+1f114b9ebc40e5afd44f04a5cd137255cca2422b{"type": "FeatureCollection","features": [{"type":"Feature","properties": {"id": "1", 
+"name":"<a href='http://haiti.ushahidi.com/reports/view/1'>Hello Ushahidi!</a>","category":[0], "color": "CC0000", 
+"icon": "", 
+"timestamp": "1246381200"},"geometry": {"type":"Point", "coordinates":[36.821451182008, -1.287300070705]}}]}

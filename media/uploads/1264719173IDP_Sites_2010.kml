@@ -1,0 +1,6277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="IDP_Sites_2010">
+	<name>IDP_Sites_2010</name>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="IconStyle00">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahididev.com/media/uploads/icon-idp-sites.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>IDP_Sites_2010</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331435,18.543979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330685,18.553659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30804999999999,18.584275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30417300000001,18.543968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32154,18.550355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32674900000001,18.549937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328373,18.54806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.311308,18.546556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.309139,18.544538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307311,18.523892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33239,18.525116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33421300000001,18.526657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306476,18.532413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316419,18.535203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31958,18.543846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32272399999999,18.546087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.343598,18.542235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.340456,18.535008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28937999999999,18.563719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34066199999999,18.543233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.340689,18.542533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33902999999999,18.53823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334773,18.546849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29786799999999,18.569011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32129399999999,18.57034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30163899999999,18.584887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332239,18.523685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33519699999999,18.525312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33804000000001,18.530412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.355555,18.531921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3665,18.534204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337716,18.557242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34325200000001,18.523267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33799999999999,18.5448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33299100000001,18.551293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33683499999999,18.540557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336969,18.555692,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337526,18.554753,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333943,18.55665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316338,18.532594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31264400000001,18.527797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333983,18.538521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.348339,18.538133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.342527,18.536103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.367711,18.524986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39278299999999,18.536431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.420207,18.531207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.423113,18.535204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.378045,18.521569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.384866,18.527095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.391368,18.541001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38339999999999,18.526255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38433000000001,18.52696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392771,18.535518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.35769000000001,18.532839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39242,18.535286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.371756,18.520035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.405467,18.537383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.292675,18.515903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316891,18.52725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36519699999999,18.524992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.300191,18.530901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.313434,18.529087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.284578,18.525705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29230699999999,18.532043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28693699999999,18.510595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.292666,18.5306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.282326,18.512523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.317346,18.527709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29679899999999,18.518832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40945499999999,18.549235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.431248,18.54046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.408518,18.548578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.301314,18.53837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43447399999999,18.53635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346608,18.521229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.406949,18.541604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.350702,18.526394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338791,18.530512,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33528099999999,18.5627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.315135,18.562755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32805500000001,18.560393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.321668,18.558479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.320453,18.564931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33623900000001,18.560333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.293426,18.565177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33087999999999,18.560458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29631000000001,18.566854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.303527,18.565921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29840799999999,18.574058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.291127,18.572095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.289993,18.570076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324245,18.570715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.288021,18.569605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36774800000001,18.521309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28242400000001,18.563195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.287515,18.565633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28188,18.566538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.285105,18.560274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323345,18.527953,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.297735,18.562718,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28631,18.565657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31366,18.541148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31418600000001,18.542151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31063399999999,18.542309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.298188,18.557589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30043999999999,18.560314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.299899,18.557365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328447,18.555189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.279522,18.529135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.281786,18.529587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27892900000001,18.532812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329949,18.558277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330271,18.551103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.301481,18.554661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30183599999999,18.526335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29469400000001,18.546814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.286446,18.529742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28597000000001,18.528938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28537,18.528127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323441,18.565725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31771000000001,18.552975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323671,18.553483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.300042,18.542791,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328875,18.542977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322086,18.554391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29449700000001,18.560434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.400555,18.543831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.312054,18.548214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310148,18.547654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.286692,18.563991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31188400000001,18.547845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31582400000001,18.549175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.317001,18.541793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.318775,18.538757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.404916,18.52935,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40514,18.528706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.401554,18.545744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.410809,18.534931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.411655,18.534729,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.393517,18.541048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.391724,18.539498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40790800000001,18.548145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38112099999999,18.528213,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38816199999999,18.522447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.397408,18.523091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.400683,18.526496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.399156,18.524432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40205,18.523366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IDP</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335998,18.541349,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27767900000001,18.519186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.292143,18.538572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62682,18.507364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62840199999999,18.508236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.622927,18.513738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.532158,18.540062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.58731299999999,18.4906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61664500000001,18.510194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.53343,18.539429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40566800000001,18.536416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392781,18.537731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.42279499999999,18.544847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.420267,18.541574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41896699999999,18.548355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.380487,18.53276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.367909,18.534612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.364099,18.53148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33619,18.561915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322757,18.56837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.311324,18.523063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31297600000001,18.549829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26868399999999,18.577784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329579,18.553584,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30597,18.583226,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338114,18.54433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33604099999999,18.54297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335802,18.543464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338893,18.544495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28716300000001,18.528031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28514800000001,18.528856,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.286843,18.530652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.287741,18.529869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.288011,18.531442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28856399999999,18.530911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28902600000001,18.529024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28934,18.529602,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.289782,18.529439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.281677,18.530165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30765,18.594576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27529,18.591515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.263344,18.599712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.269013,18.599314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.270116,18.597898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.269555,18.597456,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.290796,18.516341,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25351000000001,18.581682,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27418299999999,18.597403,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.279517,18.593109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.278595,18.515176,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28028500000001,18.593109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.283644,18.55459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28200099999999,18.597535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.290798,18.561989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31435,18.562453,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28668,18.513637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.255678,18.58173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336028,18.561955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33013099999999,18.550625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.278273,18.515604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31236,18.545428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31112400000001,18.541576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335982,18.54044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29641100000001,18.565826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307677,18.585525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.282827,18.525925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327333,18.561042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310407,18.541759,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33873800000001,18.55716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33834299999999,18.528714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337233,18.54166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.276177,18.510381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.308194,18.546566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.300017,18.537516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32579699999999,18.559862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32519600000001,18.561758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306076,18.586163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.295923,18.566591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324164,18.560714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334598,18.539785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31138300000001,18.540842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339889,18.540079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332093,18.560629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31994899999999,18.563311,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323825,18.560007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332832,18.550891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335176,18.544457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323728,18.565281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336569,18.529345,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325552,18.560815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.291299,18.561616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.293103,18.570733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30198300000001,18.565111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.320819,18.567409,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27522999999999,18.512848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.295351,18.517043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32968099999999,18.550288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330414,18.54984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330314,18.554014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330816,18.554159,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33228699999999,18.55098,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33290700000001,18.551638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333854,18.552199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325774,18.548485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31796300000001,18.546563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32123,18.545489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322481,18.546014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32331000000001,18.546253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325462,18.545232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325222,18.545105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.321797,18.539284,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33326,18.530282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30255,18.55533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.303048,18.555719,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.311103,18.562474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.309014,18.564213,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307266,18.56534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30667,18.566651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30595700000001,18.563968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305065,18.56426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.304547,18.564176,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306383,18.563161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30588299999999,18.56306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.312337,18.556327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316368,18.553274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.314905,18.553808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31403,18.555293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31844599999999,18.556106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.318175,18.552163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.315382,18.548097,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31525000000001,18.548651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31446699999999,18.548674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.314644,18.549063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316802,18.550239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323267,18.55175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32623100000001,18.552481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326477,18.552703,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325999,18.552684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32655,18.553255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325714,18.553239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32940499999999,18.55307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328529,18.552609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332505,18.552013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33407099999999,18.552461,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334439,18.551505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33066599999999,18.549486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33031200000001,18.549278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335804,18.525293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33605,18.525133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33565400000001,18.525165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33587199999999,18.524898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335536,18.524904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33551,18.524599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336624,18.525046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336956,18.525419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337655,18.525378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337811,18.525795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337841,18.525041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338545,18.524525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.342692,18.526275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33260799999999,18.547254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33252400000001,18.546647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330078,18.551998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32970400000001,18.55305,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330033,18.552577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332522,18.552418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33251300000001,18.552823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332195,18.552221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331903,18.552134,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331405,18.552204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331794,18.552021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33166900000001,18.552435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33283400000001,18.553266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33447,18.553242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335403,18.553993,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335549,18.554247,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33545599999999,18.55449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33453799999999,18.553652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335778,18.555004,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336073,18.554572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337636,18.556248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.341184,18.557386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339989,18.559106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334039,18.56234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33192,18.526515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330772,18.528261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326922,18.537364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326441,18.537628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330915,18.541455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33031699999999,18.542716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33229300000001,18.541375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332179,18.541535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330107,18.556284,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330215,18.556581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330101,18.55707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33185,18.556762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34074200000001,18.537587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337118,18.537293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33795600000001,18.5371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33729700000001,18.53626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.336771,18.537858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33225400000001,18.525722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33040699999999,18.524641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32933300000001,18.525674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329446,18.526746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.321354,18.538549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322975,18.539577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322512,18.540332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.322794,18.540818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323475,18.541485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32544,18.542035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325157,18.54251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32547599999999,18.542457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326927,18.541278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32664,18.543841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327029,18.54313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327252,18.543887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31859799999999,18.547715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31976400000001,18.547781,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.319281,18.550759,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.321028,18.552954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.321364,18.553054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31818699999999,18.556464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31630800000001,18.55486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31756900000001,18.555306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32486,18.555547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326013,18.555826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32504299999999,18.554179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.323966,18.555173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325187,18.551434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32468,18.551508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324893,18.551491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328468,18.550748,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328236,18.550632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327957,18.549273,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328013,18.549892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328216,18.551241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32817300000001,18.550997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327202,18.552116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33318300000001,18.554323,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333212,18.555133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333247,18.554839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332838,18.554958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331717,18.554972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30592900000001,18.56342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332572,18.555634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305226,18.562959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.308347,18.562975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305119,18.562653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30726900000001,18.562079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.308662,18.562543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332392,18.554896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30693100000001,18.56273,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33144799999999,18.554375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306646,18.560809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306026,18.565255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.333376,18.557693,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33287,18.557378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33302,18.560158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.302119,18.562207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.302796,18.562243,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30203,18.561058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30167400000001,18.561714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.303478,18.563211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.304433,18.562992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.303952,18.562794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305813,18.561642,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307704,18.560766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.309011,18.561413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.314234,18.559082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316275,18.560001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.315404,18.56016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.315234,18.561327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.318095,18.560761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326949,18.562377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.319874,18.562182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.320094,18.562573,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.320127,18.562281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.319886,18.560131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32006199999999,18.559972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32006199999999,18.560289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.319851,18.560351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32035500000001,18.560507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32183499999999,18.560205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32207099999999,18.56024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32520599999999,18.562431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325307,18.563792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325542,18.563694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324648,18.564848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.324259,18.566026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32863,18.562746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329657,18.561834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329548,18.562184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32934299999999,18.56257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32812,18.561762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327823,18.556997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307427,18.551422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305988,18.551987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305639,18.548664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310683,18.554563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31229999999999,18.556767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310866,18.55933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31154600000001,18.560536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.311015,18.561545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.311655,18.56153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.312517,18.562264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.312933,18.562561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.314404,18.560232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316642,18.55851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.318021,18.558877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.317089,18.559465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316946,18.559812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.316802,18.560208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.314905,18.557307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31452,18.556713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31406699999999,18.556793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31357300000001,18.556115,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31385299999999,18.554478,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31005999999999,18.548556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306575,18.540786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305916,18.540381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306135,18.540561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305775,18.540745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.305244,18.540607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31070699999999,18.542645,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310759,18.543087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.310828,18.543466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.308194,18.544241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.307829,18.544516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.295412,18.544447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.292716,18.542082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.291186,18.541787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.290972,18.541991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.29017,18.54244,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.289851,18.543691,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.290593,18.544374,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28841300000001,18.539242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28787199999999,18.538829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28143799999999,18.524354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.280815,18.523232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27985099999999,18.521447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27982299999999,18.520925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.279141,18.518989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27859100000001,18.518333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.277,18.516009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.276701,18.515785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.275014,18.508867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27502,18.507618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.267161,18.508642,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.264892,18.514713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.264089,18.516266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26482300000001,18.516772,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.262947,18.518504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.262552,18.518061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26419199999999,18.520829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26869499999999,18.520302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26890400000001,18.519891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26931399999999,18.519245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.269021,18.518626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.269637,18.518484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27073799999999,18.511218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.272881,18.509395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.24856,18.519206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.248452,18.518288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.250067,18.511612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25069499999999,18.511403,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26180600000001,18.566128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26548200000001,18.574318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.256663,18.564278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.23700100000001,18.555838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.23703399999999,18.555322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.23737199999999,18.555665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.237047,18.556439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.236242,18.55524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.22346,18.573324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.23012900000001,18.523829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.241625,18.519741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25197799999999,18.518417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.254591,18.519194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.257329,18.521833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.401904,18.53968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25684800000001,18.522025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.261124,18.520924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346969,18.543086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.261516,18.516762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.261453,18.608647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.262683,18.608355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.26432699999999,18.60491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.257729,18.598437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.415654,18.533167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.639926,18.519442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.639448,18.513664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.633897,18.511154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.626825,18.507471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62869000000001,18.508408,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62750800000001,18.506303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.616715,18.510365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61610899999999,18.511207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.613787,18.51504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61053,18.515484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.610699,18.517424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615116,18.519926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61693,18.501006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615495,18.50132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623356,18.510156,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.624892,18.509597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62388,18.509669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.620611,18.510485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.622091,18.51129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.621084,18.511885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623328,18.515488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623283,18.515972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.620541,18.5152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615527,18.511346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61706100000001,18.515258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61797900000001,18.515988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.618606,18.517103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.6187,18.518661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.617154,18.518514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61211400000001,18.520023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.599842,18.514049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.599997,18.512863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.60354700000001,18.518465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.602531,18.520319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.60218399999999,18.519447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.595032,18.519095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.594531,18.520553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.593806,18.520837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.592804,18.521869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.59598,18.522628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.587312,18.524623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.587233,18.522311,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.568607,18.540094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.56669100000001,18.541636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.55836499999999,18.537138,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.555181,18.53808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.548196,18.534201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.53992700000001,18.531956,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.54071399999999,18.533367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.532152,18.540223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.53230000000001,18.54118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.523489,18.538312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43182400000001,18.539521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.431302,18.540438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43666899999999,18.539706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43711999999999,18.539577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43527400000001,18.540854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.434477,18.536356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43524499999999,18.536616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.42285,18.544876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40889,18.548582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.406963,18.541683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.397346,18.545685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39277300000001,18.536352,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39318400000001,18.535868,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39281800000001,18.53547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392398,18.53527,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392983,18.53761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.391819,18.539444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39136499999999,18.541032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.380369,18.532756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.355559,18.531872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34832400000001,18.538264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346476,18.520146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34322400000001,18.523219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41774599999999,18.538083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36765800000001,18.524979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.363856,18.526597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.639926,18.519442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.639448,18.513664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.633897,18.511154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.626825,18.507471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62869000000001,18.508408,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62750800000001,18.506303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.616715,18.510365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61610899999999,18.511207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.613787,18.51504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61053,18.515484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.610699,18.517424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615116,18.519926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61693,18.501006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615495,18.50132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623356,18.510156,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.624892,18.509597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.62388,18.509669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.620611,18.510485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.622091,18.51129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.621084,18.511885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623328,18.515488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.623283,18.515972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.620541,18.5152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.615527,18.511346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61706100000001,18.515258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61797900000001,18.515988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.618606,18.517103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.6187,18.518661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.617154,18.518514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61211400000001,18.520023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.599842,18.514049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.599997,18.512863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.60354700000001,18.518465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.602531,18.520319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.60218399999999,18.519447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.595032,18.519095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.594531,18.520553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.593806,18.520837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.592804,18.521869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.59598,18.522628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.587312,18.524623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.587233,18.522311,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.568607,18.540094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.56669100000001,18.541636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.55836499999999,18.537138,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.555181,18.53808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.548196,18.534201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.53992700000001,18.531956,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.54071399999999,18.533367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.532152,18.540223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.53230000000001,18.54118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.523489,18.538312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43182400000001,18.539521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.431302,18.540438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43666899999999,18.539706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43711999999999,18.539577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43527400000001,18.540854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.434477,18.536356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.43524499999999,18.536616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.42285,18.544876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40889,18.548582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.406963,18.541683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.397346,18.545685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39277300000001,18.536352,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39318400000001,18.535868,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39281800000001,18.53547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392398,18.53527,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.392983,18.53761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.391819,18.539444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.39136499999999,18.541032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.380369,18.532756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.355559,18.531872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34832400000001,18.538264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.346476,18.520146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34322400000001,18.523219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41774599999999,18.538083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36765800000001,18.524979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NULL</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.363856,18.526597,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

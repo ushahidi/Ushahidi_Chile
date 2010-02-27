@@ -1,0 +1,729 @@
+ade5f54788299550eecd773a7973fa8966fecd6a<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>Haiti</title>
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/admin/all.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenLayers.js"></script>
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q" type="text/javascript"></script>
+<script type="text/javascript">
+			OpenLayers.ImgPath = 'http://haiti.ushahidi.com/media/img/openlayers/';
+			</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.form.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.hovertip-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery.hovertip-1.0.css" />
+<script type="text/javascript">
+		$(function() {
+			if($('.tooltip[title]') != null)
+			$('.tooltip[title]').hovertip();
+		});
+	</script><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/colorpicker.css" />
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/colorpicker.js"></script>
+	<script type="text/javascript" charset="utf-8">
+				// jQuery Textbox Hints Plugin
+		// Will move to separate file later or attach to forms plugin
+		jQuery.fn.hint = function (blurClass) {
+		  if (!blurClass) { 
+		    blurClass = 'texthint';
+		  }
+
+		  return this.each(function () {
+		    // get jQuery version of 'this'
+		    var $input = jQuery(this),
+
+		    // capture the rest of the variable to allow for reuse
+		      title = $input.attr('title'),
+		      $form = jQuery(this.form),
+		      $win = jQuery(window);
+
+		    function remove() {
+		      if ($input.val() === title && $input.hasClass(blurClass)) {
+		        $input.val('').removeClass(blurClass);
+		      }
+		    }
+
+		    // only apply logic if the element has the attribute
+		    if (title) { 
+		      // on blur, set value to title attr if text is blank
+		      $input.blur(function () {
+		        if (this.value === '') {
+		          $input.val(title).addClass(blurClass);
+		        }
+		      }).focus(remove).blur(); // now change all inputs to title
+
+		      // clear the pre-defined text when form is submitted
+		      $form.submit(remove);
+		      $win.unload(remove); // handles Firefox's autocomplete
+			  $(".btn_find").click(remove);
+		    }
+		  });
+		};
+
+		/* Dynamic categories */
+		$(document).ready(function() {
+			$('#category_add').hide();
+		    $('#add_new_category').click(function() { 
+		        var category_name = $("input#category_name").val();
+		        var category_description = $("input#category_description").val();
+		        var category_color = $("input#category_color").val();
+
+		        //trim the form fields
+                        //Removed ".toUpperCase()" from name and desc for Ticket #38
+		        category_name = category_name.replace(/^\s+|\s+$/g, '');
+		        category_description = category_description.replace(/^\s+|\s+$/g,'');
+		        category_color = category_color.replace(/^\s+|\s+$/g, '').toUpperCase();
+        
+		        if (!category_name || !category_description || !category_color) {
+		            alert("Please fill in all the fields");
+		            return false;
+		        }
+        
+		        //category_color = category_color.toUpperCase();
+
+		        re = new RegExp("[^ABCDEF0123456789]"); //Color values are in hex
+		        if (re.test(category_color) || category_color.length != 6) {
+		            alert("Please use the Color picker to help you choose a color");
+		            return false;
+		        }
+		
+				$.post("http://haiti.ushahidi.com/admin/reports/save_category/", { category_title: category_name, category_description: category_description, category_color: category_color },
+					function(data){
+						if ( data.status == 'saved')
+						{
+							// alert(category_name+" "+category_description+" "+category_color);
+					        $('#user_categories').append("<li><label><input type=\"checkbox\"name=\"incident_category[]\" value=\""+data.id+"\" class=\"check-box\" checked />"+category_name+"</label></li>");
+							$('#category_add').hide();
+						}
+						else
+						{
+							alert("Your submission had errors!!");
+						}
+					}, "json");
+		        return false; 
+		    });
+		}); 
+
+
+		// Date Picker JS
+		$(document).ready(function() {
+			$("#incident_date").datepicker({ 
+			    showOn: "both", 
+			    buttonImage: "http://haiti.ushahidi.com/media/img/icon-calendar.gif", 
+			    buttonImageOnly: true 
+			});
+		});
+		
+		function addFormField(div, field, hidden_id, field_type) {
+			var id = document.getElementById(hidden_id).value;
+			$("#" + div).append("<div class=\"row link-row second\" id=\"" + field + "_" + id + "\"><input type=\"" + field_type + "\" name=\"" + field + "[]\" class=\"" + field_type + " long\" /><a href=\"#\" class=\"add\" onClick=\"addFormField('" + div + "','" + field + "','" + hidden_id + "','" + field_type + "'); return false;\">add</a><a href=\"#\" class=\"rem\"  onClick='removeFormField(\"#" + field + "_" + id + "\"); return false;'>remove</a></div>");
+
+			$("#" + field + "_" + id).effect("highlight", {}, 800);
+
+			id = (id - 1) + 2;
+			document.getElementById(hidden_id).value = id;
+		}
+
+		function removeFormField(id) {
+			var answer = confirm("Are You Sure You Want To Delete This Item?");
+		    if (answer){
+				$(id).remove();
+		    }
+			else{
+				return false;
+		    }
+		}
+		
+		function deletePhoto (id, div)
+		{
+			var answer = confirm("Are You Sure You Want To Delete This Photo?");
+		    if (answer){
+				$("#" + div).effect("highlight", {}, 800);
+				$.get("http://haiti.ushahidi.com/admin/reports/deletePhoto/" + id);
+				$("#" + div).remove();
+		    }
+			else{
+				return false;
+		    }
+		}
+		
+		$(document).ready(function() {
+			var map;
+			var thisLayer;
+			var proj_4326 = new OpenLayers.Projection('EPSG:4326');
+			var proj_900913 = new OpenLayers.Projection('EPSG:900913');
+			
+			// Now initialise the map
+			var options = {
+			units: "m"
+			, numZoomLevels: 16
+			, controls:[],
+			projection: proj_900913,
+			'displayProjection': proj_4326
+			};
+			map = new OpenLayers.Map('divMap', options);
+			var default_map = 1;
+			if (default_map == 2)
+			{
+				map_layer = new OpenLayers.Layer.VirtualEarth("virtualearth", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 3)
+			{
+				map_layer = new OpenLayers.Layer.Yahoo("yahoo", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 4)
+			{
+				map_layer = new OpenLayers.Layer.OSM.Mapnik("openstreetmap", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else
+			{
+				map_layer = new OpenLayers.Layer.Google("google", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			
+			map.addLayer(map_layer);
+			
+			map.addControl(new OpenLayers.Control.Navigation());
+			map.addControl(new OpenLayers.Control.PanZoomBar());
+			map.addControl(new OpenLayers.Control.MousePosition());
+			
+			// Create the markers layer
+			var markers = new OpenLayers.Layer.Markers("Markers");
+			map.addLayer(markers);
+			
+			// create a lat/lon object
+			var myPoint = new OpenLayers.LonLat(-72.336408, 18.539269);
+			myPoint.transform(proj_4326, map.getProjectionObject());
+			
+			// create a marker positioned at a lon/lat
+			var marker = new OpenLayers.Marker(myPoint);
+			markers.addMarker(marker);
+			
+			// display the map centered on a latitude and longitude (Google zoom levels)
+			map.setCenter(myPoint, 9);
+			
+			// Detect Map Clicks
+			map.events.register("click", map, function(e){
+				var lonlat = map.getLonLatFromViewPortPx(e.xy);
+				var lonlat2 = map.getLonLatFromViewPortPx(e.xy);
+			    m = new OpenLayers.Marker(lonlat);
+				markers.clearMarkers();
+		    	markers.addMarker(m);
+				
+				lonlat2.transform(proj_900913,proj_4326);	
+				// Update form values (jQuery)
+				$("#latitude").attr("value", lonlat2.lat);
+				$("#longitude").attr("value", lonlat2.lon);
+			});
+			
+			/* 
+			Google GeoCoder
+			TODO - Add Yahoo and Bing Geocoding Services
+			 */
+			$('.btn_find').live('click', function () {
+				address = $("#location_find").val();
+				if ( typeof GBrowserIsCompatible == 'undefined' ) {
+					alert('GeoCoding is only currently supported by Google Maps.\n\nPlease pinpoint the location on the map\nusing your mouse.');
+				} else {
+					var geocoder = new GClientGeocoder();
+					if (geocoder) {
+						$('#find_loading').html('<img src="http://haiti.ushahidi.com/media/img/loading_g.gif">');
+						geocoder.getLatLng(
+							address,
+							function(point) {
+								if (!point) {
+									alert(address + " not found!\n\n***************************\nFind a city or town close by and zoom in\nto find your precise location");
+									$('#find_loading').html('');
+								} else {
+									var lonlat = new OpenLayers.LonLat(point.lng(), point.lat());
+									lonlat.transform(proj_4326,proj_900913);
+								
+									m = new OpenLayers.Marker(lonlat);
+									markers.clearMarkers();
+							    	markers.addMarker(m);
+									map.setCenter(lonlat, 9);
+								
+									// Update form values (jQuery)
+									$("#latitude").attr("value", point.lat());
+									$("#longitude").attr("value", point.lng());
+									$("#location_name").attr("value", $("#location_find").val());
+									$('#find_loading').html('');
+								}
+							}
+						);
+					}
+				}
+				return false;
+			});
+			
+			// Event on Latitude/Longitude Typing Change
+			$('#latitude, #longitude').bind("change keyup", function() {
+				var newlat = $("#latitude").val();
+				var newlon = $("#longitude").val();
+				if (!isNaN(newlat) && !isNaN(newlon))
+				{
+					var lonlat = new OpenLayers.LonLat(newlon, newlat);
+					m = new OpenLayers.Marker(lonlat);
+					markers.clearMarkers();
+			    	markers.addMarker(m);
+					map.setCenter(lonlat, 9);
+				}
+				else
+				{
+					alert('Invalid value!')
+				}
+			});
+			
+			
+			/* Form Actions */
+			// Action on Save Only
+			$('.btn_save').live('click', function () {
+				$("#save").attr("value", "1");
+				$(this).parents("form").submit();
+				return false;
+			});
+			
+			$('.btn_save_close').live('click', function () {
+				$(this).parents("form").submit();
+				return false;
+			});
+			
+			// Delete Action
+			$('.btn_delete').live('click', function () {
+				var agree=confirm("Are You Sure You Want To DELETE item?");
+				if (agree){
+					$('#reportMain').submit();
+				}
+				return false;
+			});
+			
+			// Prevent Enter Button Submit
+			$("#reportForm").bind("keypress", function(e) {
+				if (e.keyCode == 13) return false;
+			});
+			
+			// Toggle Date Editor
+			$('a#date_toggle').click(function() {
+		    	$('#datetime_edit').show(400);
+				$('#datetime_default').hide();
+		    	return false;
+			});
+			
+			// Show Messages Box
+		    $('a#messages_toggle').click(function() {
+		    	$('#show_messages').toggle(400);
+		    	return false;
+			});
+			
+			// Textbox Hints
+			$("#location_find").hint();
+		});
+		
+		function formSwitch(form_id, incident_id)
+		{
+			var answer = confirm('Are You Sure You Want To SWITCH Forms?');
+			if (answer){
+				$('#form_loader').html('<img src="http://haiti.ushahidi.com/media/img/loading_g.gif">');
+				$.post("http://haiti.ushahidi.com/admin/reports/switch_form", { form_id: form_id, incident_id: incident_id },
+					function(data){
+						if (data.status == 'success'){
+							$('#custom_forms').html('');
+							$('#custom_forms').html(unescape(data.response));
+							$('#form_loader').html('');
+						}
+				  	}, "json");
+			}
+		}
+		function info_search(){
+			$("#info-search").submit();
+		}
+	</script>
+</head>
+<body>
+	<div class="holder">
+		<!-- header -->
+		<div id="header">
+			<!-- top-area -->
+			<div class="top">
+				<strong>Moderator</strong>
+				<ul>
+					<li class="none-separator"> Welcome, Administrator!</li>
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/" title="View the home page">
+						View Site</a>					
+					<li class="none-separator"><a href="http://haiti.ushahidi.com/admin/profile/">My Profile</a></li>
+					<li><a href="log_out">Logout</a></li>
+				</ul>
+                        </div>
+                        
+			<!-- info-nav -->
+			<div class="info-nav">
+				<h3>Get Help</h3>
+				<ul>
+					<li ><a href="http://wiki.ushahididev.com/">Wiki</a></li>
+					<li><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha">FAQ's</a></li>
+					<li><a href="http://forums.ushahidi.com/">Forum</a></li>
+				</ul>
+				<div class="info-search"><form action="http://haiti.ushahidi.com/admin/reports" id="info-search"><input type="text" name="k" class="info-keyword" value=""> <a href="javascript:info_search();" class="btn">Search</a></form></div>
+				<div style="clear:both"></div>
+			</div>
+			<!-- title -->
+			<h1>Haiti</h1>
+			<!-- nav-holder -->
+			<div class="nav-holder">
+				<!-- main-nav -->
+				<ul class="main-nav">
+					<li><a href="http://haiti.ushahidi.com/admin/dashboard" >
+						Dashboard						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/reports" class="active">
+						Reports						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/comments" >
+						Comments						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/messages" >
+						Messages						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/feedback" >
+						Feedback						</a></li>
+					<li><a href="http://haiti.ushahidi.com/admin/stats" >
+						Stats						</a></li>
+				</ul>
+				<!-- sub-nav -->
+				<ul class="sub-nav">
+											<li><a href="http://haiti.ushahidi.com/admin/settings/site">Settings</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/manage">Manage</a></li>
+						<li><a href="http://haiti.ushahidi.com/admin/users">Users</a></li>
+									</ul>
+			</div>
+		</div>
+		<!-- content -->
+		<div id="content">
+			<div class="bg">
+							<div class="bg">
+				<h2>Create A Report <span></span><a href="http://haiti.ushahidi.com/admin/reports">View Reports</a><a href="http://haiti.ushahidi.com/admin/reports/download">Download Reports</a><a href="http://haiti.ushahidi.com/admin/reports/upload">Upload Reports</a></h2>
+				<form action="http://haiti.ushahidi.com/admin/reports/edit/3/saved" method="post" id="reportForm" name="reportForm" enctype="multipart/form-data">
+					<input type="hidden" name="save" id="save" value="">
+					<input type="hidden" name="location_id" id="location_id" value="13">
+					<!-- report-form -->
+					<div class="report-form">
+													<!-- green-box -->
+							<div class="green-box">
+								<h3>Your Report Has Been Saved!</h3>
+							</div>
+												<div class="head">
+							<h3>Edit Report</h3>
+							<div class="btns" style="float:right;">
+								<ul>
+									<li><a href="#" class="btn_save">SAVE REPORT</a></li>
+									<li><a href="#" class="btn_save_close">SAVE & CLOSE</a></li>
+									<li><a href="http://haiti.ushahidi.com/admin/reports/" class="btns_red">CANCEL</a>&nbsp;&nbsp;&nbsp;</li>
+																		<li><a href="http://haiti.ushahidi.com/admin/reports/edit/2" class="btns_gray">&laquo; PREVIOUS</a></li>
+									<li><a href="http://haiti.ushahidi.com/admin/reports/" class="btns_gray">NEXT &raquo;</a></li>
+																	</ul>
+							</div>
+						</div>
+						<!-- f-col -->
+						<div class="f-col">
+														<div class="row">
+								<h4>Form <span>(Select A Form Type)</span></h4>
+								<span class="sel-holder">
+									<select id="form_id" name="form_id"  onchange="formSwitch(this.options[this.selectedIndex].value, '3')">
+<option value="1" selected="selected">Default Form</option>
+</select>								</span>
+								<div id="form_loader" style="float:left;"></div>
+							</div>
+							<div class="row">
+								<h4>Item Title</h4>
+								<input type="text" id="incident_title" name="incident_title" value="test building"  class="text title" />							</div>
+							<div class="row">
+								<h4>Description <span>Please include as much detail as possible.</span></h4>
+								<textarea id="incident_description" name="incident_description"  rows="12" cols="40">testing</textarea>							</div>
+														<div class="row  " id="datetime_edit">
+								<div class="date-box">
+									<h4>Date <span>(mm/dd/yyyy)</span></h4>
+									<input type="text" id="incident_date" name="incident_date" value="01/12/2010"  class="text" />								
+									<script type="text/javascript">
+				$(document).ready(function() {
+				$("#incident_date").datepicker({ 
+				showOn: "both", 
+				buttonImage: "http://haiti.ushahidi.com/media/img/icon-calendar.gif", 
+				buttonImageOnly: true 
+				});
+				});
+			</script>				    
+								</div>
+								<div class="time">
+									<h4>Time <span>(Approximate)</span></h4>
+									<span class="sel-holder"><select id="incident_hour" name="incident_hour" >
+<option value="01" selected="selected">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select></span><span class="dots">:</span><span class="sel-holder"><select id="incident_minute" name="incident_minute" >
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53" selected="selected">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select></span><span class="dots">:</span><span class="sel-holder"><select id="incident_ampm" name="incident_ampm" >
+<option value="pm">pm</option>
+<option value="am">am</option>
+</select></span>								</div>
+							</div>
+							<div class="row">
+								<h4><a href="#" id="category_toggle" class="new-cat">new category</a>Categories 
+								<span>Select as many as needed.</span></h4>
+								<script type="text/javascript">
+			    $(document).ready(function() {
+			    $('a#category_toggle').click(function() {
+			    $('#category_add').toggle(400);
+			    return false;
+				});
+				});
+			</script>								<!--category_add form goes here-->
+			                    <div id="category_add" class="category_add">
+			                        <p>Add New Category<hr/></p><label id="category_name_label" for="category_name" >Name</label><br/><input type="text" id="category_name" name="category_name" value="" class="" /><br/><label id="description_label" for="description" >Description</label><br/><input type="text" id="category_description" name="category_description" value="" class="" /><br/><label id="color_label" for="color" >Color</label><br/><input type="text" id="category_color" name="category_color" value="" class="" /><script type="text/javascript">
+				$(document).ready(function() {
+                $('#category_color').ColorPicker({
+                        onSubmit: function(hsb, hex, rgb) {
+                            $('#category_color').val(hex);
+                        },
+                        onChange: function(hsb, hex, rgb) {
+                            $('#category_color').val(hex);
+                        },
+                        onBeforeShow: function () {
+                            $(this).ColorPickerSetColor(this.value);
+                        }
+                    })
+                .bind('keyup', function(){
+                    $(this).ColorPickerSetColor(this.value);
+                });
+				});
+            </script><br/><span><a href="#" id="add_new_category">Add</a></span> 
+                                </div>
+
+			                    <div class="category">
+                        	    <ul><li><label><input type="checkbox" name="incident_category[]" value="1"  class="check-box" />Non-passable road</label></li><li><label><input type="checkbox" name="incident_category[]" value="2"  class="check-box" />WATER SHORTAGE</label></li><li><label><input type="checkbox" name="incident_category[]" value="4"  class="check-box" />Gathering Place</label></li><li><label><input type="checkbox" name="incident_category[]" value="7"  class="check-box" />RESPONSE EFFORTS</label></li></ul>
+<ul><li><label><input type="checkbox" name="incident_category[]" value="8"  class="check-box" />LOOTING</label></li><li><label><input type="checkbox" name="incident_category[]" value="10"  class="check-box" />Hospital</label></li><li><label><input type="checkbox" name="incident_category[]" value="11"  class="check-box" />Power Available</label></li><li><label><input type="checkbox" name="incident_category[]" value="12" checked="checked"  class="check-box" />Building Damage</label></li></ul>
+			                        <ul id="user_categories">
+			                        </ul>
+								</div>
+							</div>
+							<div id="custom_forms">
+															</div>			
+						</div>
+						<!-- f-col-1 -->
+						<div class="f-col-1">
+							<div class="incident-location">
+								<h4>Incident Location</h4>
+								<div class="location-info">
+									<span>Latitude:</span>
+									<input type="text" id="latitude" name="latitude" value="18.539269"  class="text" />									<span>Longitude:</span>
+									<input type="text" id="longitude" name="longitude" value="-72.336408"  class="text" />								</div>
+								<div id="divMap" class="map_holder_reports"></div>
+							</div>
+							<div class="incident-find-location">
+								<input type="text" id="location_find" name="location_find" value=""  title="City, State and/or Country" class="findtext" />								<div class="btns" style="float:left;">
+									<ul>
+										<li><a href="#" class="btn_find">FIND LOCATION</a></li>
+									</ul>
+								</div>
+								<div id="find_loading" class="incident-find-loading"></div>
+								<div style="clear:both;">* If you can't find your location, please click on the map to pinpoint the correct location.</div>
+							</div>
+							<div class="row">
+								<div class="town">
+									<h4>Refine Your Location Name <br /><span>Examples: Johannesburg, Corner City Market, 5th Street & 4th Avenue</span></h4>
+									<input type="text" id="location_name" name="location_name" value="port-au-prince"  class="text long" />								</div>
+							</div>
+				
+				
+							<!-- News Fields -->
+							<div class="row link-row">
+								<h4>News Source Link</h4>
+							</div>
+							<div id="divNews">
+								<div class="row link-row"><input type="text" name="incident_news[]" value=""  class="text long" /><a href="#" class="add" onClick="addFormField('divNews','incident_news','news_id','text'); return false;">add</a></div><input type="hidden" name="news_id" value="1" id="news_id">							</div>
+
+
+							<!-- Video Fields -->
+							<div class="row link-row">
+								<h4>Video Link</h4>
+							</div>
+							<div id="divVideo">
+								<div class="row link-row"><input type="text" name="incident_video[]" value=""  class="text long" /><a href="#" class="add" onClick="addFormField('divVideo','incident_video','video_id','text'); return false;">add</a></div><input type="hidden" name="video_id" value="1" id="video_id">							</div>
+				
+				
+							<!-- Photo Fields -->
+							<div class="row link-row">
+								<h4>Upload Photos</h4>
+															</div>
+							<div id="divPhoto">
+								<div class="row link-row"><input type="file" name="incident_photo[]" value=""  class="text long" /><a href="#" class="add" onClick="addFormField('divPhoto','incident_photo','photo_id','file'); return false;">add</a></div><input type="hidden" name="photo_id" value="1" id="photo_id">							</div>
+						</div>
+						<!-- f-col-bottom -->
+						<div class="f-col-bottom-container">
+							<div class="f-col-bottom">
+								<div class="row">
+									<h4>Personal Information <span>Optional.</span></h4>
+									<label>
+										<span>First Name</span>
+										<input type="text" id="person_first" name="person_first" value=""  class="text" />									</label>
+									<label>
+										<span>Last Name</span>
+										<input type="text" id="person_last" name="person_last" value=""  class="text" />									</label>
+								</div>
+								<div class="row">
+									<label>
+										<span>Email Address</span>
+										<input type="text" id="person_email" name="person_email" value=""  class="text" />									</label>
+								</div>
+							</div>
+							<!-- f-col-bottom-1 -->
+							<div class="f-col-bottom-1">
+								<h4>Information Evaluation</h4>
+								<div class="row">
+									<div class="f-col-bottom-1-col">Approve this report?</div>
+									<input type="radio" name="incident_active" value="1"
+									 checked="checked" > Yes
+									<input type="radio" name="incident_active" value="0"
+									> No
+								</div>
+								<div class="row">
+									<div class="f-col-bottom-1-col">Verify this report?</div>
+									<input type="radio" name="incident_verified" value="1"
+									 checked="checked" > Yes
+									<input type="radio" name="incident_verified" value="0"
+									> No									
+								</div>
+								<div class="row">
+									<div class="f-col-bottom-1-col">Source Reliability:</div>
+									<select id="incident_source" name="incident_source" >
+<option value="" selected="selected">--- Select One ---</option>
+<option value="A">Yes, the source has direct access to information (witness or actor)</option>
+<option value="B">Yes, the source has access to information, but can be wrong</option>
+<option value="C">Yes, the source has no direct access to information, but is often right</option>
+<option value="D">Not always, but is often right</option>
+<option value="E">No, the source has (had) no access to information.</option>
+<option value="F">I don’t know</option>
+</select>									
+								</div>
+								<div class="row">
+									<div class="f-col-bottom-1-col">Information Probability:</div>
+									<select id="incident_information" name="incident_information" >
+<option value="" selected="selected">--- Select One ---</option>
+<option value="1">Yes, the information is confirmed by several independent sources</option>
+<option value="2">Yes, the information is not confirmed (yet), but is likely</option>
+<option value="3">Yes, the information makes sense</option>
+<option value="4">No, the information is surprising</option>
+<option value="5">No, the information is unlikely and may be disinformation</option>
+<option value="6">I don’t know</option>
+</select>									
+								</div>								
+							</div>
+							<div style="clear:both;"></div>
+						</div>
+						<div class="btns">
+							<ul>
+								<li><a href="#" class="btn_save">SAVE REPORT</a></li>
+								<li><a href="#" class="btn_save_close">SAVE & CLOSE</a></li>
+								<li><a href="#" class="btn_delete btns_red">DELETE THIS REPORT</a></li>								<li><a href="http://haiti.ushahidi.com/admin/reports/" class="btns_red">CANCEL</a></li>
+							</ul>
+						</div>						
+					</div>
+				</form>
+				<form action="http://haiti.ushahidi.com/admin/reports/" method="post" id="reportMain" name="reportMain">
+<input type="hidden" name="action" value="d"  />
+<input type="hidden" name="incident_id[]" value="3"  />
+</form>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="holder">
+			<strong>
+				<a href="http://www.ushahidi.com" target="_blank" title="Ushahidi Engine" alt="Ushahidi Engine">
+                	<sup>1.0.1</sup>
+            	</a>
+			</strong>
+		</div>
+	</div>
+</body>
+</html>

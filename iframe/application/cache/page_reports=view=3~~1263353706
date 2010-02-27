@@ -1,0 +1,370 @@
+93054cf0ff6adb7b4b10ecd862fce5c3a45e942e
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Haiti</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/iehacks.css" />
+<![endif]--><!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie7hacks.css" />
+<![endif]--><!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6hacks.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenLayers.js"></script>
+<script type="text/javascript">OpenLayers.ImgPath = 'http://haiti.ushahidi.com/media/img/openlayers/';</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q" type="text/javascript"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/photoslider.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/photoslider.css" />
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/coda-slider.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/videoslider.css" />
+<link rel="alternate" type="application/rss+xml" href="http://haiti.ushahidi.com/feed/" title="RSS2" /><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/themes/haiti/style.css" />
+
+	<!--[if IE 6]>
+	<script type="text/javascript" src="js/ie6pngfix.js"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img, ul, ol, li, div, p, a');</script>
+	<![endif]-->
+	<script type="text/javascript">
+		var addthis_config = {
+		   ui_click: true
+		}	
+		eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('c 7;X(f(){c 20=1Z;P=[" "];G.A.22="o://k.j.l/w/2c/";G.A.1D={\'H\':{}};2d(c i=0;i<P.27;i++){G.A.1D[\'H\'][i]={\'2e\':P[i],\'2i\':P[i].1r(\'.1E\',\'1V.1E\')}}G.A.1X(\'H\');G.A.1W(\'H\');c 12=6 5.1F(\'1G:21\');c 1z=6 5.1F(\'1G:26\');c 1L={2F:"2D",2J:16,2o:[],1m:1z,\'1l\':12};7=6 5.2p(\'7\',1L);7.z(6 5.v.2n({2m:6 5.14(2k,2x)}));c R=1;m(R==2){F=6 5.I.2t("2A",{O:e,N:6 5.Q(-9.34,-9.34,9.34,9.34)})}u m(R==3){F=6 5.I.2s("2u",{O:e,N:6 5.Q(-9.34,-9.34,9.34,9.34)})}u m(R==4){F=6 5.I.2v.2w("2r",{O:e,N:6 5.Q(-9.34,-9.34,9.34,9.34)})}u{F=6 5.I.2q("2l",{O:e,N:6 5.Q(-9.34,-9.34,9.34,9.34)})}7.1O(F);7.z(6 5.v.2y());7.z(6 5.v.2z());7.z(6 5.v.2I());7.z(6 5.v.2K());1e=6 5.2L({2M:"8",2H:"${1o}",2G:"1",2B:"#2j",2C:1,2E:0.8},{2N:{1o:f(b){m(1Y(b)!=\'24\'&&b.J.h==3){1g"#1U"}u{1g"#23"}}}});c V=6 5.I.25("2f 2h","o://k.j.l/1f/?i=3",{28:5.29.2a,1m:7.1l,2b:6 5.2g({"H":1e})});7.1O(V);U=6 5.v.31(V,{3G:1k,3F:1b});7.z(U);U.3E();c 10=6 5.1x(-3H.3I,18.3L);10.3K(12,7.3J());7.3D(10,8);f 1d(3C){U.3w(1j)}f 1k(b){1j=b;Y=b.1p.1q().1v();s=Y.s;t=Y.t;c d="<r 13=\\"3v\\"><r 13=\\"3u\\"><1i><1h>"+b.3x.3y+"</1h></1i></r>";d=d+"\\n<r 13=\\"3B\\"><a 1t=\'1u:W("+s+","+t+", 1)\'>1s&y;3A</a>&y;&y;|&y;&y;<a 1t=\'1u:W("+s+","+t+", -1)\'>1s&y;3N</a></r>";d=d+"</r>";m(d.2O("<3M")!=-1){d="3Y 3W 3X! 3U d 3V.<3P />"+d.1r(/</g,"&3O;")}q=6 5.3Q.3R("3T",b.1p.1q().1v(),6 5.14(19,19),d,1c,e,1d);b.q=q;7.3S(q)}f 1b(b){7.3z(b.q);b.q.3s();b.q=1c}$("#3t").30({2Z:{1a:{p:e,T:3},17:{p:e,1n:e},1R:{p:e,T:3},1A:{p:e}},32:{1a:{p:"D C 33 15",T:"1Q 15 1T 37 36 1K 1B 3 1C"},17:{p:"D C 35 1w 1P",1n:"D C a 2Y 1w 1P"},1R:{p:"D C a 1S",T:"1Q 1S 1T 2X 1K 1B 3 1C 2R"},1A:{p:"D C 2Q 2P 2S"}}})});f W(s,t,1I){c 1y=6 5.1x(s,t);7.2T(1y);1J=7.2W();1H=1J+1I;7.2V(1H)}X(2U).38("39",f(){X("r#3m").3l()});f M(h,Z,B,11){$(\'#\'+11).S(\'<x E="o://k.j.l/w/x/3k.3n">\');$.3o("o://k.j.l/3r/M/"+h,{Z:Z,B:B},f(J){m(J.3q==\'3p\'){m(B==\'3j\'){$(\'#3i\'+h).K("E","o://k.j.l/w/x/1M.L");$(\'#3c\'+h).K("E","o://k.j.l/w/x/1N.L");$(\'#3b\'+h).S(J.M)}u m(B==\'3a\'){$(\'#3d\'+h).K("E","o://k.j.l/w/x/1M.L");$(\'#3e\'+h).K("E","o://k.j.l/w/x/1N.L");$(\'#3h\'+h).S(J.M)}}u{3g(\'3f!\')}$(\'#\'+11).S(\'\')},"1f")}',62,247,'|||||OpenLayers|new|map||20037508||feature|var|content|true|function||id||ushahidi|haiti|com|if||http|required|popup|div|lon|lat|else|Control|media|img|nbsp|addControl|Slider|type|enter|Please|src|map_layer|FOTO|default|Layer|data|attr|png|rating|maxExtent|sphericalMercator|photos|Bounds|default_map|html|minlength|selectControl|markers|zoomToSelectedFeature|jQuery|zoom_point|action|myPoint|loader|proj_4326|class|Size|Name||comment_email||100|comment_author|onFeatureUnselect|null|onPopupClose|style|json|return|li|ul|selectedFeature|onFeatureSelect|displayProjection|projection|email|color|geometry|getBounds|replace|Zoom|href|javascript|getCenterLonLat|Email|LonLat|lonlat|proj_900913|captcha|least|characters|bucket|jpg|Projection|EPSG|newZoom|zoomfactor|currZoom|at|options|gray_up|gray_down|addLayer|Address|Your|comment_description|Comment|must|CC0000|_t|preloadImages|reload|typeof|false|moved|4326|baseURL|FF9933|undefined|GML|900913|length|format|Format|GeoJSON|styleMap|uploads|for|main|single|StyleMap|report|thumb|000000|573|google|minSize|LoadingPanel|controls|Map|Google|openstreetmap|Yahoo|VirtualEarth|yahoo|OSM|Mapnik|366|Navigation|PanZoomBar|virtualearth|strokeColor|strokeWidth|dd|strokeOpacity|units|fillOpacity|fillColor|MousePosition|numZoomLevels|LayerSwitcher|Style|pointRadius|context|search|Security|the|long|Code|panTo|window|zoomTo|getZoom|be|valid|rules|validate|SelectFeature|messages|your||an|of|consist|bind|load|comment|orating_|odown_|cup_|cdown_|ERROR|alert|crating_|oup_|original|loading_g|codaSlider|slider1|gif|post|saved|status|reports|destroy|commentForm|infowindow_list|infowindow|unselect|attributes|name|removePopup|In|infowindow_meta|evt|setCenter|activate|onUnselect|onSelect|72|336408|getProjectionObject|transform|539269|script|Out|lt|br|Popup|FramedCloud|addPopup|chicken|Escaped|below|contained|Javascript|Content'.split('|')))
+
+	</script>
+</head>
+
+<body id="page">
+	<!-- wrapper -->
+	<div class="rapidxwpr floatholder">
+
+		<!-- header -->
+		<div id="header">
+	
+			<!-- searchbox -->
+			<div id="searchbox">
+				<a class="share addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4aee423643f8276e">Share</a>
+
+				<!-- languages -->
+				<div class="language-box">
+					<form>
+						<select id="l" name="l"  onChange="this.form.submit()" >
+<option value="fr_FR">français (FR)</option>
+<option value="es_UY">español, castellano (UY)</option>
+<option value="en_US" selected="selected">English (US)</option>
+</select>					</form>
+				</div>
+				<!-- / languages -->
+			
+				<!-- searchform -->
+				<div class="search-form">
+					<form method="get" id="search" action="http://haiti.ushahidi.com/search/">
+						<ul>
+							<li><input type="text" name="k" value="" class="text" /></li>
+							<li><input type="submit" name="b" class="searchbtn" value="search" /></li>
+						</ul>
+					</form>
+				</div>
+				<!-- / searchform -->
+		
+			</div>
+			<!-- / searchbox -->
+		
+			<!-- logo -->
+			<div id="logo">
+				<h1>Haiti</h1>
+				<span>The 2010 Earthquake in Haiti</span>
+			</div>
+			<!-- / logo -->
+		
+			<!-- submit incident -->
+			<div class="submit-incident clearingfix">
+				<a href="http://haiti.ushahidi.com/reports/submit">Submit an Incident</a>
+			</div>
+			<!-- / submit incident -->
+		</div>
+		<!-- / header -->
+
+		<!-- main body -->
+		<div id="middle">
+			<div class="background layoutleft">
+		
+				<!-- mainmenu -->
+				<div id="mainmenu" class="clearingfix">
+					<ul>
+						<li><a href="http://haiti.ushahidi.com/main" >Home</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports" class="active">Reports</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports/submit" >Submit an Incident</a></li>
+						<li><a href="http://haiti.ushahidi.com/alerts" >Get Alerts</a></li>
+													<li><a href="http://haiti.ushahidi.com/contact" >Contact Us</a></li>
+														<li><a href="http://haiti.ushahidi.com/help" >How to Help</a></li>
+							<li><a href="http://haiti.ushahidi.com/page/index/1" >About Us</a></li>					</ul>
+
+				</div>
+				<!-- / mainmenu -->
+				<div id="main" class="clearingfix">
+					<div id="mainmiddle" class="floatbox withright">
+						<!-- start incident block -->
+						<div class="reports">
+							<div class="report-details">
+								<div class="verified  verified_yes">
+									Verified<br/>
+									<span>YES</span>								</div>
+								<h1>test building</h1>
+								<ul class="details">
+									<li>
+										<small>Location</small>
+										port-au-prince									</li>
+									<li>
+										<small>Date</small>
+										Jan 12 2010									</li>
+									<li>
+										<small>Time</small>
+										01:53									</li>
+									<li>
+										<small>Category</small>
+										<a href="http://haiti.ushahidi.com/reports/?c=12">Building Damage</a>&nbsp;&nbsp;&nbsp;									</li>
+								</ul>
+							</div>
+							<div class="location">
+								<div class="incident-notation clearingfix">
+									<ul>
+										<li><img align="absmiddle" alt="Incident" src="http://haiti.ushahidi.com/media/img/incident-pointer.jpg"/> Incident</li>
+										<li><img align="absmiddle" alt="Nearby Incident" src="http://haiti.ushahidi.com/media/img/nearby-incident-pointer.jpg"/> Nearby Incident</li>
+									</ul>
+								</div>
+								<div class="report-map">
+									<div class="map-holder" id="map"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+				<div class="report-description">
+					<h3>Incident Report Description</h3>
+						<div class="content">
+							testing							<div class="credibility">
+								Credibility:
+								<a href="javascript:rating('3','add','original','oloader_3')"><img id="oup_3" src="http://haiti.ushahidi.com/media/img/thumb-up.jpg" alt="UP" title="UP" border="0" /></a>&nbsp;
+								<a href="javascript:rating('3','subtract','original')"><img id="odown_3" src="http://haiti.ushahidi.com/media/img/thumb-down.jpg" alt="DOWN" title="DOWN" border="0" /></a>&nbsp;
+								<a href="" class="rating_value" id="orating_3">0</a>
+								<a href="" id="oloader_3" class="rating_loading" ></a>
+							</div>
+						</div>
+					<div class="orig-report">
+						<div class="discussion">
+							<h5>ADDITIONAL REPORTS AND DISCUSSION&nbsp;&nbsp;&nbsp;(<a href="#comments">Add</a>)</h5>
+													</div>
+					</div>		
+				</div>
+				<!-- end incident block <> start other report -->
+		
+				<div class="blocks-holder">
+					 
+					<!-- start mainstream news of incident -->	
+					<div class="report_left">
+						<h3>Related Mainstream News of Incident</h3>
+						<table>
+							<tr class="title">
+								<th class="w-01">TITLE</th>
+								<th class="w-02">SOURCE</th>
+								<th class="w-03">DATE</th>
+							</tr>
+														<tr>
+								<td class="w-01">
+									<a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://latimesblogs.latimes.com/lanow/2010/01/haiti-earthquake-la-rescue-team.html&amp;usg=AFQjCNGxuMtjlSOe-IGHekWWNx5ueX0_7w" target="_blank">
+									L.A. County fire rescue team prepares to...</a>
+								</td>
+								<td class="w-02">Google News</td
+									<td class="w-03">Jan 12 2010</td>
+							</tr>
+														<tr>
+								<td class="w-01">
+									<a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://www.sfgate.com/cgi-bin/blogs/abraham/detail??blogid=95&amp;entry_id=55152&amp;usg=AFQjCNFb2qHzfZBdWUTx919kjg87T-1ZAg" target="_blank">
+									Help for Haiti after 7.0 Earthquake near...</a>
+								</td>
+								<td class="w-02">Google News</td
+									<td class="w-03">Jan 12 2010</td>
+							</tr>
+														<tr>
+								<td class="w-01">
+									<a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://www.washingtonpost.com/wp-dyn/content/gallery/2010/01/12/GA2010011203443.html?hpid=topnews&amp;usg=AFQjCNGoww196fXFRrkWqlIg9YP1mIxpgQ" target="_blank">
+									Your Haiti earthquake photos - Washington...</a>
+								</td>
+								<td class="w-02">Google News</td
+									<td class="w-03">Jan 12 2010</td>
+							</tr>
+														<tr>
+								<td class="w-01">
+									<a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://www.state.gov/secretary/rm/2010/01/135095.htm&amp;usg=AFQjCNFW5dbQSLWwpnlEK4aYI_IlwZmLkA" target="_blank">
+									Remarks on the Earthquake in Haiti - US...</a>
+								</td>
+								<td class="w-02">Google News</td
+									<td class="w-03">Jan 12 2010</td>
+							</tr>
+														<tr>
+								<td class="w-01">
+									<a href="http://news.google.com/news/url?fd=R&amp;sa=T&amp;url=http://jam.canoe.ca/Music/2010/01/12/12440806.html&amp;usg=AFQjCNHibCU9r9gnsk1Pes6eVNngXkLvyg" target="_blank">
+									Wyclef worried about Haiti earthquake -...</a>
+								</td>
+								<td class="w-02">Google News</td
+									<td class="w-03">Jan 12 2010</td>
+							</tr>
+													</table>
+						<!-- end mainstream news of incident -->
+											</div>
+					<div class="report_right">
+						<div class="small-block">
+							<h3>Incident Report(s)</h3>
+							<table>
+								<tr class="title">
+									<th class="w-01">TITLE</th>
+									<th class="w-02">LOCATION</th>
+									<th class="w-03">DATE</th>
+								</tr>
+								<tr><td class="w-01"><a href="http://haiti.ushahidi.com/reports/view/3">test building</a></td><td class="w-02">port-au-prince</td><td class="w-03">Jan 12 2010</td></tr>							</table>
+						</div>
+					</div>
+						
+												<!-- end side block -->
+					
+					
+						<!-- start videos -->
+												<!-- end incident block <> start other report -->
+					</div>
+					<br />
+					<!-- end incident block <> start other report -->
+					<a name="comments"></a>
+					<div class="big-block">
+						<div id="comments" class="report_comment">
+													<form action="http://haiti.ushahidi.com/reports/view/3" method="post" id="commentForm" name="commentForm">
+						<div class="report_row">
+							<strong>Name:</strong><br />
+							<input type="text" id="comment_author" name="comment_author" value=""  class="text" />						</div>
+						<div class="report_row">
+							<strong>E-Mail:</strong><br />
+							<input type="text" id="comment_email" name="comment_email" value=""  class="text" />						</div>
+						<div class="report_row">
+							<strong>Comments:</strong><br />
+							<textarea id="comment_description" name="comment_description"  rows="4" cols="40" class="textarea long" ></textarea>						</div>
+						<div class="report_row">
+							<strong>Security Code:</strong><br />
+							<img alt="Captcha" src="http://haiti.ushahidi.com/captcha/default" width="150" height="50" /><br />
+							<input type="text" id="captcha" name="captcha" value=""  class="text" />						</div>
+						<div class="report_row">
+							<input name="submit" type="submit" value="Submit Comment" class="btn_blue" />
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+     
+ 
+	<!-- footer -->
+	<div id="footer" class="clearingfix">
+ 
+		<div id="underfooter"></div>
+ 
+		<!-- footer content -->
+		<div class="rapidxwpr floatholder">
+ 
+			<!-- footer credits -->
+			<div class="footer-credits">
+				Powered by <a href="http://www.ushahidi.com/"><img src="http://haiti.ushahidi.com//media/img/footer-logo.png" alt="Ushahidi" align="absmiddle" /></a>
+			</div>
+			<!-- / footer credits -->
+		
+			<!-- footer menu -->
+			<div class="footermenu">
+				<ul class="clearingfix">
+					<li><a class="item1" href="http://haiti.ushahidi.com/">Home</a></li>
+					<li><a href="http://haiti.ushahidi.com/reports/submit">Report an Incident</a></li>
+					<li><a href="http://haiti.ushahidi.com/alerts">Get Alerts</a></li>
+					<li><a href="http://haiti.ushahidi.com/help">How to Help</a></li>
+					<li><a href="#">About </a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<p>Copyright © 2009 Ushahidi.com. All Rights Reserved.</p>
+			</div>
+			<!-- / footer menu -->
+ 
+			<!-- feedback form -->
+			<h2 class="feedback_title" style="clear:both">
+				<a href="javascript:showForm('table-holder')">Provide Feedback</a>
+			</h2>
+			<div id="table-holder" class="feedback_forms">
+				<h2>Provide Feedback <button style="margin-left:2em" onclick="javascript:showForm('table-holder')">Close</button></h2>
+				<form action="http://haiti.ushahidi.com/reports/view/3" method="post" id="footerfeedbackMain" name="footerfeedbackMain">
+				<input type="hidden" name="person_ip" value="76.21.32.25"  />
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>
+								<textarea id="feedback_message" name="feedback_message"  class="textarea long" rows="5" cols="50"></textarea>								<br /><br />
+															</td>
+							<td>
+								<div class="or_txt">
+									Or
+								</div>
+							</td>
+							<td>
+								<div class="detailed_feedback">
+									<a href="http://feedback.ushahidi.com/fillsurvey.php?sid=5">Provide Detailed Feedback</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="report_row">
+									<strong>Security Code:</strong><br />
+									<img alt="Captcha" src="http://haiti.ushahidi.com/captcha/default" width="150" height="50" /><br />
+									<input type="text" id="feedback_captcha" name="feedback_captcha" value=""  class="text" />									<br /><br />
+																	</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+																<input type="text" id="person_email" name="person_email" value="Email address" size="40" class="text"  onclick="clearField();" />								
+<button id="submit" name="submit" >Send</button>								<br /><br />
+															</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+			<!-- /feedback form -->
+ 
+		</div>
+		<!-- / footer content -->
+ 
+	</div>
+	<!-- / footer -->
+ 
+	<img src="http://tracker.ushahidi.com/track.php?url=haiti.ushahidi.com%2Findex.php%2Freports%2Fview%2F3&lang=en_US&version=1.0.1" />
+	<!-- Piwik -->
+		<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://tracker.ushahidi.com/piwik/" : "http://tracker.ushahidi.com/piwik/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+		
+		</script><script type="text/javascript">
+		try {
+		  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 390);
+		  piwikTracker.trackPageView();
+		  piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+		</script><noscript><p><img src="http://tracker.ushahidi.com/piwik/piwik.php?idsite=390" style="border:0" alt=""/></p></noscript>
+		
+		<!-- End Piwik Tag -->
+				
+	<!-- Task Scheduler -->
+	<img src="http://haiti.ushahidi.com/scheduler" height="1" width="1" border="0" />
+ 
+        <!-- script for share button -->
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=ushahidi"></script>
+</body>
+</html>

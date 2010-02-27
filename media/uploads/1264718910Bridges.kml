@@ -1,0 +1,906 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Bridges">
+	<name>Bridges</name>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="IconStyle016">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahididev.com/media/uploads/icon-bridge-red.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="IconStyle00">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahididev.com/media/uploads/icon-bridge.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Bridges</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339044,18.582357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36732499999999,18.533398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.382249,18.53336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34887000000001,18.540801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.345096,18.535784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.413799,18.522998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41307500000001,18.518747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41087899999999,18.531114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.410996,18.538532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.466294,18.546054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.391049,18.540146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.41646900000001,18.549959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38508899999999,18.534114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.434628,18.54139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.384202,18.534626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36754999999999,18.529801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.38638,18.533213,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.442916,18.542616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.460448,18.545227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.35592800000001,18.533234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36120099999999,18.530833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34657199999999,18.536219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.349856,18.537015,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.350651,18.532242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.339277,18.535387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.338702,18.537842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.341947,18.534938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337896,18.538808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.340069,18.534367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33359,18.536479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.335883,18.538562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.326373,18.536348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.327898,18.535604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.344095,18.535494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28501900000001,18.510827,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28405100000001,18.512437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.282915,18.514376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34936999999999,18.538921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28403299999999,18.513248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32916400000001,18.535886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.351733,18.533038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.430655,18.536539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.35056400000001,18.534274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330815,18.536639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.282386,18.514777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36320000000001,18.531679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.349279,18.528611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.351719,18.532182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.35616899999999,18.526302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.35723299999999,18.530043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle016</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.42736499999999,18.539896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337856,18.565298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.34042700000001,18.563232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32151,18.560036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334659,18.564752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31053199999999,18.565783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31153999999999,18.565561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.312781,18.566389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33578900000001,18.580249,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.317769,18.571667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337977,18.581644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.334529,18.579498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32084999999999,18.575029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33620000000001,18.580528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.248795,18.581222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33513600000001,18.579852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332374,18.576838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.332577,18.572935,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.337476,18.581309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32900100000001,18.581362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330698,18.572653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.328959,18.57285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329419,18.572814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.308436,18.565158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.330285,18.572612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.331467,18.57279,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329733,18.572743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329674,18.579491,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.277231,18.563033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.275268,18.566588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.27761599999999,18.563063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.276178,18.56329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30502799999999,18.564763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.325462,18.542071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.351619,18.54111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.32125499999999,18.542674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30088000000001,18.5429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30209600000001,18.543631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.30017700000001,18.555303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.298486,18.554007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.297932,18.55368,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.260972,18.525547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.306456,18.546801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31215,18.548138,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.31211500000001,18.548021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.401647,18.5495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEOEYE 13 Jan 2010</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.329656,18.542954,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

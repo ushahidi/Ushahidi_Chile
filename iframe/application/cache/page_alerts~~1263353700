@@ -1,0 +1,482 @@
+c7baed2cb7b5aa1e934387dd753bdae1b3d41a16
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Haiti</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/jquery-ui-themeroller.css" />
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/iehacks.css" />
+<![endif]--><!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie7hacks.css" />
+<![endif]--><!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/media/css/ie6hacks.css" />
+<![endif]--><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/OpenLayers.js"></script>
+<script type="text/javascript">OpenLayers.ImgPath = 'http://haiti.ushahidi.com/media/img/openlayers/';</script><script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.js"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/jquery.ui.min.js"></script>
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAjsEM5UsvCPCIHp80spK1kBRIP97Q-C9x0vE-uVaoFKHJ9utCxhRUuLzrhgr-bnh3NhHZcMu3bbAQ5Q" type="text/javascript"></script>
+<script type="text/javascript" src="http://haiti.ushahidi.com/media/js/selectToUISlider.jQuery.js"></script>
+<link rel="alternate" type="application/rss+xml" href="http://haiti.ushahidi.com/feed/" title="RSS2" /><link rel="stylesheet" type="text/css" href="http://haiti.ushahidi.com/themes/haiti/style.css" />
+
+	<!--[if IE 6]>
+	<script type="text/javascript" src="js/ie6pngfix.js"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img, ul, ol, li, div, p, a');</script>
+	<![endif]-->
+	<script type="text/javascript">
+		var addthis_config = {
+		   ui_click: true
+		}	
+				var map;
+		var map_layer;
+		var radius = 20000;
+		
+		jQuery(function() {
+			/*
+			- Initialize Map
+			- Uses Spherical Mercator Projection
+			- Units in Metres instead of Degrees					
+			*/
+			var proj_4326 = new OpenLayers.Projection('EPSG:4326');
+			var proj_900913 = new OpenLayers.Projection('EPSG:900913');
+			var options = {
+				units: "m",
+				numZoomLevels: 16,
+				controls:[],
+				projection: proj_900913,
+				'displayProjection': proj_4326
+				};
+				
+			map = new OpenLayers.Map('divMap', options);
+			
+			/*
+			- Select A Mapping API
+			- Live/Yahoo/OSM/Google
+			- Set Bounds					
+			*/
+			var default_map = 1;
+			if (default_map == 2)
+			{
+				map_layer = new OpenLayers.Layer.VirtualEarth("virtualearth", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 3)
+			{
+				map_layer = new OpenLayers.Layer.Yahoo("yahoo", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else if (default_map == 4)
+			{
+				map_layer = new OpenLayers.Layer.OSM.Mapnik("openstreetmap", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			else
+			{
+				map_layer = new OpenLayers.Layer.Google("google", {
+					sphericalMercator: true,
+					maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34)
+					});
+			}
+			map.addLayer(map_layer);
+			
+			map.addControl(new OpenLayers.Control.Navigation());
+			map.addControl(new OpenLayers.Control.PanZoomBar());
+			map.addControl(new OpenLayers.Control.Attribution());
+			map.addControl(new OpenLayers.Control.MousePosition());
+			
+			
+			// Create the Circle/Radius layer
+			var radiusLayer = new OpenLayers.Layer.Vector("Radius Layer");
+			
+			
+			// Create the markers layer
+			var markers = new OpenLayers.Layer.Markers("Markers");
+			map.addLayers([radiusLayer, markers]);
+			
+			// create a lat/lon object
+			var myPoint = new OpenLayers.LonLat(-72.334671020508, 18.564900198966);
+			myPoint.transform(proj_4326, proj_900913);
+			
+			// create a marker positioned at a lon/lat
+			var marker = new OpenLayers.Marker(myPoint);
+			markers.addMarker(marker);
+			
+			// draw circle around point
+			drawCircle(-72.334671020508,18.564900198966,radius);
+			
+			// display the map centered on a latitude and longitude (Google zoom levels)
+			map.setCenter(myPoint, 9);
+			
+			
+			// Detect Map Clicks
+			map.events.register("click", map, function(e){
+				var lonlat = map.getLonLatFromViewPortPx(e.xy);
+				var lonlat2 = map.getLonLatFromViewPortPx(e.xy);
+			    m = new OpenLayers.Marker(lonlat);
+				markers.clearMarkers();
+		    	markers.addMarker(m);
+		
+				currRadius = $("#alert_radius").val();
+				radius = currRadius * 1000
+				
+				lonlat2.transform(proj_900913,proj_4326);
+				drawCircle(lonlat2.lon,lonlat2.lat, radius);
+							
+				// Update form values (jQuery)
+				$("#alert_lat").attr("value", lonlat2.lat);
+				$("#alert_lon").attr("value", lonlat2.lon);
+			});
+			
+			
+			// Draw circle around point
+			function drawCircle(lon,lat,radius)
+			{
+				radiusLayer.destroyFeatures();
+				var circOrigin = new OpenLayers.Geometry.Point(lon,lat);
+				circOrigin.transform(proj_4326, proj_900913);
+				
+				var circStyle = OpenLayers.Util.extend( {},OpenLayers.Feature.Vector.style["default"] );
+				var circleFeature = new OpenLayers.Feature.Vector(
+					OpenLayers.Geometry.Polygon.createRegularPolygon( circOrigin, radius, 40, 0 ),
+					null,
+					circStyle
+				);
+				radiusLayer.addFeatures( [circleFeature] );
+			}			
+			
+			/* 
+			Google GeoCoder
+			TODO - Add Yahoo and Bing Geocoding Services
+			 */
+			$('.btn_find').live('click', function () {
+				address = $("#location_find").val();
+				if ( typeof GBrowserIsCompatible == 'undefined' ) {
+					alert('GeoCoding is only currently supported by Google Maps.\n\nPlease pinpoint the location on the map\nusing your mouse.');
+				} else {
+					var geocoder = new GClientGeocoder();
+					if (geocoder) {
+						$('#find_loading').html('<img src="http://haiti.ushahidi.com/media/img/loading_g.gif">');
+						geocoder.getLatLng(
+							address,
+							function(point) {
+								if (!point) {
+									alert(address + " not found!\n\n***************************\nFind a city or town close by and zoom in\nto find your precise location");
+									$('#find_loading').html('');
+								} else {
+									var lonlat = new OpenLayers.LonLat(point.lng(), point.lat());
+									lonlat.transform(proj_4326,proj_900913);
+								
+									m = new OpenLayers.Marker(lonlat);
+									markers.clearMarkers();
+							    	markers.addMarker(m);
+									map.setCenter(lonlat, 9);
+								
+									newRadius = $("#alert_radius").val();
+									radius = newRadius * 1000
+
+									drawCircle(point.lng(),point.lat(), radius);
+								
+									// Update form values (jQuery)
+									$("#alert_lat").attr("value", point.lat());
+									$("#alert_lon").attr("value", point.lng());
+								
+									$('#find_loading').html('');
+								}
+							}
+						);
+					}
+				}
+				return false;
+			});
+			
+			
+			// Alerts Slider
+			$("select#alert_radius").selectToUISlider({
+				labels: 6,
+				labelSrc: 'text',
+				sliderOptions: {
+					change: function(e, ui) {
+						var newRadius = $("#alert_radius").val();
+						
+						// Convert to Meters
+						radius = newRadius * 1000;	
+						
+						// Redraw Circle
+						currLon = $("#alert_lon").val();
+						currLat = $("#alert_lat").val();
+						drawCircle(currLon,currLat,radius);
+					}
+				}
+			}).hide();
+			
+			
+			// Some Default Values		
+			$("#alert_mobile").focus(function() {
+				$("#alert_mobile_yes").attr("checked",true);
+			}).blur(function() {
+				if( !this.value.length ) {
+					$("#alert_mobile_yes").attr("checked",false);
+				}
+			});
+			
+			$("#alert_email").focus(function() {
+				$("#alert_email_yes").attr("checked",true);
+			}).blur(function() {
+				if( !this.value.length ) {
+					$("#alert_email_yes").attr("checked",false);
+				}
+			});
+		});
+	</script>
+</head>
+
+<body id="page">
+	<!-- wrapper -->
+	<div class="rapidxwpr floatholder">
+
+		<!-- header -->
+		<div id="header">
+	
+			<!-- searchbox -->
+			<div id="searchbox">
+				<a class="share addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4aee423643f8276e">Share</a>
+
+				<!-- languages -->
+				<div class="language-box">
+					<form>
+						<select id="l" name="l"  onChange="this.form.submit()" >
+<option value="fr_FR">français (FR)</option>
+<option value="es_UY">español, castellano (UY)</option>
+<option value="en_US" selected="selected">English (US)</option>
+</select>					</form>
+				</div>
+				<!-- / languages -->
+			
+				<!-- searchform -->
+				<div class="search-form">
+					<form method="get" id="search" action="http://haiti.ushahidi.com/search/">
+						<ul>
+							<li><input type="text" name="k" value="" class="text" /></li>
+							<li><input type="submit" name="b" class="searchbtn" value="search" /></li>
+						</ul>
+					</form>
+				</div>
+				<!-- / searchform -->
+		
+			</div>
+			<!-- / searchbox -->
+		
+			<!-- logo -->
+			<div id="logo">
+				<h1>Haiti</h1>
+				<span>The 2010 Earthquake in Haiti</span>
+			</div>
+			<!-- / logo -->
+		
+			<!-- submit incident -->
+			<div class="submit-incident clearingfix">
+				<a href="http://haiti.ushahidi.com/reports/submit">Submit an Incident</a>
+			</div>
+			<!-- / submit incident -->
+		</div>
+		<!-- / header -->
+
+		<!-- main body -->
+		<div id="middle">
+			<div class="background layoutleft">
+		
+				<!-- mainmenu -->
+				<div id="mainmenu" class="clearingfix">
+					<ul>
+						<li><a href="http://haiti.ushahidi.com/main" >Home</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports" >Reports</a></li>
+						<li><a href="http://haiti.ushahidi.com/reports/submit" >Submit an Incident</a></li>
+						<li><a href="http://haiti.ushahidi.com/alerts" class="active">Get Alerts</a></li>
+													<li><a href="http://haiti.ushahidi.com/contact" >Contact Us</a></li>
+														<li><a href="http://haiti.ushahidi.com/help" >How to Help</a></li>
+							<li><a href="http://haiti.ushahidi.com/page/index/1" >About Us</a></li>					</ul>
+
+				</div>
+				<!-- / mainmenu -->
+
+				<div id="content">
+					<div class="content-bg">
+						<!-- start alerts block -->
+						<div class="big-block">
+							<h1>Get Alerts</h1>
+														<form action="http://haiti.ushahidi.com/alerts" method="post">
+							<div class="step-1">
+								<h2><strong>Step 1:</strong> Select your city or location:</h2>
+								<div class="map">
+									<p>Or, place a spot on the map below, and we will alert you when a report is submitted within 20 kilometers.</p>
+									<div class="map-holder" id="divMap"></div>
+								</div>
+								<div class="report-find-location">
+									<input type="text" id="location_find" name="location_find" value=""  title="City, State and/or Country" class="findtext" />									<div style="float:left;margin:9px 0 0 5px;"><input type="button" name="button" id="button" value="Find Location" class="btn_find" /></div>
+									<div id="find_loading" class="report-find-loading"></div>
+									<div style="clear:both;" id="find_text">* If you can't find your location, please click on the map to pinpoint the correct location.</div>
+									<div class="alert_slider">
+										<select name="alert_radius" id="alert_radius">
+											<option value="1">1 KM</option>
+											<option value="5">5 KM</option>
+											<option value="10">10 KM</option>
+											<option value="20" selected="selected">20 KM</option>
+											<option value="50">50 KM</option>
+											<option value="100">100 KM</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<input type="hidden" id="alert_lat" name="alert_lat" value="18.564900198966">
+							<input type="hidden" id="alert_lon" name="alert_lon" value="-72.334671020508">
+							<div class="step-2-holder">
+								<div class="step-2">
+									<h2><strong>Step 2:</strong> Send alerts to my:</h2>
+									<div class="holder">
+										<div class="box">
+											<label>
+												<input type="checkbox" id="alert_mobile_yes" name="alert_mobile_yes" value="1"  />												<span><strong>Mobile phone:</strong><br />enter mobile number with country code</span>
+											</label>
+											<span><input type="text" id="alert_mobile" name="alert_mobile" value=""  class="text long" /></span>
+										</div>
+										<div class="box">
+											<label>
+												<input type="checkbox" id="alert_email_yes" name="alert_email_yes" value="1"  />												<span><strong>Email Address:</strong><br />enter email address</span>
+											</label>
+											<span><input type="text" id="alert_email" name="alert_email" value=""  class="text long" /></span>
+										</div>
+									</div>
+								</div>
+								<input id="btn-send-alerts" class="btn_submit" type="submit" value="Save My Alert" />
+								<BR /><BR />
+								<a href="http://haiti.ushahidi.com/alerts/confirm">Confirm A Previous Alert Request</a>
+							</div>
+							</form>
+																					<div class="step-2-holder">
+								<div class="feed">
+									<h2>RSS Feeds (copy the url below)</h2>
+									<div class="holder">
+										<div class="box" style="text-align:center;">
+											<a href="http://haiti.ushahidi.com/feed/"><img src="http://haiti.ushahidi.com/media/img/icon-feed.png" style="vertical-align: middle;" border="0"></a>&nbsp;<strong><a href="http://haiti.ushahidi.com/feed/">http://haiti.ushahidi.com/feed/</a></strong>
+										</div>
+									</div>
+								</div>
+							</div>
+													</div>
+						<!-- end alerts block -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+     
+ 
+	<!-- footer -->
+	<div id="footer" class="clearingfix">
+ 
+		<div id="underfooter"></div>
+ 
+		<!-- footer content -->
+		<div class="rapidxwpr floatholder">
+ 
+			<!-- footer credits -->
+			<div class="footer-credits">
+				Powered by <a href="http://www.ushahidi.com/"><img src="http://haiti.ushahidi.com//media/img/footer-logo.png" alt="Ushahidi" align="absmiddle" /></a>
+			</div>
+			<!-- / footer credits -->
+		
+			<!-- footer menu -->
+			<div class="footermenu">
+				<ul class="clearingfix">
+					<li><a class="item1" href="http://haiti.ushahidi.com/">Home</a></li>
+					<li><a href="http://haiti.ushahidi.com/reports/submit">Report an Incident</a></li>
+					<li><a href="http://haiti.ushahidi.com/alerts">Get Alerts</a></li>
+					<li><a href="http://haiti.ushahidi.com/help">How to Help</a></li>
+					<li><a href="#">About </a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<p>Copyright © 2009 Ushahidi.com. All Rights Reserved.</p>
+			</div>
+			<!-- / footer menu -->
+ 
+			<!-- feedback form -->
+			<h2 class="feedback_title" style="clear:both">
+				<a href="javascript:showForm('table-holder')">Provide Feedback</a>
+			</h2>
+			<div id="table-holder" class="feedback_forms">
+				<h2>Provide Feedback <button style="margin-left:2em" onclick="javascript:showForm('table-holder')">Close</button></h2>
+				<form action="http://haiti.ushahidi.com/alerts" method="post" id="footerfeedbackMain" name="footerfeedbackMain">
+				<input type="hidden" name="person_ip" value="69.147.127.248"  />
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>
+								<textarea id="feedback_message" name="feedback_message"  class="textarea long" rows="5" cols="50"></textarea>								<br /><br />
+															</td>
+							<td>
+								<div class="or_txt">
+									Or
+								</div>
+							</td>
+							<td>
+								<div class="detailed_feedback">
+									<a href="http://feedback.ushahidi.com/fillsurvey.php?sid=5">Provide Detailed Feedback</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="report_row">
+									<strong>Security Code:</strong><br />
+									<img alt="Captcha" src="http://haiti.ushahidi.com/captcha/default" width="150" height="50" /><br />
+									<input type="text" id="feedback_captcha" name="feedback_captcha" value=""  class="text" />									<br /><br />
+																	</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+																<input type="text" id="person_email" name="person_email" value="Email address" size="40" class="text"  onclick="clearField();" />								
+<button id="submit" name="submit" >Send</button>								<br /><br />
+															</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+			<!-- /feedback form -->
+ 
+		</div>
+		<!-- / footer content -->
+ 
+	</div>
+	<!-- / footer -->
+ 
+	<img src="http://tracker.ushahidi.com/track.php?url=haiti.ushahidi.com%2Findex.php%2Falerts&lang=en_US&version=1.0.1" />
+	<!-- Piwik -->
+		<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://tracker.ushahidi.com/piwik/" : "http://tracker.ushahidi.com/piwik/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+		
+		</script><script type="text/javascript">
+		try {
+		  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 390);
+		  piwikTracker.trackPageView();
+		  piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+		</script><noscript><p><img src="http://tracker.ushahidi.com/piwik/piwik.php?idsite=390" style="border:0" alt=""/></p></noscript>
+		
+		<!-- End Piwik Tag -->
+				
+	<!-- Task Scheduler -->
+	<img src="http://haiti.ushahidi.com/scheduler" height="1" width="1" border="0" />
+ 
+        <!-- script for share button -->
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=ushahidi"></script>
+</body>
+</html>
