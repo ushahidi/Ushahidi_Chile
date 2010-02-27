@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+.panel_wrapper div.current {
+	height: 290px;
+}
+
+#id, #style, #title, #dir, #hreflang, #lang, #classlist, #tabindex, #accesskey {
+	width: 200px;
+}
+
+#events_panel input {
+	width: 200px;
+}
+=======
+.panel_wrapper div.current {
+	height: 290px;
+}
+
+#id, #style, #title, #dir, #hreflang, #lang, #classlist, #tabindex, #accesskey {
+	width: 200px;
+}
+
+#events_panel input {
+	width: 200px;
+}
+>>>>>>> 57862d793031fc273b1fb3956ce568053d360bc9

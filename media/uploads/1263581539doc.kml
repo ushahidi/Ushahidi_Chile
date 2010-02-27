@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Collapsed Buildings</name>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Style id="trb688">
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id="trb6880">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#trb6882</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#trb688</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="trb6881">
+			<IconStyle>
+				<color>ff000000</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="trb6882">
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Placemark id="1637">
+			<name>Collapsed building</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>TYPE:</td><td>Collapsed building</td></tr><tr><td>SOURCE:</td><td>GeoEye,13/01/2010</td></tr><tr><td>ACQMETHOD:</td><td>photointerpretation</td></tr><tr><td>ACQDATE:</td><td>20100113</td></tr></table>]]></description>
+			<styleUrl>#trb6880</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-72.34120918000001,18.535854462,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Damaged Infrastructure</name>
+		<Style>
+			<ListStyle>
+				<listItemType>checkHideChildren</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<StyleMap id="trb110">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#trb1101</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#trb1100</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="trb1100">
+			<IconStyle>
+				<color>ff00aa00</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="trb1101">
+			<IconStyle>
+				<color>ff00aa00</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="trb1102">
+			<IconStyle>
+				<color>ff000000</color>
+				<scale>0.8</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<font font size='3' color="#aa0000"><b>$[name]</b></font>
+                  <table border='1' padding='1'>$[description]</table>                  
+                  <br><a href='http://shape2earth.com'><b>Shape2Earth</b></a>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Placemark id="8">
+			<name>Damaged infrastructure</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>TYPE:</td><td>Damaged infrastructure</td></tr><tr><td>SOURCE:</td><td>GeoEye,13/01/2010</td></tr><tr><td>ACQMETHOD:</td><td>photointerpretation</td></tr><tr><td>ACQDATE:</td><td>20100113</td></tr></table>]]></description>
+			<styleUrl>#trb110</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-72.29861934,18.538990513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1641">
+			<name>Damaged infrastructure</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<br><br><table border="1"padding="1"width="97%"><tr><td>TYPE:</td><td>Damaged infrastructure</td></tr><tr><td>SOURCE:</td><td>GeoEye,13/01/2010</td></tr><tr><td>ACQMETHOD:</td><td>photointerpretation</td></tr><tr><td>ACQDATE:</td><td>20100113</td></tr></table>]]></description>
+			<styleUrl>#trb110</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<coordinates>-72.295711563,18.525070011,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>

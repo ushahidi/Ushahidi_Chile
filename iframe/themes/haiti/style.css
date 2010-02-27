@@ -1,0 +1,43 @@
+/*
+Theme Name: Haiti Theme
+Description: Haiti's National Colors
+Demo: http://beta1-1.ushahididev.com/
+Version: 1.0
+Author: David Kobia
+Author Email: david@ushahidi.com
+*/
+
+/* header background */
+body#page{
+	background: #585858 url(bkg.gif) 50% 0 repeat-x;
+}
+
+div#header{
+	height:110px;
+}
+
+/* Logo Box */
+div#logo{
+	background-color:transparent;
+	padding-top:15px;
+	padding-bottom:0;
+	height:50px;
+}
+div#logo h1{
+	color:#fff;
+	font-size:36px;
+}
+div#logo span{
+	color:#eee;
+}
+
+
+
+/* Submit Button */
+div.submit-incident{
+	margin-top:58px;
+}
+div.submit-incident a{
+    background-color: #E0DC52;
+    color: #000;
+}

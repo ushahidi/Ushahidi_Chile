@@ -1,0 +1,18 @@
+09631fa6c72721bd16ded90b7bf33d40d672af6a<?xml version="1.0"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+	<channel>
+		<title>Haiti</title>
+		<link>http://haiti.ushahidi.com/</link>
+		<pubDate>Wed, 13 Jan 2010 03:08:11 GMT</pubDate>
+		<description>Incident feed for Haiti</description>
+		<generator>Ushahidi Engine</generator>
+		<atom:link href="http://haiti.ushahidi.com/feed/" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Hello Ushahidi!</title>
+			<link>http://haiti.ushahidi.com/reports/view/1</link>
+			<description><![CDATA[Welcome to Ushahidi. Please replace this report with a valid incident]]></description>
+			<pubDate>Tue, 30 Jun 2009 17:00:00 GMT</pubDate>
+			<guid>http://haiti.ushahidi.com/reports/view/1</guid>
+			<georss:point>-1.287300070705 36.821451182008</georss:point>
+		</item>
+	</channel>
+</rss>
