@@ -243,7 +243,7 @@
                     	<table id="multimedia">
                         	<tr>
                             	<td class="mm-twitter">
-                                	<h3>On Twitter</h3>
+                                	<h3>En Twitter</h3>
                                     
 									<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 									<script>
@@ -288,7 +288,7 @@
                                 
                                 
 								<td class="mm-youtube" style="padding:0 0 0 50px">
-                                    <h3>Person Finder</h3>
+                                    <h3>Buscador de Personas</h3>
                                     <iframe src="http://chilepersonfinder.appspot.com/?small=yes" width="400" height="368" frameborder="0" style="border: dashed 2px #77c; background:#fff;"></iframe>
 								</td>
                             </tr>
