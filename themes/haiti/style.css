@@ -1,0 +1,206 @@
+/*
+Theme Name: Haiti Theme
+Description: Haiti's National Colors
+Demo: http://beta1-1.ushahididev.com/
+Version: 1.0
+Author: David Kobia
+Author Email: david@ushahidi.com
+*/
+
+/* header background */
+	body#page{
+		background: #585858 url(bkg_new.gif) repeat-x;
+		background-position:0px 35px;
+		overflow-x:hidden;
+	}
+	
+	div#header{
+		height:150px;
+	}
+
+/* Logo Box */
+	div#logo{
+		background-color:transparent;
+		padding:5px 0 0 0;
+		height:50px;
+	}
+	div#logo h1{
+		color:#fff;
+		font-size:36px;
+	}
+	div#logo span{
+		color:#eee; font-size:12px; position:relative;
+	}
+		span.tufts { display:block; margin:35px 0 0 0; }
+		#tufts-logo { position:absolute; left:107px; top:-7px; }
+		div.additional-content { overflow:auto; padding:10px 15px; }
+
+.hide { display:none; }
+
+/* Submit Button */
+	div.submit-incident{ margin:0; position:absolute; right:0; top:79px; }
+	div.submit-incident a{ background-color: #E0DC52; color: #000; }
+	
+	
+
+/* Multimedia Integration */
+	.multimedia-integration { padding-bottom:18px; }
+	.mm-twitter { padding:0 0 0 10px;  vertical-align:top; }
+	.mm-flickr { width:300px; padding:0 4px 0 20px; vertical-align:top; }
+	.mm-youtube { vertical-align:top; }
+
+
+	.mm-flickr a { float:left; margin:8px; display:block; border:2px solid #0925c2; }
+
+	div.searchForm_gsvsc { display:none; }
+	
+	.swatch { width:33px; margin-right:12px; border:none; }
+		.child {}
+	.cat-title { font-size:11px; }
+	
+/* New Language Switcher */
+	#language-switch { width:27px; border-bottom:2px solid #FFFFFF; border-left:2px solid #FFFFFF; border-top:2px solid #FFFFFF; position:absolute; overflow:hidden; right:0; top:160px; z-index:1; background:#cfe3ec; padding:8px 0 8px 8px; }
+	#language-switch.on { width:120px; } 
+	#language-switch h3 { width:120px; font-size:12px; font-weight:bold; background:transparent url(icon-language.png) 0 0 no-repeat; padding:0 0 0 28px; line-height:20px; margin-bottom:3px; }
+	#language-switch p {  width:120px; margin:0; padding:0; }
+	#language-switch p a { display:block; clear:both; color:#585858; }
+	#language-switch p a span { display:block; float:left; background:transparent; widows:16px; height:11px; padding:5px; margin:0 9px 0 0; }
+	#language-switch p a.active span { background:#fff; margin-right:7px; border:1px solid #000; }
+	#language-switch p a img { border:none; }
+	
+	div.language-box { margin-top:12px; }
+	
+/* Announcements */
+
+	/* Shortcode */
+	#shortcode-header-wrap { background:#FFF9D8; padding:9px; border:1px solid #ffed8d; }
+	#shortcode-header-info { width:960px; margin:0 auto; padding:0 0 3px 18px; background:transparent url(icons.png) 0 -97px no-repeat; }
+	#shortcode-header-info span { padding:5px; background:#fff; font-weight:bold; color:#F00; }
+	
+	#announcement-box { position:absolute; top:61px; left:216px; display:none; }
+	
+	/* Generic */
+	.announcement { background:#FFF9D8; padding:10px; margin:0 18px 10px 0; border:1px solid #ffed8d; float:left; width:236px;   }
+		.small { float:none; width:auto; margin:0; padding:4px 6px 2px; }
+		
+	.announcement h3 { margin:0 0 5px 0; background:transparent url(icons.png) 0 -205px no-repeat; font-size:14px; padding:0 0 0 23px; }
+		
+		/* Diaspora */
+		#diaspora-info { height:51px}
+		#diaspora-info h3 { background:transparent url(icons.png) 0 -236px no-repeat; }
+		
+		/* Clickatel */
+		#clickatel-info { width:247px; margin-right:0; }
+		#clickatel-info h3 { }
+		.announcement p { }
+
+
+/* Latest Activity */
+	.latest-activity { margin-top:18px; }
+	.latest-activity ul li { list-style-type:none; padding:0px; margin:0 0 13px; }
+
+/* Incident/Feed Grid */
+	#feed-grid-table {  }
+	#feed-grid-table td { width:454px; vertical-align:top; }
+	#feed-grid-table td td { width:auto; }
+		td.fgt-left {  }
+		td.fgt-right { padding:0 0 0 16px; }
+	
+	.feed-grid { background:#fff; padding:10px 13px; margin:0 0 42px; }
+	.feed-grid h5 span { font-size:12px; }
+	
+	table.table-list thead th.title { width:155px;}
+	table.table-list thead th.date { width:43px;}
+	table.table-list thead th.location { width:75px; }
+	
+/* Category Filter on Home Page */
+	ul.category-filters li a { font-size:11px; }
+	
+/* How To Report on home page) */
+	div.additional-content ol { margin:0; }
+	li.report { list-style-type:none; padding:0 0 0 25px; margin-bottom:8px; }
+		.r-sms		{ background:transparent url(icons.png) 0 -97px no-repeat; }
+		.r-email	{ background:transparent url(icons.png) 0 -174px no-repeat; }
+		.r-twitter	{ background:transparent url(icons.png) 0 -55px no-repeat; }
+		.r-online	{ background:transparent url(icons.png) 0 -141px no-repeat; }
+
+/* KML Filters */
+	ul.cf-kml { margin:0; overflow:auto; }
+	ul.cf-kml li { float:left; width:172px; height:75px; margin:0; }
+	
+	ul.cf-kml li a { border:none; }
+	ul.cf-kml li a:hover,
+	ul.cf-kml li a.active { border:none; }
+	
+	ul.cf-kml li a div.swatch { height:18px; width:18px; margin:0 10px 18px; }
+	
+	ul.cf-kml li a div.cat-title { text-transform:capitalize; line-height:11px;  }
+	ul.cf-kml li a:hover div.cat-title { }
+
+
+/* Action Taken feature */
+	/* Front-end */
+		div.action-taken { margin: 1em 0; padding: 1em; background: #fffbe0; border: solid 2px #FFF19F; line-height: 1.3em; }
+		#action-taken-badge { font-size: 1.2em; background: #009200; font-weight: bold; color: #fff; padding: 0.25em 0.5em; margin: 0 1em 0 0; float: left; }
+
+/* Images / Videos slideshow on reports page */
+	.photoslider_thumb { border-width: 1px; background: #efefef; line-height: 45px; height: 45px; text-align: center; width: 55px; vertical-align: middle; font-size: 0px; }
+	.photoslider_thumb img { vertical-align: middle; }
+	.gallery .gal-nav a.btn-prev, .gallery .gal-nav a.btn-next { margin-top: 23px; cursor: pointer; }
+
+
+/*  Submit report page */
+	
+	/*Find a location*/
+	#find-location {  }
+	#find-location .select-city { float:left; margin:0 10px 0 0 }
+	#find-location .coordinates { float:left; }
+	#find-location .coordinates input { font-size:10px; padding-left:3px; padding-right:3px; width:70px; }
+	
+	/*Categories*/
+	#reportForm .report_category ul ul { width: auto; float: none; }
+	#reportForm .report_category ul li.sub_category { padding-left: 47px; }
+	#reportForm .report_category ul li.sub_category_last { background-position: 16px -1766px; }
+	#reportForm .report_category ul li input.check-box { margin: 0 3px 0 0; }
+	#reportForm .report_category ul li.hover,
+	#reportForm .report_category ul li li:hover { background-color: #efefef; }
+	
+	ul.treeview li.lastCollapsable,
+	ul.treeview li.lastExpandable { width:155px; }
+	
+	
+	
+/* Download Reports (front-end) */
+	.bg { padding:0 18px; margin:0 0 18px 0; overflow:auto; }
+	.download-info { background:#FFF9D8; padding:18px; margin:0 0 10px 18px; border:1px solid #ffed8d; float:left; }
+
+	table.data_points{ width: 580px; border-width: 3px 0 3px; border-color: #669eb9; border-style: solid; float:left; }
+
+	table.data_points td { padding: 10px; background-color: #f2f7fa; }
+	table.data_points td input { margin:0 10px 0 0; }
+	
+	.download-reports { margin-top:18px; }
+
+/* Button Styles */
+	a.button {
+	  background: transparent url('../images/bg_button.gif') no-repeat scroll top left;
+	  display: block; float: left; line-height:24px; font-weight:bold;
+	  padding:0 0 0 10px; text-transform:uppercase; font-size:12px; 
+	  color:#3764AA; line-height:32px; 
+	}
+	a.button:hover { color:#008CFF; }
+	a.button span {
+	  background: transparent url('../images/bg_button.gif') no-repeat scroll top right;
+	  display: block; padding:0 18px 0 0;
+	}
+		/*Download Reports CSV*/
+		a.btn_download {  padding-left:11px; background:transparent url(bg_button_download.png) no-repeat top left; }
+			a.btn_download:hover { background:transparent url(bg_button_download.png) no-repeat bottom left; }
+		a.btn_download span { background:transparent url(bg_button_download.png) no-repeat top right; padding-right:48px; }
+			a.btn_download:hover span { background:transparent url(bg_button_download.png) no-repeat bottom right; }
+		
+		/*Reports RSS*/
+		a.btn_rss {  padding-left:11px; background:transparent url(bg_button_rss.png) no-repeat top left; margin:5px 5px 0; }
+			a.btn_rss:hover { background:transparent url(bg_button_rss.png) no-repeat bottom left; }
+		a.btn_rss span { background:transparent url(bg_button_rss.png) no-repeat top right; padding-right:31px; }
+			a.btn_rss:hover span { background:transparent url(bg_button_rss.png) no-repeat bottom right; }

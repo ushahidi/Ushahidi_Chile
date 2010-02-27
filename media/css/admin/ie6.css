@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+body{
+	width:expression(document.documentElement.clientWidth < 960 ? "960px" : "auto");
+}
+=======
+body{
+	width:expression(document.documentElement.clientWidth < 960 ? "960px" : "auto");
+}
+>>>>>>> 57862d793031fc273b1fb3956ce568053d360bc9

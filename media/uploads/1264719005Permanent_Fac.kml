@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="Permanent_Fac">
+	<name>Permanent_Fac</name>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="IconStyle00">
+		<IconStyle>
+			<Icon>
+				<href>http://haiti.ushahididev.com/media/uploads/icon-permanent-facilities.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+		</LabelStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Permanent_Fac</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark>
+			<name>Baptist Haiti Mission (Fermathe)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3,18.45,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bethesda Medical &amp; Dental Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25,19.7167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bill Rice Community Health Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.84310000000001,18.7881,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blanchard (Terre Noire) Family Health Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3167,18.6,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cap Haitien Eye Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2042,19.7578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carroll County Haiti Mission Project (CCHMP) medical/dental clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.91670000000001,18.85,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Center for the Rural Development of Milot (CRUDEM)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2167,19.6167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de Sant_ de Cerca La Source (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.7833,19.1667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de Sant_ de Lascahobas (Zanmi Lasante/Partners in Health )</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.93640000000001,18.8294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de Sant_ de St. Michel (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.1478,18.9236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de Sant_ de Thomonde (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.9667,19.0167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre M_dical Charles Colimon (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.4833,19.1333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre PAZAPA</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.5347,18.2342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Sante Lumiere (Cayes Clinic)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.75,18.2,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centro de Medico</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2667,19.6833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Christianville Eye Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.5167,18.55,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Christianville Medical, Dental and Eye Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.5167,18.55,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clinic De Reference, Hospital Passe Catabois</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.9333,19.8333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clinique Baptiste Chretienne</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.97669999999999,18.5058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clinique M_dicale de Pont-Sond_ - Sim_us Foundation</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61669999999999,19.15,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clinique Sante Pou Yo</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2253,19.4841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Family Health Ministries Leogane Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.6339,18.5108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fondation Bienfaisance Centre Medical Camp_che</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.1833,18.5167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fondation Bienfaisance Centre Medical Martissant 7 --Gabriel Vital</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3661,18.5306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>For Haiti with Love--Long-term Services</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2042,19.7578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Formosa Obstetrics and Gynecology Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.97669999999999,18.5058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Foundation of Compassionate American Samaritans (FOCAS) Haiti</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.28528,18.5125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Haitian Health Foundation Clinic (Klinik Pep Bondye-a)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-74.11669999999999,18.65,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Healing Hands for Haiti &quot;Kay Kapab&quot; Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33499999999999,18.5392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hearts Together for Haiti</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2253,19.4841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Holy Spirit Clinic (Clinique Sainte d&apos;Esprit)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2269,18.5767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hope Alive! Grande Saline Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.7833,19.25,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hope Alive! Tricon Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.75,18.3333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital Albert Schweitzer</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.5,19.0833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital Bon Samaritain (HBS)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.40000000000001,19.7,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>H_pital Bon Sauveur and Proje Sante Fanm</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.9833,18.9167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital de Bienfaisance in Pignon</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.11669999999999,19.3333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital de Bienfaisance in Pignon--Dental Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.11669999999999,19.3333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital de la Paix</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33499999999999,18.5392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital de la Trinite (Trinity Hospital)- run by MSF</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3028,18.5447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital Lumiere</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.61694,18.38472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>H_pital Notre Dame de la Nativit_ (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.76309999999999,18.8669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hopital Sainte Croix</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.6339,18.5108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>H_pital St. Th_r_se (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.0167,19.15,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jude Anne Hospital (Emergency obstetric care services)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3028,18.5447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Gonave Wesleyan Hospital</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.86416699999999,18.831667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lifeline Christian Health Center Grand Goave</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.7706,18.4289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lifeline Christian Health Center Port-au-Prince</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33499999999999,18.5392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maison de Naissance-- Birthing Home and Community Health</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.75,18.2,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marbial</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.5347,18.2342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MSF Primary Care Clinic --Martissant</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.3661,18.5306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Northwest Haiti Christian Mission (NWHCM)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.7167,19.9333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pacot Center (run by Doctors without Borders)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.0731,18.7169,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pillatre Christian Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2042,19.7578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rayjon Share Care Haiti (RSCH)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.36669999999999,19.65,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sacred Heart Clinic (Sacre Coeur)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.84999999999999,18.25,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saint Boniface hospital</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.13330000000001,18.2833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saint Monica&apos;s in Haiti-- Whitney Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.0167,19.15,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Services de Sant_ de Premier _chelon (Zanmi Lasante/Partners in Health)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.7,19.1167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SIF Centre de Sante (CSI Ministries)</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2269,18.5767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sove Lavi Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.61669999999999,19.15,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Boniface Hospital satellite clinic in Villa</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.95,18.25,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Genevieve Catholic Church Health Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.25,18.4833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Paul&apos;s</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.51667,18.53333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Sauveur&apos;s Episcopal School</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-73.75,18.2,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St. Vincent&apos;s Center for Handicapped Children</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.33499999999999,18.5392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trovar Clinic &amp; Latannerie Clinic</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-72.2042,19.7578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Univers Medical Center</name>
+			<Snippet maxLines="0"></Snippet>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-71.7333,19.55,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

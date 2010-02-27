@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+      <name>SahanaPy GIS Features</name>
+	<Style id="_location_">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://haiti.ushahididev.com/hospital.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="default+nicon=http://maps.google.com/mapfiles/kml/pal4/icon57.png+hicon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon57.png_copy6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default+icon=http://maps.google.com/mapfiles/kml/pal4/icon49.png_copy12</styleUrl>
+		</Pair>
+	</StyleMap>
+      <Placemark>
+        <name>Toussaint Louverture International Airport</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/1</description>
+	<styleUrl>_location_</styleUrl>
+        <Point>
+          <coordinates>-72.2925,18.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical University at Tabarre</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/2</description>
+	<styleUrl>_location_</styleUrl>
+        <Point>
+          <coordinates>-72.26885,18.5826</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Di Canape Vert</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/3</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.317135,18.533074</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Universitario De Haiti</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/4</description>
+	<styleUrl>_location_</styleUrl>
+        <Point>
+          <coordinates>-72.340183,18.539975</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue du Docteur Dehoux</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/5</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34189,18.53549</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ste Croix Hospital</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/6</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.559032,18.557415</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>H√¥pital G√©n√©ral</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/7</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.340167,18.539914</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Pediatrico Espoa</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/8</description>
+	<styleUrl>_location_</styleUrl>        
+	<Point>
+          <coordinates>-72.2827777778,18.54</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue Daut</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/9</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34395,18.52646</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Morne a Tuf</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/10</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34393,18.53826</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Avenue Pie XI</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/11</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34728,18.54969</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue St. Francois</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/12</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.32518,18.5667</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Cit√© Soleil</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/13</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.33533,18.56434</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Infantil das Gracas</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/14</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.302222,18.56</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue Oswald Durand</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/15</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34033,18.53781</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Avenue Pan-Am√©ricaine</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/16</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.28882,18.5173</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near R9</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/17</description>
+        <Point>
+          <coordinates>-72.32724,18.58138</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue Magny and Rue Oswald Durand</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/18</description>
+        <Point>
+          <coordinates>-72.33874,18.54094</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Rue Char√©ron</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/19</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34526,18.53728</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Boulevard la Saline</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/20</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.34035,18.56023</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center near Blanchard</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/21</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.31475,18.59521</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medical Center</name>
+        <description>http://haiti.sahanafoundation.org/orgs/gis/location/22</description>
+        <styleUrl>_location_</styleUrl>
+	<Point>
+          <coordinates>-72.38498,18.52623</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
