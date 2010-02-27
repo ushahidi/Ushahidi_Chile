@@ -9,7 +9,7 @@ Author Email: david@ushahidi.com
 
 /* header background */
 	body#page{
-		background:transparent url(bkg.png) repeat-y;
+		background:transparent url(bkg.png) repeat;
 		background-position:0px 35px;
 		overflow-x:hidden;
 	}
