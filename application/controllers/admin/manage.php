@@ -34,7 +34,7 @@ class Manage_Controller extends Admin_Controller
 	function index()
 	{	
 		$this->template->content = new View('admin/categories');
-		$this->template->content->title = 'Categories';
+		$this->template->content->title = Kohana::lang('ui_admin.categories');
 		
 		// setup and initialize form field names
 		$form = array
@@ -85,7 +85,7 @@ class Manage_Controller extends Admin_Controller
 				{ // Delete Action
 					$category->delete( $category_id );
 					$form_saved = TRUE;
-					$form_action = "DELETED";
+					$form_action = strtoupper(Kohana::lang('ui_admin.deleted'));
 			
 				}
 				else if( $post->action == 'v' )
@@ -100,7 +100,7 @@ class Manage_Controller extends Admin_Controller
 						}
 						$category->save();
 						$form_saved = TRUE;
-						$form_action = "MODIFIED";
+						$form_action = strtoupper(Kohana::lang('ui_admin.modified'));
 					}
 				}
 				else if( $post->action == 'i' )
@@ -114,7 +114,7 @@ class Manage_Controller extends Admin_Controller
 						$category->category_image = null;
 						$category->save();
 						$form_saved = TRUE;
-						$form_action = "MODIFIED";
+						$form_action = strtoupper(Kohana::lang('ui_admin.modified'));
 					}
 				} 
 				else if( $post->action == 'a' )
@@ -150,7 +150,7 @@ class Manage_Controller extends Admin_Controller
 					}
 					
 					$form_saved = TRUE;
-					$form_action = "ADDED/EDITED";
+					$form_action = strtoupper(Kohana::lang('ui_admin.added_edited'));
 				}
 	        }
             // No! We have validation errors, we need to show the form again, with the errors
@@ -173,9 +173,12 @@ class Manage_Controller extends Admin_Controller
 													->where('parent_id','0')
 													->count_all()
                         ));
-					$categories = ORM::factory('category')
-						->find_all_with_incident_count((int) Kohana::config('settings.items_per_page_admin'), 
-							$pagination->sql_offset);
+
+        $categories = ORM::factory('category')
+						->where('parent_id','0')
+                        ->orderby('category_title', 'asc')
+                        ->find_all((int) Kohana::config('settings.items_per_page_admin'), 
+                            $pagination->sql_offset);
 		 $parents_array = ORM::factory('category')
             ->where('parent_id','0')
             ->select_list('id', 'category_title');
@@ -199,7 +202,6 @@ class Manage_Controller extends Admin_Controller
         $this->template->colorpicker_enabled = TRUE;
         $this->template->js = new View('admin/categories_js');
     }
-
 	/*
 	Add Edit Organizations
 	*/
