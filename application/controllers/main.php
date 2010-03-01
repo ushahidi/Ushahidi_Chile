@@ -301,7 +301,7 @@ class Main_Controller extends Template_Controller {
 		
 		/** HARDCODED SLIDER SET UP **/
 		// We'll Hardcode in the Start/End Dates
-		$timeframe_start = strtotime("2010-01-12", 0);
+		$timeframe_start = strtotime("2010-02-27", 0);
 		$timeframe_stop = strtotime(date("Y-m-d"), 0);
 		$active_startDate = $timeframe_start;
 		$active_endDate = $timeframe_stop+86399;
