@@ -572,7 +572,7 @@ class Main_Controller extends Template_Controller {
 			$post->add_rules('person_email', 'required','email');
 			//$post->add_rules('feedback_captcha', 'required', 'Captcha::valid');
 			if( $post->validate() ) { 
-				if($api_akismet != "" ) {
+				/*if($api_akismet != "" ) {
 					// Run Akismet Spam Checker
 						$akismet = new Akismet();
 
@@ -617,12 +617,12 @@ class Main_Controller extends Template_Controller {
 							else {
 								$feedback_spam = 0;
 							}
-						}
+                                                }
 					}
 					else
 					{ // No API Key!!
 						$feedback_spam = 0;
-					}
+                                        }*/
 				$this->_dump_feedback($post);
 
 
